@@ -1,3 +1,141 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+.nextui-c-hhqfap-kAwfsS-disableShadow-false {
+  background: var(--nextui--navbarBlurBackgroundColor);
+  backdrop-filter: saturate(180%) blur(var(--nextui--navbarBlur));
+}
+
+.nextui-c-hhqfap-gqZKcP-disableBlur-false .nextui-c-egxOLa {
+  background: none;
+  backdrop-filter: none;
+}
+.playfair {
+  font-family: "Playfair Display", serif !important;
+}
+
+.roboto {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.white {
+  color: white;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #212529;
+}
+
+a {
+  font-family: "Roboto Condensed", sans-serif;
+  text-decoration: none;
+  color: #ff0286;
+  font-weight: bold !important;
+}
+
+a:hover {
+  color: #ff0286;
+  font-weight: bold;
+}
+
+a.icon-link {
+  color: #212529;
+  font-size: 24px;
+}
+
+a.navbar-collapse-link {
+  color: #212529;
+  font-weight: 400 !important;
+}
+a.active,
+button.active {
+  color: #ff0286 !important;
+  font-weight: bold !important;
+}
+
+.nextui-navbar-link {
+  padding: 6px 2px;
+  margin-bottom: 2px;
+}
+
+.nextui-c-iWjDFM-ifUdHdz-css {
+  /* Menu dropdowun button mobile */
+  color: #212529;
+  font-weight: 400 !important;
+  font-size: 18px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.rainbowbg {
+  background: linear-gradient(
+    90deg,
+    #009fd9 0,
+    #2d2d86 20%,
+    #e6137d 40%,
+    #e82729 60%,
+    #fce627 80%,
+    #00934a 100%
+  ) !important;
+}
+
+a.rainbow-link {
+  color: #212529;
+  background: #ffffff !important;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  padding: 0.7em 0.2em !important;
+  border: none;
+  padding: 0;
+  z-index: 1;
+}
+a.rainbow-link span {
+  background: #ffffff !important;
+  padding: 0.7em 1.5em !important;
+}
+a.rainbow-link:after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  left: -2px;
+  background: linear-gradient(
+    90deg,
+    #009fd9 0%,
+    #2d2d86 20%,
+    #e6137d 40%,
+    #e82729 60%,
+    #fce627 80%,
+    #00934a 100%
+  );
+  z-index: -1;
+}
+
+@keyframes slidebg {
+  to {
+    background-position: 20vw;
+  }
+}
+a.rainbow-link:hover,
+button.rainbow-link:hover,
+div.rainbow-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+a.rainbow-link:hover:after,
+button.rainbow-link:hover:after,
+div.rainbow-link:hover:after {
+  animation: slidebg 2s linear infinite;
+}
+/** Slider css **/
+
+.react-slideshow-container .default-nav {
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+}

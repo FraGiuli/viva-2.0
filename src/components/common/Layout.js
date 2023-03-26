@@ -15,7 +15,7 @@ export default function Layout({ children, title, metaDescription, page }) {
       <main>
         <Header page={page} />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </main>
     </>
   );

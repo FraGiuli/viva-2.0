@@ -1,14 +1,14 @@
 import { useSelector } from "react-redux";
 import Layout from "@/components/common/Layout.js";
 import VivaIlBistrot from "../components/pages/VivaIlBistrot";
-import { PAGES } from "../constants/PagesConst";
+import { PAGES_IT } from "../constants/PagesConst";
 
-export default function Home() {
+export default function BistrotPage() {
   return (
     <Layout
       title="Viva il Bistrot a Noto"
       metaDescription="Viva il Bistrot a Noto, in Sicilia"
-      page={PAGES.BISTROT.name}
+      page={PAGES_IT.BISTROT.name}
     >
       <VivaIlBistrot />
     </Layout>
