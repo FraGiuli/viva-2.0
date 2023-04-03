@@ -36,28 +36,48 @@ export default function VivaVilladorata() {
         style={{
           borderBottom: "10px solid #e8cc72",
           width: "100%",
-          backgroundImage: "url(/villadorata/sfondo-hero.jpg)",
+          backgroundImage: "url(/villadorata/hero_villadorata.jpg)",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          position: "relative",
+          backgroundPosition: "center",
         }}
       >
         <div
-          className="mx-auto flex flex-col md:flex-row p-4 md:p-0 text-center md:text-left"
-          style={{ maxWidth: "1400px" }}
+          className="overlay"
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundColor: "black",
+            opacity: 0.5,
+            zIndex: 0,
+          }}
+        ></div>
+        <div
+          className="mx-auto flex flex-col p-4 md:p-0 items-center justify-center min-h-0 md:min-h-[800px]"
+          style={{
+            maxWidth: "1400px",
+            position: "relative",
+            zIndex: 2,
+          }}
         >
-          <div className="flex flex-col w-full">
-            <h1 className="text-5xl md:text-6xl playfair pt-16">
+          <Image
+            src="/villadorata/w-villadorata-restaurant-logo.png"
+            alt="logo-villadorata"
+            className="pt-16"
+            style={{ maxWidth: "500px", margin: 0 }}
+          />
+          <div className="flex flex-col w-full text-center">
+            <h1 className="text-5xl md:text-6xl playfair pt-8 white">
               {Content.title}
             </h1>
-            <h2 className="text-3xl md:text-4xl playfair pb-4 font-thin tracking-wide">
+            <h2 className="text-3xl md:text-4xl playfair pb-4 font-thin tracking-wide white">
               {Content.subtitle}
             </h2>
-            <h3 className="text-xl roboto pb-16">{Content.location}</h3>
-          </div>
-          <div className="flex md:justify-end w-full">
-            <Image
-              src="/villadorata/w-villadorata-restaurant-logo.png"
-              alt="logo-villadorata"
-              style={{ maxWidth: "500px", margin: 0 }}
-            />
+            <h3 className="text-xl roboto pb-16 white">{Content.location}</h3>
           </div>
         </div>
       </div>

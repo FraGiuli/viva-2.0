@@ -14,18 +14,18 @@ export default function Header({ page }) {
   const dispatch = useDispatch();
 
   const handleLanguageChange = (language) => {
-    console.log(language);
     dispatch(setLanguage(language));
   };
 
   const PAGES = selectedLanguage === "en" ? PAGES_EN : PAGES_IT;
-  console.log("PAGES_IT", PAGES_IT, "PAGES_EN", PAGES_EN);
   const subMenuItem = [
     PAGES.VIVA,
     PAGES.VILLADORATA,
     PAGES.BISTROT,
     PAGES.GELATI,
   ];
+
+  const dropDownMenuItem = subMenuItem.findIndex((el) => el.name === page) > 0;
   return (
     <>
       <Navbar variant="sticky">
@@ -48,7 +48,7 @@ export default function Header({ page }) {
               <Dropdown.Button
                 auto
                 light
-                className="active"
+                className={dropDownMenuItem ? "active" : ""}
                 css={{
                   px: 0,
                   dflex: "center",
@@ -141,7 +141,7 @@ export default function Header({ page }) {
               <Dropdown.Button
                 auto
                 light
-                className="active"
+                className={dropDownMenuItem ? "active" : ""}
                 css={{
                   px: 0,
                   dflex: "center",
