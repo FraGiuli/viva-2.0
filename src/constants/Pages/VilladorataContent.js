@@ -18,6 +18,10 @@ export const VILLADORATA_CONTENT = {
       name: "W VILLADORATA Country Restaurant",
       address: "Contrada Portelle, Noto SR",
     },
+    prenota: "PRENOTA",
+    prenotaTitle: "Prenota W VILLADORATA",
+    prenotaSubtitle: "",
+    prenotaLink: "https://module.lafourchette.com/it_IT/module/726003-ad88e",
   },
   en: {
     title: "W VILLADORATA",
@@ -38,6 +42,10 @@ export const VILLADORATA_CONTENT = {
       name: "W VILLADORATA Country Restaurant",
       address: "Contrada Portelle, Noto SR",
     },
+    prenota: "BOOK",
+    prenotaTitle: "Book W VILLADORATA",
+    prenotaSubtitle: "",
+    prenotaLink: "https://module.lafourchette.com/en_GB/module/726003-ad88e",
   },
 };
 

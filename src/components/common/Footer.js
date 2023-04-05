@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="rainbowbg" style={{ height: "10px" }}></div>
       <div
         className="mx-auto items-center flex p-8 flex-col w-full"
-        style={{ maxWidth: "1400px" }}
+        style={{ maxWidth: "1528px" }}
       >
         <div className="flex flex-wrap gap-8  md:gap-16">
           <div className="flex flex-grow flex-col items-center">

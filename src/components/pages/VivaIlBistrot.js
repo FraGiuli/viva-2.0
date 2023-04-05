@@ -1,5 +1,9 @@
+import { useState } from "react";
 import { useSelector } from "react-redux";
 import { BISTROT_CONTENT } from "../../constants/Pages/BistrotContent";
+import { Modal, Image } from "@nextui-org/react";
+import TextViva from "../common/TextViva";
+import Contacts from "../common/Contacts";
 
 export default function VivaIlBistrot() {
   const selectedLanguage = useSelector(
@@ -7,9 +11,151 @@ export default function VivaIlBistrot() {
   );
   const Content =
     selectedLanguage === "en" ? BISTROT_CONTENT.en : BISTROT_CONTENT.it;
+
+  const [visible, setVisible] = useState(false);
+  const handler = () => setVisible(true);
+
+  const closeHandler = () => {
+    setVisible(false);
+  };
+
   return (
     <>
-      <div> {Content.title}</div>
+      <div>
+        <div
+          style={{
+            borderBottom: "10px solid #ba8a76",
+            width: "100%",
+            backgroundImage: "url(/vivailbistrot/bistrot_interno.jpg)",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            position: "relative",
+            backgroundPosition: "center",
+          }}
+        >
+          <div
+            className="overlay"
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              backgroundColor: "black",
+              opacity: 0.5,
+              zIndex: 0,
+            }}
+          ></div>
+          <div
+            className="mx-auto flex flex-col p-4 lg:p-0 items-center justify-center min-h-0 lg:min-h-[800px]"
+            style={{
+              maxWidth: "1528px",
+              position: "relative",
+              zIndex: 2,
+            }}
+          >
+            <Image
+              src="/vivailbistrot/logo-bistrot.png"
+              alt="logo-villadorata"
+              className="pt-16"
+              style={{ maxWidth: "500px", margin: 0 }}
+            />
+            <div className="flex flex-col w-full text-center">
+              <h1 className="text-5xl md:text-6xl playfair pt-8 white">
+                {Content.title}
+              </h1>
+              <h2 className="text-3xl md:text-4xl playfair pb-4 font-thin tracking-wide white">
+                {Content.subtitle}
+              </h2>
+              <h3 className="text-xl roboto pb-16 white">{Content.location}</h3>
+            </div>
+          </div>
+        </div>
+        <div className="mx-auto mt-0 lg:mt-32" style={{ maxWidth: "1528px" }}>
+          <div
+            className="flex flex-col items-center justify-center px-8 mb-16 mx-auto mt-16 md:mt-32"
+            style={{ maxWidth: "1000px" }}
+          >
+            <TextViva className="text-3xl playfair leading-relaxed text-center mb-4 font-medium">
+              {Content.bodyhead}
+            </TextViva>
+            <TextViva className="text-lg leading-relaxed text-center">
+              {Content.body}
+            </TextViva>
+            <TextViva className="text-lg leading-relaxed text-center mb-8 lg:mb-32">
+              {Content.body2}
+            </TextViva>
+            <TextViva className="text-lg leading-relaxed text-center mb-8 lg:mb-32">
+              {Content.body3}
+            </TextViva>
+
+            <div
+              className="flex flex-col items-center mb-8 "
+              style={{ width: "100%" }}
+            >
+              <TextViva className="text-4xl playfair font-semibold text-center lg:mb-16 px-8 lg:px-0">
+                {Content.opening}
+              </TextViva>
+            </div>
+          </div>
+
+          <Contacts
+            className="mb-16"
+            title={Content.contatti.title}
+            name={Content.contatti.name}
+            address={Content.contatti.address}
+            linkMap="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.9376342352734!2d15.069395399999998!3d36.8918402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x131229ae4c539e19%3A0x2ff4017d09fa1660!2sVia%20Rocco%20Pirri%2C%2019%2C%2096017%20Noto%20SR!5e0!3m2!1sit!2sit!4v1680699096271!5m2!1sit!2sit"
+            fb="/"
+            insta="/"
+          >
+            <TextViva className="text-lg">{Content.contatti.tel}</TextViva>
+            <TextViva className="pb-4 text-lg">
+              {Content.contatti.mail}
+            </TextViva>
+            <TextViva className="pb-4 text-lg">
+              {Content.contatti.orari}
+            </TextViva>
+
+            <div className="pb-8">
+              <a className="rainbow-link" onClick={handler}>
+                <span>{Content.prenota}</span>
+              </a>
+            </div>
+          </Contacts>
+        </div>
+      </div>
+      <Modal
+        closeButton
+        aria-labelledby="modal-title"
+        open={visible}
+        onClose={closeHandler}
+        width="500px"
+      >
+        <Modal.Header>
+          <div className="flex flex-col">
+            <TextViva
+              className="text-3xl playfair font-medium mb-4"
+              id="modal-title"
+            >
+              {Content.prenotaTitle}
+            </TextViva>
+            <TextViva className="text-lg">{Content.prenotaSubtitle}</TextViva>
+          </div>
+        </Modal.Header>
+        <Modal.Body>
+          <div align="center">
+            <iframe
+              src={Content.prenotaLink}
+              style={{
+                width: "100%",
+                minHeight: "500px",
+                border: "none",
+                scrolling: "yes",
+              }}
+            ></iframe>
+          </div>
+        </Modal.Body>
+      </Modal>
     </>
   );
 }

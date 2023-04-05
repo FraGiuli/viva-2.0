@@ -15,6 +15,9 @@ export default function Header({ page }) {
 
   const handleLanguageChange = (language) => {
     dispatch(setLanguage(language));
+    if (window && window.localStorage) {
+      window.localStorage.setItem("lang", language);
+    }
   };
 
   const PAGES = selectedLanguage === "en" ? PAGES_EN : PAGES_IT;
@@ -25,7 +28,8 @@ export default function Header({ page }) {
     PAGES.GELATI,
   ];
 
-  const dropDownMenuItem = subMenuItem.findIndex((el) => el.name === page) > 0;
+  const dropDownMenuItem = subMenuItem.findIndex((el) => el.name === page) > -1;
+  const showLang = page === PAGES.BISTROT.name || page === PAGES.GELATI.name;
   return (
     <>
       <Navbar variant="sticky">
@@ -105,7 +109,7 @@ export default function Header({ page }) {
           <a href="tel:+390249497340" className="icon-link">
             <AiFillPhone />
           </a>
-          {selectedLanguage === "it" && (
+          {!showLang && selectedLanguage === "it" && (
             <button
               onClick={() => handleLanguageChange("en")}
               disabled={selectedLanguage === "en"}
@@ -113,8 +117,7 @@ export default function Header({ page }) {
               <Image src="/en.png" alt="en" width="30px" height="15px" />
             </button>
           )}
-
-          {selectedLanguage === "en" && (
+          {!showLang && selectedLanguage === "en" && (
             <button
               onClick={() => handleLanguageChange("it")}
               disabled={selectedLanguage === "it"}
@@ -122,6 +125,7 @@ export default function Header({ page }) {
               <Image src="/it.png" alt="en" width="30px" height="15px" />
             </button>
           )}
+
           <Navbar.Toggle aria-label="toggle navigation" showIn="xs" />
         </Navbar.Content>
         <Navbar.Collapse>

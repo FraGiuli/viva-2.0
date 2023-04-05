@@ -12,11 +12,11 @@ export default function TextImage({
 }) {
   if (left)
     return (
-      <div className="flex  gap-8 md:gap-12 flex-col md:flex-row mb-8">
-        <div className="md:w-2/6">
+      <div className="flex  gap-8 lg:gap-12 flex-col lg:flex-row mb-8">
+        <div className="lg:w-2/6">
           <Slider images={sliderImages} />
         </div>
-        <div className="flex items-center justify-center md:w-4/6 px-8 md:px-0">
+        <div className="flex items-center justify-center lg:w-4/6 px-8 2xl:px-0">
           <div>
             {title && (
               <TextViva className="text-3xl playfair leading-relaxed text-left mb-4 font-medium">
@@ -37,8 +37,8 @@ export default function TextImage({
     );
   if (right)
     return (
-      <div className="flex gap-8 md:gap-12 flex-col-reverse md:flex-row mb-8">
-        <div className="flex items-center justify-center md:w-4/6 px-8 md:px-0">
+      <div className="flex gap-8 lg:gap-12 flex-col-reverse lg:flex-row mb-8">
+        <div className="flex items-center justify-center lg:w-4/6 px-8 2xl:px-0">
           <div>
             {title && (
               <TextViva className="text-3xl playfair leading-relaxed text-left mb-4 font-medium">
@@ -55,7 +55,7 @@ export default function TextImage({
             </TextViva>
           </div>
         </div>
-        <div className="md:w-2/6">
+        <div className="lg:w-2/6">
           <Slider images={sliderImages} />
         </div>
       </div>

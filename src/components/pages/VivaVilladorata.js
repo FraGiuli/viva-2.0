@@ -1,5 +1,6 @@
+import { useState } from "react";
 import { useSelector } from "react-redux";
-import { Image } from "@nextui-org/react";
+import { Modal, Image } from "@nextui-org/react";
 import TextViva from "../common/TextViva";
 import Slider from "../common/Slider";
 import Contacts from "../common/Contacts";
@@ -30,13 +31,20 @@ export default function VivaVilladorata() {
       </a>
     </div>
   );
+
+  const [visible, setVisible] = useState(false);
+  const handler = () => setVisible(true);
+
+  const closeHandler = () => {
+    setVisible(false);
+  };
   return (
     <div>
       <div
         style={{
           borderBottom: "10px solid #e8cc72",
           width: "100%",
-          backgroundImage: "url(/villadorata/hero_villadorata.jpg)",
+          backgroundImage: "url(/villadorata/Villadorata-tre.jpg)",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           position: "relative",
@@ -57,9 +65,9 @@ export default function VivaVilladorata() {
           }}
         ></div>
         <div
-          className="mx-auto flex flex-col p-4 md:p-0 items-center justify-center min-h-0 md:min-h-[800px]"
+          className="mx-auto flex flex-col p-4 lg:p-0 items-center justify-center min-h-0 lg:min-h-[800px]"
           style={{
-            maxWidth: "1400px",
+            maxWidth: "1528px",
             position: "relative",
             zIndex: 2,
           }}
@@ -81,7 +89,7 @@ export default function VivaVilladorata() {
           </div>
         </div>
       </div>
-      <div className="mx-auto md:mt-8" style={{ maxWidth: "1400px" }}>
+      <div className="mx-auto mt-0 lg:mt-32" style={{ maxWidth: "1528px" }}>
         <TextImage
           bodyhead={Content.bodyhead}
           body={Content.body1}
@@ -89,29 +97,27 @@ export default function VivaVilladorata() {
           bgColor="#e8cc72"
           alt="payoff"
           left
+          className="mb-8 lg:mb-32"
         />
         <TextImage
           body={Content.body2}
-          src="/villadorata/chefs-villadorata.jpg"
+          src="/villadorata/chefs-villadorata-giardino.jpg"
           alt="villadorata-viviana"
           right
+          className="mb-8 lg:mb-32"
         />
         <div
           className="flex flex-col items-center mb-24 "
           style={{ width: "100%" }}
         >
-          <TextViva className="text-4xl playfair font-semibold text-center mb-16 px-8 md:px-0">
+          <TextViva className="text-4xl playfair font-semibold text-center mb-16 px-8 lg:px-0">
             {Content.opening}
           </TextViva>
-          <div className="w-full md:w-1/2">
+          <div className="w-full lg:w-4/6">
             <Slider images={SLIDER} />
           </div>
         </div>
-        <div className="mb-16 text-center">
-          <a className="rainbow-link">
-            <span>PRENOTA</span>
-          </a>
-        </div>
+
         <Contacts
           className="mb-16"
           title={Content.contatti.title}
@@ -121,8 +127,46 @@ export default function VivaVilladorata() {
           fb="https://www.facebook.com/WVilladoratacountryrestaurant/"
           insta="https://www.instagram.com/wvilladorata/?igshid=19oq9l39w4yqb"
           childrensLogo={logos}
-        />
+        >
+          <div className="mb-8 text-left">
+            <a className="rainbow-link" onClick={handler}>
+              <span>{Content.prenota}</span>
+            </a>
+          </div>
+        </Contacts>
       </div>
+      <Modal
+        closeButton
+        aria-labelledby="modal-title"
+        open={visible}
+        onClose={closeHandler}
+        width="500px"
+      >
+        <Modal.Header>
+          <div className="flex flex-col">
+            <TextViva
+              className="text-3xl playfair font-medium mb-4"
+              id="modal-title"
+            >
+              {Content.prenotaTitle}
+            </TextViva>
+            <TextViva className="text-lg">{Content.prenotaSubtitle}</TextViva>
+          </div>
+        </Modal.Header>
+        <Modal.Body>
+          <div align="center">
+            <iframe
+              src={Content.prenotaLink}
+              style={{
+                width: "100%",
+                minHeight: "500px",
+                border: "none",
+                scrolling: "yes",
+              }}
+            ></iframe>
+          </div>
+        </Modal.Body>
+      </Modal>
     </div>
   );
 }

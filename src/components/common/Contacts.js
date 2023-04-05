@@ -15,16 +15,17 @@ export default function Contacts({
 }) {
   return (
     <div
-      className={`${className} flex flex-col-reverse md:flex-row gap-8 md:gap-12 px-8 md:px-0`}
+      className={`${className} flex flex-col-reverse md:flex-row gap-8 md:gap-12 px-8 lg:px-0`}
       {...otherProps}
     >
       <div className="md:w-1/2">
         <iframe
           src={linkMap}
           width="100%"
-          height="450"
+          height="100%"
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
+          className="mappa"
         ></iframe>
       </div>
       <div className="md:w-1/2">

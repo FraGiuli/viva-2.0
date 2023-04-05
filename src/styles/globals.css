@@ -93,10 +93,13 @@ a.rainbow-link {
   padding: 0;
   z-index: 1;
   height: 60px;
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 a.rainbow-link span {
   background: #ffffff !important;
   padding: 1.15em 2em !important;
+  border-radius: 10px;
 }
 a.rainbow-link:after {
   content: "";
@@ -105,6 +108,7 @@ a.rainbow-link:after {
   right: -1px;
   bottom: -2px;
   left: -1px;
+  border-radius: 14px;
   background: linear-gradient(
     90deg,
     #009fd9 0%,
@@ -133,10 +137,51 @@ button.rainbow-link:hover:after,
 div.rainbow-link:hover:after {
   animation: slidebg 2s linear infinite;
 }
+
+.rainbow-link-inline {
+  background-image: linear-gradient(
+    90deg,
+    #009fd9 0%,
+    #2d2d86 20%,
+    #e6137d 40%,
+    #e82729 60%,
+    #fce627 80%,
+    #00934a 100%
+  );
+  font-size: 18px;
+  font-family: "Roboto Condensed", sans-serif;
+  background-clip: text;
+  background-size: 100%;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+}
+
+.rainbow-link-inline:hover {
+  animation: slidebg 2s linear infinite;
+}
+.rainbow-link-inline.eventi-link {
+  font-size: 42px !important;
+}
+
 /** Slider css **/
 
 .react-slideshow-container .default-nav {
   width: 50px;
   height: 50px;
   padding: 8px;
+}
+
+/** Card menu **/
+
+.card-menu {
+  cursor: pointer;
+}
+.card-menu.boxes {
+  border-radius: 6.5%;
+}
+
+.mappa {
+  min-height: 350px;
 }
