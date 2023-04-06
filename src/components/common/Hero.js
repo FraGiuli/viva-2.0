@@ -9,17 +9,22 @@ export default function Hero({
   subtitle,
   width = "500px",
   nooverlay,
+  bgPosition,
+  payoff,
+  borderNone,
 }) {
   return (
     <div
       style={{
-        borderBottom: `10px solid ${borderBottomColor}`,
+        borderBottom: `${
+          borderNone ? "none" : `10px solid ${borderBottomColor}`
+        }`,
         width: "100%",
         backgroundImage: `url(${src})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         position: "relative",
-        backgroundPosition: "center",
+        backgroundPosition: `${bgPosition ? bgPosition : "center"}`,
       }}
     >
       {!nooverlay && (
@@ -58,6 +63,14 @@ export default function Hero({
             <h1 className="text-5xl md:text-6xl playfair pt-8 white">
               {title}
             </h1>
+          )}
+          {payoff && (
+            <TextViva
+              className="text-5xl md:text-6xl playfair pt-8 white"
+              style={{ lineHeight: "1.5" }}
+            >
+              {payoff}
+            </TextViva>
           )}
           {subtitle && (
             <h2 className="text-3xl md:text-4xl playfair pb-4 font-thin tracking-wide white">

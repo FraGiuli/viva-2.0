@@ -19,7 +19,7 @@ export const VIVIANA_VARESE = {
     body: "La cucina di Viviana Varese è diretta espressione della personalità della Chef. È fatta di **slanci ed equilibri, di dedizione e passione, di sostanza e colore**. Fin da piccola, i fornelli della trattoria di pesce di famiglia la affascinano e sono la prima tappa di un percorso che la porta a lasciare la Campania per esplorare, apprendere, formarsi. <br>Luoghi e persone diventano punti di riferimento: l’Albereta e il Maestro Gualtiero Marchesi, El Celler De Can Roca a Girona, il Relae di Christian Puglisi, l’Aponiente di Angel Leon, l’Enigma di Albert Adrià a Barcellona. <br><br> È il 1999 quando Viviana Varese debutta con la sua insegna il Girasole, nel lodigiano. È il 2007 quando nasce Alice Ristorante a Milano.",
     body2:
       "Nel 2011, la prima stella della Guida Michelin e pochi anni dopo il trasferimento all’interno di Eataly Smeraldo. E oggi? <br> **Viviana Varese cambia, cresce, osa, senza snaturare mai la sua essenza**. <br> È ancora **audace, reale, entusiasta**. <br> <i>**È – oggi più che mai – VIVA.**</i>",
-    calltoaction: "Vieni a trovarci",
+    calltoaction: "> Vieni a trovarci <",
   },
   en: {
     title: "Viviana Varese",
@@ -41,7 +41,7 @@ export const VIVIANA_VARESE = {
     body: "Viviana Varese’s cuisine is a direct expression of the Chef’s personality. **Bursts of creativity and equilibrium, dedication and passion, substance and colour**. Right from her childhood, the goings on in the family fish restaurant fascinated her, the first stage of a journey that lead to her leaving Campania to go exploring, learning, shaping her future. <br>People and places became anchor points: Albereta and Maestro Gualtiero Marchesi, El Celler De Can Roca at Girona, Relae run by Christian Puglisi, Angel Leon’s Aponiente and Albert Adrià’s Enigma in Barcellona. <br><br>It was in 1999 that Viviana Varese launched her own Girasole, in the Province of Lodi. The year 2007, when she met Sandra Ciciriello, saw the birth of the Alice restaurant in Milano.",
     body2:
       "In 2011 came the first Michelin Star and soon after the move into Eataly Smeraldo. And today?<br> **Viviana Varese is changing, growing, taking risks**, though remaining faithful to her true self.<br> She is still **bold, real, enthusiastic**.<br> Today, more than ever, she is <i>**VIVA Viviana Varese, she is ALIVE.**</i>",
-    calltoaction: "Come to visit us",
+    calltoaction: "> Come to visit us <",
   },
 };
 

@@ -12,10 +12,11 @@ export const VIVA = {
     bodyhead3: "LO SPAZIO",
     body3:
       "**VIVA Viviana Varese è materia viva, colore, vita**. Al secondo piano di Eataly Smeraldo, la sala è illuminata da una grande vetrata che affaccia su Piazza 25 aprile. L’ambiente – che può ospitare fino a 90 persone – è stato studiato personalmente da Viviana Varese. <br>I tavoli sono di Riva 1920 e sono fatti con legno massello di briccole, i pali che nella laguna di Venezia segnalano le vie d’acqua. <br> La **partecipazione e la convivialità**, da sempre elementi imprescindibili e distintivi di Viviana Varese, trovano posto al Social table disegnato da **Renzo e Matteo Piano** in antichissimo legno Kauri, simbolo di nuova vita e ritorno alla luce. <br><br> La cucina è un pezzo unico disegnato da Molteni ed è a vista, per poter godere le dinamiche della brigata e seguirne con gli occhi quella che sembra una danza concitata ed insieme precisa. **Giò Ponti** per le posate, che si affiancano a **oggetti e ceramiche disegnate dalla Chef** e realizzate per **VIVA Viviana Varese**.",
-    menu: "03_22_menu-a5.cdr.pdf",
-    menuTitle: "SCOPRI IL NOSTRO MENÙ",
-    menuDolci: "03_22_menu-a5.cdr.pdf",
-    menuDolciTitle: "SCOPRI I NOSTRI DOLCI",
+    calltoaction: "> Regala l'espeienza Viva <",
+    menu: "/viva/03_22_menu-a5.cdr.pdf",
+    menuTitle: "> SCOPRI IL NOSTRO MENÙ <",
+    menuDolci: "/viva/03_22_menu-a5.cdr.pdf",
+    menuDolciTitle: "> SCOPRI I NOSTRI DOLCI <",
     riconoscimenti: "Riconoscimenti",
     contatti: {
       title: "Contatti",
@@ -32,6 +33,12 @@ export const VIVA = {
     prenotaSubtitle: "",
     prenotaLink: "https://module.lafourchette.com/it_IT/module/725605-f59ee",
     regalaViva: "/viva/ITA_VIVA-regala-.png",
+    shop: {
+      title: "Viva lo Shopping",
+      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu condimentum ante, et fermentum nisl.<br> **Aliquam venenatis ante non lorem** efficitur viverra et at metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      calltoaction: "> Vieni a scoprire i nostri prodotti <",
+      href: "https://www.shopify.com/",
+    },
   },
   en: {
     title: "VIVA Viviana Varese",

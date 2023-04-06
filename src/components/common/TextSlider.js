@@ -9,14 +9,20 @@ export default function TextImage({
   right,
   sliderImages,
   title,
+  half,
+  calltoaction,
 }) {
   if (left)
     return (
       <div className="flex  gap-8 lg:gap-12 flex-col lg:flex-row mb-8">
-        <div className="lg:w-2/6">
+        <div className={`${half ? "lg:w-1/2" : "lg:w-2/6"}`}>
           <Slider images={sliderImages} />
         </div>
-        <div className="flex items-center justify-center lg:w-4/6 px-8 2xl:px-0">
+        <div
+          className={`${
+            half ? "lg:w-1/2" : "lg:w-4/6"
+          } flex items-center justify-center  px-8 2xl:px-0`}
+        >
           <div>
             {title && (
               <TextViva className="text-3xl playfair leading-relaxed text-left mb-4 font-medium">
@@ -31,6 +37,7 @@ export default function TextImage({
             <TextViva className="text-lg leading-relaxed text-left">
               {body}
             </TextViva>
+            {calltoaction}
           </div>
         </div>
       </div>
@@ -38,7 +45,11 @@ export default function TextImage({
   if (right)
     return (
       <div className="flex gap-8 lg:gap-12 flex-col-reverse lg:flex-row mb-8">
-        <div className="flex items-center justify-center lg:w-4/6 px-8 2xl:px-0">
+        <div
+          className={`${
+            half ? "lg:w-1/2" : "lg:w-4/6"
+          } flex items-center justify-center  px-8 2xl:px-0`}
+        >
           <div>
             {title && (
               <TextViva className="text-3xl playfair leading-relaxed text-left mb-4 font-medium">
@@ -53,9 +64,10 @@ export default function TextImage({
             <TextViva className="text-lg leading-relaxed text-left">
               {body}
             </TextViva>
+            {calltoaction}
           </div>
         </div>
-        <div className="lg:w-2/6">
+        <div className={`${half ? "lg:w-1/2" : "lg:w-2/6"}`}>
           <Slider images={sliderImages} />
         </div>
       </div>

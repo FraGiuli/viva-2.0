@@ -30,12 +30,10 @@ export default function VivaGliEventi() {
           <TextViva className="text-lg leading-relaxed text-center mb-4">
             {Content.subtitle}
           </TextViva>
-          <TextViva className="text-lg leading-relaxed text-center mb-16">
-            {Content.info}
-          </TextViva>
+
           <div className="mb-32">
             <a
-              className="rainbow-link-inline"
+              className="rainbow-link-inline "
               target="_blank"
               href={Content.pdf}
             >

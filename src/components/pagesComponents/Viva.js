@@ -55,86 +55,65 @@ export default function Viva() {
           <TextViva className="text-lg leading-relaxed text-center">
             {Content.body1}
           </TextViva>
+          <div className="mt-8 lg:mt-16 flex gap-12">
+            <a
+              className="rainbow-link-inline"
+              href={Content.menu}
+              target="_blank"
+            >
+              <span>{Content.menuTitle}</span>
+            </a>
+            <a
+              className="rainbow-link-inline"
+              href={Content.menuDolci}
+              target="_blank"
+            >
+              <span>{Content.menuDolciTitle}</span>
+            </a>
+          </div>
         </div>
         <div className="w-[100%] md:w-4/6 mt-16 mx-auto">
           <Slider images={SLIDER} />
         </div>
-        <TextImage
+        {/* <TextImage
           title={Content.bodyhead2}
           body={Content.body2}
           src="/viva/terrotorio.jpg"
           alt="territorio"
           left
           className="mb-32 mt-32"
-        />
+        /> */}
+        <div
+          className="flex flex-col mx-auto mb-32 mt-32 px-8 lg:px-0"
+          style={{ maxWidth: "1000px" }}
+        >
+          <TextViva className="text-3xl playfair leading-relaxed text-center mb-4 font-medium">
+            {Content.bodyhead2}
+          </TextViva>
+          <TextViva className="text-lg leading-relaxed text-center">
+            {Content.body2}
+          </TextViva>
+        </div>
         <TextSlider
           title={Content.bodyhead3}
           body={Content.body3}
           sliderImages={SLIDER_LOCALE}
           right
+          half
           className="mb-32"
+          calltoaction={
+            <div className="mt-8">
+              <a
+                className="rainbow-link-inline"
+                href={Content.menu}
+                target="_blank"
+              >
+                <span>{Content.calltoaction}</span>
+              </a>
+            </div>
+          }
         />
 
-        <div className="flex gap-8 md:gap-12 flex-col md:flex-row items-center justify-center my-16 md:my-32 px-8">
-          <Card
-            isHoverable
-            css={{ mw: "400px" }}
-            className="card-menu"
-            isPressable
-          >
-            <a
-              className="flex items-center justify-center"
-              href={`/viva/${Content.menu}`}
-              target="_blank"
-              style={{
-                width: "100%",
-                backgroundImage: "url(/viva/sfondo-menu.png)",
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-                position: "relative",
-                backgroundPosition: "center",
-                padding: "24px",
-                minHeight: "300px",
-              }}
-            >
-              <TextViva
-                className="text-4xl playfair text-center"
-                style={{ lineHeight: "1.5" }}
-              >
-                {Content.menuTitle}
-              </TextViva>
-            </a>
-          </Card>
-          <Card
-            isHoverable
-            css={{ mw: "400px" }}
-            className="card-menu"
-            isPressable
-          >
-            <a
-              className="flex items-center justify-center"
-              href={`/viva/${Content.menuDolci}`}
-              target="_blank"
-              style={{
-                width: "100%",
-                backgroundImage: "url(/viva/sfondo-menu-dolci.png)",
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-                position: "relative",
-                backgroundPosition: "center",
-                padding: "24px",
-                minHeight: "300px",
-              }}
-            >
-              <TextViva
-                className="text-4xl playfair text-center"
-                style={{ lineHeight: "1.5" }}
-              >
-                {Content.menuDolciTitle}
-              </TextViva>
-            </a>
-          </Card>
-        </div>
         <div className="md:my-32">
           <TextViva className="text-4xl playfair mb-16 text-center">
             {Content.riconoscimenti}
@@ -162,37 +141,24 @@ export default function Viva() {
         </div>
 
         <div
-          className="flex flex-col lg:flex-row gap-16 mx-auto mt-16 mb-16 lg:mb-32 px-8 lg:px-0"
+          className="flex flex-col  mx-auto mb-16 lg:mb-48 px-8 lg:px-0"
           style={{ maxWidth: "1000px" }}
         >
-          {selectedLanguage === "it" && (
-            <Card isHoverable className="card-menu boxes" isPressable>
-              <a href="https://www.shopify.com/" target="_blank">
-                <Card.Image
-                  src="/viva/ITA_VIVA-Lo-shopping-.png"
-                  objectFit="cover"
-                  width="100%"
-                  height="100%"
-                  alt="Card image background"
-                />
-              </a>
-            </Card>
-          )}
-          <Card
-            isHoverable
-            className="card-menu boxes max-w-[550px] mx-auto"
-            isPressable
-          >
-            <a href="https://www.shopify.com/" target="_blank">
-              <Card.Image
-                src={Content.regalaViva}
-                objectFit="cover"
-                width="100%"
-                height="100%"
-                alt="Card image background"
-              />
+          <TextViva className="text-5xl playfair leading-relaxed text-center mb-4">
+            {Content.shop.title}
+          </TextViva>
+          <TextViva className="text-2xl leading-relaxed text-center mb-8">
+            {Content.shop.body}
+          </TextViva>
+          <div className="text-center">
+            <a
+              className="rainbow-link-inline"
+              href={Content.shop.href}
+              target="_blank"
+            >
+              <span>{Content.shop.calltoaction}</span>
             </a>
-          </Card>
+          </div>
         </div>
       </div>
       <div

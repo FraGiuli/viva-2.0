@@ -1,12 +1,62 @@
+import { PAGES_IT } from "../PagesConst";
 export const CONTATTI = {
   it: {
     title: "Contatti",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu condimentum ante, et fermentum nisl. **Aliquam venenatis ante non lorem** efficitur viverra et at metus.<br> Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. **Proin vulputate orci ac pretium laoreet**.  <br>Duis dolor eros, dignissim id velit maximus, blandit porta tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;  <br>Nunc ipsum lectus, faucibus id consectetur eu, tempus nec ex. Morbi est elit, ornare sed sodales sit amet, aliquet id dui.",
-
-    calltoaction: "Vedi i nostri annunci",
-
-    info: "Visita il nostro profilo <a href='https://www.linkedin.com/company/alice-ristorante/?viewAsMember=true' target='_blank'>LinkedIn</a> VIVA Viviana Varese o mandaci il tuo CV a <a href='mailto:job@vivavivianavarese.it'>job@vivavivianavarese.it</a>",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu condimentum ante, et fermentum nisl. ",
+    otherContatti:
+      "**EVENTI**: <a href='mailto:eventi@vivavivianavarese.it'>eventi@vivavivianavarese.it</a> <br> **PRESS OFFICE**: <a href='mailto:comunicazione@vivavivianavarese.it'>comunicazione@vivavivianavarese.it</a> <br> **LAVORA CON NOI**: <a href='mailto:job@vivavivianavarese.it'>job@vivavivianavarese.it</a>",
+    newsletter: "> Iscriviti alla nostra newsletter <",
+    visitUs: "Vieni a trovarci",
+    array: [
+      {
+        title: "VIVIA Viviana Varese - 1 stella michelin",
+        location: "MILANO",
+        srcLogo: "home/logo-viva.png",
+        alt: "Viva",
+        bcolor: "rgba(228,34,129, 0.8)",
+        href: PAGES_IT.VIVA.slug,
+        address:
+          "2° piano di Eataly Smeraldo - Piazza 25 Aprile, 10 – 20121 Milano",
+        tel: "<a href='tel:+390249497340'>+39 02 4949 7340</a>",
+        mail: "<a href='mailto:info@vivavivianavarese.it'>info@vivavivianavarese.it</a>",
+      },
+      {
+        title: "W VILLADORATA Country Restaurant",
+        location: "NOTO, Sicilia",
+        srcLogo: "home/logo-villadorata-1.png",
+        alt: "Villadorata",
+        bcolor: "rgb(232,204,114, 0.7)",
+        href: PAGES_IT.VILLADORATA.slug,
+        address: "Contrada Portelle, Noto SR",
+        tel: "<a href='tel:+393428163083'>+39 342 8163083</a>",
+        mail: "<a href='mailto:villadorata@vivavivianavarese.it'>villadorata@vivavivianavarese.it</a>",
+      },
+      {
+        title: "VIVA IL BISTROT",
+        location: "NOTO, Sicilia",
+        srcLogo: "home/bistrot.png",
+        alt: "Bistrot",
+        bcolor: "rgba(194,133,106, 0.7)",
+        href: PAGES_IT.BISTROT.slug,
+        address: "Via Rocco Pirri 19, Noto (SR)",
+        tel: "<a href='tel:+393347933384'>+39 334 7933384</a>",
+        mail: "<a href='mailto:vivabistrot@vivavivianavarese.it'>vivabistrot@vivavivianavarese.it</a>",
+      },
+      {
+        title: "Io sono VIVA Dolci e Gelati",
+        location: "MILANO",
+        srcLogo: "home/logo-iosonovia.png",
+        alt: "Io sono viva",
+        bcolor: "rgba(228,34,129, 0.8)",
+        href: PAGES_IT.GELATI.slug,
+        address1: "Piazzale Lagosta, 7, 20159 Milano MI",
+        tel1: "<a href='tel:+393495845125'>+39 349 5845125</a>",
+        mail: "<a href='mailto:shop@vivavivianavarese.it>shop@vivavivianavarese.it</a>",
+        address2: "Via Kramer 35, 20129 Milano",
+        tel2: "<a href='tel:+393404082610'>+39 340 4082610</a>",
+      },
+    ],
   },
   en: {
     title: "Contacts",

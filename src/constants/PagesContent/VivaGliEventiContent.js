@@ -15,7 +15,7 @@ export const VIVA_GLI_EVENTI = {
     body3:
       "La Chef Viviana Varese può essere la protagonista di cooking class online a tema con ricette della sua storia o create ad hoc.<br>La Cooking Class così come la video ricetta può essere svolta in streaming o registrata.<br>Organizziamo anche la spedizione di box con gli ingredienti per ogni partecipante e di pacchi “VIVA L’APERITIVO” per eventi online.",
 
-    calltoaction: "Scopri tutti gli eventi",
+    calltoaction: "> Scopri tutti gli eventi <",
     pdf: "/vivaglieventi/VIVA_presentazione_eventi-compresso.pdf",
     info: "Per richieste e informazioni <a href='mailto:eventi@vivavivianavarese.it'>eventi@vivavivianavarese.it</a>",
   },
@@ -32,7 +32,7 @@ export const VIVA_GLI_EVENTI = {
     body2:
       "Chef Viviana Varese can put on themed showcooking performances demonstrating recipes, tricks and curiosities linked to the world of food from land and sea, and the accompanying wines. Showcooking events can take place on VIVA Viviana Varese premises, in the Eataly Smeraldo didactic spaces, or in external locations requested by the client.",
 
-    calltoaction: "Find out all events",
+    calltoaction: "> Find out all events <",
     pdf: "/vivaglieventi/VIVA_events_eng-compresso.pdf",
     info: "For more info <a href='mailto:eventi@vivavivianavarese.it'>eventi@vivavivianavarese.it</a>",
   },

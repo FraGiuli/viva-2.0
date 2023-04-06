@@ -165,6 +165,10 @@ div.rainbow-link:hover:after {
   font-size: 25px !important;
 }
 
+.rainbow-link-inline.large {
+  font-size: 48px !important;
+}
+
 /** Slider css **/
 
 .react-slideshow-container .default-nav {
@@ -177,6 +181,7 @@ div.rainbow-link:hover:after {
 
 .card-menu.boxes {
   border-radius: 6.5%;
+  width: 550px;
 }
 
 .mappa {

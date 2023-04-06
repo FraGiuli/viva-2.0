@@ -1,13 +1,191 @@
 import { useSelector } from "react-redux";
+import { Image, Card } from "@nextui-org/react";
 import { HOME_CONTENT } from "../../constants/PagesContent/HomeContent";
+import Hero from "../common/Hero";
+import TextViva from "../common/TextViva";
+import BoxConFoto from "../common/BoxConFoto";
+import BoxHome from "../common/BoxHome";
+import { PAGES_IT } from "@/constants/PagesConst";
+
 export default function Home() {
   const selectedLanguage = useSelector(
     (state) => state.language.selectedLanguage
   );
   const Content = selectedLanguage === "en" ? HOME_CONTENT.en : HOME_CONTENT.it;
   return (
-    <>
-      <div> {Content.title}</div>
-    </>
+    <div>
+      <Hero
+        src="/home/viviana-varese-hero1.jpg"
+        borderNone
+        bgPosition="top center"
+        nooverlay
+      />
+      <div
+        className="rainbowbg"
+        style={{ width: "100%", height: "10px" }}
+      ></div>
+      <div
+        className="flex flex-col  mx-auto mt-16 lg:mt-32 px-8 lg:px-0"
+        style={{ maxWidth: "1000px" }}
+      >
+        <TextViva className="text-5xl playfair leading-relaxed text-center mb-4">
+          {Content.locali.title}
+        </TextViva>
+        <TextViva className="text-2xl leading-relaxed text-center mb-8">
+          {Content.locali.subtitle}
+        </TextViva>
+        <div className="text-center">
+          <a className="rainbow-link-inline" href={PAGES_IT.CONTATTI.slug}>
+            <span>{Content.locali.calltoaction}</span>
+          </a>
+        </div>
+        <div
+          className="flex flex-col lg:flex-row flex-wrap mb-8 lg:mb-32  mt-16 lg:mt-32 gap-8 px-8 lg:px-0 mx-auto justify-center items-center"
+          style={{ maxWidth: "1200px" }}
+        >
+          {Content.locali.array.map((el) => (
+            <BoxHome
+              key={el.text}
+              title={el.location}
+              text={el.text}
+              src={el.srcLogo}
+              alt={el.alt}
+              borderColor={el.bcolor}
+              className="p-8 md:w-[46%]"
+              href={el.href}
+            />
+          ))}
+        </div>
+        {/* <div
+          className="flex flex-col flex-wrap lg:flex-row gap-16 mx-auto mt-16 mb-16 lg:mb-32 px-8 lg:px-0"
+          style={{ maxWidth: "1000px" }}
+        >
+          <Card
+            isHoverable
+            className="card-menu boxes max-w-[460px] mx-auto"
+            isPressable
+            width="300px"
+          >
+            <a href={PAGES_IT.VIVA.slug} target="_blank">
+              <Card.Image
+                src={Content.locali.vivaImg}
+                objectFit="cover"
+                width="100%"
+                height="100%"
+                alt="Viva Milano"
+              />
+            </a>
+          </Card>
+          <Card
+            isHoverable
+            className="card-menu boxes max-w-[460px] mx-auto"
+            isPressable
+          >
+            <a href={PAGES_IT.VILLADORATA.slug} target="_blank">
+              <Card.Image
+                src={Content.locali.villadorataImg}
+                objectFit="cover"
+                width="100%"
+                height="100%"
+                alt="villadorata"
+              />
+            </a>
+          </Card>
+          <Card
+            isHoverable
+            className="card-menu boxes max-w-[460px] mx-auto"
+            isPressable
+          >
+            <a href={PAGES_IT.BISTROT.slug} target="_blank">
+              <Card.Image
+                src={Content.locali.bistrotImg}
+                objectFit="cover"
+                width="100%"
+                height="100%"
+                alt="bistrot"
+              />
+            </a>
+          </Card>
+          <Card
+            isHoverable
+            className="card-menu boxes max-w-[460px] mx-auto"
+            isPressable
+          >
+            <a href={PAGES_IT.GELATI.slug} target="_blank">
+              <Card.Image
+                src={Content.locali.iosonovivaImg}
+                objectFit="cover"
+                width="100%"
+                height="100%"
+                alt="io-sono-viva"
+              />
+            </a>
+          </Card>
+        </div> */}
+      </div>
+      <div className="mx-auto md:mt-8" style={{ maxWidth: "1528px" }}>
+        <div
+          className="flex flex-col items-center justify-center mx-auto"
+          style={{ maxWidth: "1200px" }}
+        >
+          <TextViva className="text-5xl leading-relaxed text-center mb-16">
+            {Content.subtitle}
+          </TextViva>
+          <div className="mb-16 lg:mb-32">
+            <a
+              className="rainbow-link-inline large"
+              href={PAGES_IT.VIVIANA_VARESE.slug}
+            >
+              <span>{Content.calltoaction}</span>
+            </a>
+          </div>
+
+          <div
+            className="flex flex-col lg:flex-row flex-wrap mb-8 lg:mb-32 gap-8 px-8 lg:px-0 mx-auto justify-center items-center"
+            style={{ maxWidth: "1200px" }}
+          >
+            <BoxConFoto
+              title={Content.eventi.title}
+              body={Content.eventi.body}
+              src="/home/catering-banqueting.jpg"
+              alt="eventi"
+              className="md:w-[46%] md:min-h-[600px]"
+              calltoaction={Content.eventi.calltoaction}
+              href={Content.eventi.href}
+            />
+
+            <BoxConFoto
+              title={Content.work.title}
+              body={Content.work.body}
+              src="/home/work-with-bn.jpg"
+              alt="workwith"
+              className="md:w-[46%] md:min-h-[600px]"
+              calltoaction={Content.work.calltoaction}
+              href={Content.work.href}
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flex flex-col  mx-auto mb-16 lg:mb-48 px-8 lg:px-0"
+        style={{ maxWidth: "1000px" }}
+      >
+        <TextViva className="text-5xl playfair leading-relaxed text-center mb-4">
+          {Content.shop.title}
+        </TextViva>
+        <TextViva className="text-2xl leading-relaxed text-center mb-8">
+          {Content.shop.body}
+        </TextViva>
+        <div className="text-center">
+          <a
+            className="rainbow-link-inline"
+            href={Content.shop.href}
+            target="_blank"
+          >
+            <span>{Content.shop.calltoaction}</span>
+          </a>
+        </div>
+      </div>
+    </div>
   );
 }

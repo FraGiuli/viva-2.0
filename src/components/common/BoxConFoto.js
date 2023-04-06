@@ -7,8 +7,9 @@ export default function BoxConFoto({
   body,
   src,
   title,
-  height,
+  href,
   alt,
+  calltoaction,
 }) {
   return (
     <Card className={className}>
@@ -36,6 +37,13 @@ export default function BoxConFoto({
           <TextViva className="text-lg leading-relaxed text-left">
             {body}
           </TextViva>
+          {calltoaction && (
+            <div className="mt-8">
+              <a className="rainbow-link-inline" href={href}>
+                <span>{calltoaction}</span>
+              </a>
+            </div>
+          )}
         </div>
       </Card.Footer>
     </Card>
