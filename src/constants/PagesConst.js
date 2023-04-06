@@ -4,27 +4,31 @@ export const PAGES_IT = {
     name: "viviana",
     slug: "/viviana-varese",
     label: "VIVIANA VARESE",
+    description: "",
   },
   VIVA: {
     name: "viva",
     slug: "/viva",
     label: "VIVA Viviana Varese",
+    description: "Milano",
   },
   VILLADORATA: {
     name: "villadorata",
     slug: "/viva-villadorata",
     label: "W Villadorata Country Restaurant",
+    description: "Noto, Sicilia",
   },
   BISTROT: {
     name: "bistrot",
     slug: "/viva-il-bistrot",
     label: "VIVA IL BISTROT",
+    description: "Noto, Sicilia",
   },
-
   GELATI: {
     name: "gelati",
     slug: "/io-sono-viva",
     label: "IO SONO VIVA Dolci e Gelati",
+    description: "Milano",
   },
   EVENTI: {
     name: "eventi",

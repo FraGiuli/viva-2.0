@@ -1,5 +1,5 @@
 import Layout from "@/components/common/Layout.js";
-import Viva from "../components/pages/Viva";
+import Viva from "../components/pagesComponents/Viva";
 import { PAGES_IT } from "../constants/PagesConst";
 
 export default function VivaViviana() {

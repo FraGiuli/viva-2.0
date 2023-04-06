@@ -1,5 +1,5 @@
 import Layout from "@/components/common/Layout.js";
-import VivaVilladorata from "../components/pages/VivaVilladorata";
+import VivaVilladorata from "../components/pagesComponents/VivaVilladorata";
 import { PAGES_IT } from "../constants/PagesConst";
 
 export default function VilladorataPage() {

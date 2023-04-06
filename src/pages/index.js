@@ -1,5 +1,5 @@
 import Layout from "@/components/common/Layout.js";
-import Home from "../components/pages/Home.js";
+import Home from "../components/pagesComponents/Home.js";
 import { PAGES_IT } from "../constants/PagesConst";
 
 export default function Index() {

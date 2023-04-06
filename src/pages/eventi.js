@@ -1,5 +1,5 @@
 import Layout from "@/components/common/Layout.js";
-import VivaGliEventi from "../components/pages/VivaGliEventi";
+import VivaGliEventi from "../components/pagesComponents/VivaGliEventi";
 import { PAGES_IT } from "../constants/PagesConst";
 
 export default function VivaGliEventiPage() {

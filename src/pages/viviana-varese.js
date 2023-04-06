@@ -1,5 +1,5 @@
 import Layout from "@/components/common/Layout.js";
-import VivianaVarese from "../components/pages/VivianaVarese";
+import VivianaVarese from "../components/pagesComponents/VivianaVarese";
 import { PAGES_IT } from "../constants/PagesConst";
 
 export default function VivianaVaresePage() {

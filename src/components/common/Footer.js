@@ -6,7 +6,7 @@ export default function Footer() {
     <div>
       <div className="rainbowbg" style={{ height: "10px" }}></div>
       <div
-        className="mx-auto items-center flex p-8 flex-col w-full"
+        className="mx-auto items-center flex p-8 flex-col w-full mt-8"
         style={{ maxWidth: "1528px" }}
       >
         <div className="flex flex-wrap gap-8  md:gap-16">
@@ -14,7 +14,7 @@ export default function Footer() {
             <Image
               src="/footer/newfooter_1.png"
               alt="Ristorante 1 Stella MICHELIN"
-              width="100px"
+              width="50px"
             />
             <TextViva className="text-sm mt-4">
               Ristorante 1 Stella MICHELIN
@@ -24,7 +24,7 @@ export default function Footer() {
             <Image
               src="/footer/newfooter_2.png"
               alt="Associazione Le Soste"
-              width="100px"
+              width="50px"
             />
             <TextViva className="text-sm mt-4">Associazione Le Soste</TextViva>
           </div>
@@ -32,7 +32,7 @@ export default function Footer() {
             <Image
               src="/footer/newfooter_3.png"
               alt="Ambasciatori del Gusto"
-              width="100px"
+              width="50px"
             />
             <TextViva className="text-sm mt-4">Ambasciatori del Gusto</TextViva>
           </div>
@@ -40,7 +40,7 @@ export default function Footer() {
             <Image
               src="/footer/newfooter_4.png"
               alt="50Best Discovery"
-              width="100px"
+              width="50px"
             />
             <TextViva className="text-sm mt-4">50Best Discovery</TextViva>
           </div>
@@ -48,12 +48,12 @@ export default function Footer() {
             <Image
               src="/footer/newfooter_5.png"
               alt="Toques Italia"
-              width="100px"
+              width="50px"
             />
             <TextViva className="text-sm mt-4">Toques Italia</TextViva>
           </div>
         </div>
-        <div className="flex flex-wrap gap-8 mt-16 md:w-1/2">
+        <div className="flex flex-wrap gap-8 mt-8 md:w-1/4">
           <a
             href="https://cosaporto.it/partner/viva-di-viviana-varese/?utm_source=viviana.varese&utm_medium=referral&utm_campaign=viviana.varese.milano"
             target="_blank"
@@ -62,7 +62,7 @@ export default function Footer() {
             <Image
               src="/footer/CP-logo-orizzontale-1.png"
               alt="Cosa ti porto"
-              width="250px"
+              width="150px"
             />
           </a>
           <a
@@ -73,12 +73,12 @@ export default function Footer() {
             <Image
               src="/footer/scoolinary.png"
               alt="Scoolinary"
-              width="250px"
+              width="150px"
             />
           </a>
         </div>
-        <div className="flex justify-center mt-16">
-          <TextViva className="text-lg">
+        <div className="flex justify-center mt-8">
+          <TextViva className="text-sm">
             © 2023 ALICETTE S.R.L. P.IVA 08390270968
           </TextViva>
         </div>

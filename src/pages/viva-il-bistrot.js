@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import Layout from "@/components/common/Layout.js";
-import VivaIlBistrot from "../components/pages/VivaIlBistrot";
+import VivaIlBistrot from "../components/pagesComponents/VivaIlBistrot";
 import { PAGES_IT } from "../constants/PagesConst";
 
 export default function BistrotPage() {

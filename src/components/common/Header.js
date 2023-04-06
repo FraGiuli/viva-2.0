@@ -71,7 +71,7 @@ export default function Header({ page }) {
               }}
             >
               {subMenuItem.map((item) => (
-                <Dropdown.Item key={item.name}>
+                <Dropdown.Item key={item.name} description={item.description}>
                   <Navbar.Link isActive={page === item.name} href={item.slug}>
                     {item.label}
                   </Navbar.Link>
@@ -164,7 +164,7 @@ export default function Header({ page }) {
               }}
             >
               {subMenuItem.map((item) => (
-                <Dropdown.Item key={item.name}>
+                <Dropdown.Item key={item.name} description={item.description}>
                   <Link
                     color="inherit"
                     className={`${

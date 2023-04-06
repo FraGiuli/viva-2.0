@@ -12,6 +12,9 @@
 .nextui-c-hhqfap-gqZKcP-disableBlur-false .nextui-c-egxOLa {
   background: none;
   backdrop-filter: none;
+  max-width: 1528px;
+  padding: 20px 8px;
+  height: auto;
 }
 .playfair {
   font-family: "Playfair Display", serif !important;
@@ -56,12 +59,9 @@ button.active {
   color: #ff0286 !important;
   font-weight: bold !important;
 }
-
-.nextui-navbar-link {
-  padding: 6px 2px;
-  margin-bottom: 2px;
+.nextui-dropdown-item {
+  padding: 8px;
 }
-
 .nextui-c-iWjDFM-ifUdHdz-css {
   /* Menu dropdowun button mobile */
   color: #212529;
@@ -161,8 +161,8 @@ div.rainbow-link:hover:after {
 .rainbow-link-inline:hover {
   animation: slidebg 2s linear infinite;
 }
-.rainbow-link-inline.eventi-link {
-  font-size: 42px !important;
+.rainbow-link-inline {
+  font-size: 25px !important;
 }
 
 /** Slider css **/
@@ -175,9 +175,6 @@ div.rainbow-link:hover:after {
 
 /** Card menu **/
 
-.card-menu {
-  cursor: pointer;
-}
 .card-menu.boxes {
   border-radius: 6.5%;
 }

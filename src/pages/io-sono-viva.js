@@ -1,5 +1,5 @@
 import Layout from "@/components/common/Layout.js";
-import IoSonoViva from "../components/pages/IoSonoViva";
+import IoSonoViva from "../components/pagesComponents/IoSonoViva";
 import { PAGES_IT } from "../constants/PagesConst";
 
 export default function IoSonoVivaPage() {
