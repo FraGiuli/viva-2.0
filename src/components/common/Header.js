@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { useState, useEffect } from "react";
 import { Image } from "@nextui-org/react";
 import { Navbar, Dropdown } from "@nextui-org/react";
 import { useSelector, useDispatch } from "react-redux";
@@ -12,13 +13,17 @@ export default function Header({ page }) {
     (state) => state.language.selectedLanguage
   );
   const dispatch = useDispatch();
-
+  const [lang, setLang] = useState(selectedLanguage);
   const handleLanguageChange = (language) => {
     dispatch(setLanguage(language));
-    if (window && window.localStorage) {
-      window.localStorage.setItem("lang", language);
-    }
+    setLang(language);
   };
+
+  useEffect(() => {
+    if (typeof window !== undefined) {
+      window.localStorage.setItem("lang", lang);
+    }
+  }, [lang]);
 
   const PAGES = selectedLanguage === "en" ? PAGES_EN : PAGES_IT;
   const subMenuItem = [

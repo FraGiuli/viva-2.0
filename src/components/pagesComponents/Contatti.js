@@ -62,7 +62,7 @@ export default function WorkWith() {
                 tel2={el.tel2}
                 address1={el.address1}
                 tel1={el.tel1}
-                className="p-8 md:w-[46%] md:min-h-[600px]"
+                className="p-8 md:w-[46%] md:min-h-[650px]"
               />
             ))}
           </div>

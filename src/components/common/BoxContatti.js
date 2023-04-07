@@ -43,9 +43,6 @@ export default function BoxContatti({
           {tel && (
             <TextViva className="text-lg leading-relaxed ">{tel}</TextViva>
           )}
-          {mail && (
-            <TextViva className="text-lg leading-relaxed">{mail}</TextViva>
-          )}
 
           {address1 && (
             <TextViva className="text-lg leading-relaxed">{address1}</TextViva>
@@ -61,6 +58,10 @@ export default function BoxContatti({
 
           {tel2 && (
             <TextViva className="text-lg leading-relaxed ">{tel2}</TextViva>
+          )}
+
+          {mail && (
+            <TextViva className="text-lg leading-relaxed">{mail}</TextViva>
           )}
         </div>
       </Card.Footer>
