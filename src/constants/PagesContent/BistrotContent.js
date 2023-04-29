@@ -24,6 +24,18 @@ export const BISTROT_CONTENT = {
     prenotaTitle: "Prenota VIVA IL BISTROT ",
     prenotaSubtitle: "",
     prenotaLink: "https://module.lafourchette.com/it_IT/module/726003-ad88e",
+    menus: [
+      {
+        pdf: "/vivailbistrot/menu/04.24 MENU BISTROT ITA.pdf",
+        label: "MENU",
+      },
+      { pdf: "/vivailbistrot/menu/04.17 Carta VINI.pdf", label: "VINI" },
+      {
+        pdf: "/vivailbistrot/menu/04.18 MENU DOLCI E APE.pdf",
+        label: "DOLCI",
+      },
+      { pdf: "/vivailbistrot/menu/04.18 MENU DRINK.pdf", label: "DRINK" },
+    ],
   },
   en: {
     title: "VIVA IL BISTROT",
@@ -50,5 +62,29 @@ export const BISTROT_CONTENT = {
     prenotaTitle: "Prenota VIVA IL BISTROT ",
     prenotaSubtitle: "",
     prenotaLink: "https://module.lafourchette.com/it_IT/module/726003-ad88e",
+    menus: [
+      {
+        pdf: "/vivailbistrot/menu/04.24 MENU BISTROT ITA.pdf",
+        label: "MENU",
+      },
+      { pdf: "/vivailbistrot/menu/04.17 Carta VINI.pdf", label: "VINI" },
+      {
+        pdf: "/vivailbistrot/menu/04.18 MENU DOLCI E APE.pdf",
+        label: "DOLCI",
+      },
+      { pdf: "/vivailbistrot/menu/04.18 MENU DRINK.pdf", label: "DRINK" },
+    ],
   },
 };
+
+export const SLIDER = [
+  "/vivailbistrot/gallery/Arance siciliane con finocchi in insalata, cipolle e mandorle di noto - Ph Victoria.jpg",
+  "/vivailbistrot/gallery/Ceci pascià presidio Slow Food con baccalà e salsa al prezzemolo - Ph Victoria.jpg",
+  "/vivailbistrot/gallery/ceviche di ombrina con avocado siciliano, cipolla rossa marinata, pomodorini e lime - Ph Victoria.jpg",
+  "/vivailbistrot/gallery/Gambero rosso del mediterraneo con pomodoro Clause, granita di ricotta e basilico - Ph Victoria.jpg",
+  "/vivailbistrot/gallery/Insalata verde dell'orto con avocado e pistacchio siciliano - Ph Victoria.jpg",
+  "/vivailbistrot/gallery/pizza fritta ph victoria.jpg",
+  "/vivailbistrot/gallery/profumo di sicilia - Ph victoria.jpg",
+  "/vivailbistrot/gallery/Scarola cotta dell'orto con salsa all'acciuga, olive e salsa allo yogurt - Ph Victoria.jpg",
+  "/vivailbistrot/gallery/uovo con bieta, crema di zucchine alla scapece ed erbe dell'orto - Ph Victoria.jpg",
+];

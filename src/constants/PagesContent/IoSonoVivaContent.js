@@ -35,10 +35,10 @@ export const IO_SONO_VIVA = {
       title: "Contatti",
       name: "Io sono VIVA Dolci e Gelati c/o Mercato Comunale Isola",
       address: "Piazzale Lagosta, 7, 20159 Milano MI",
-      tel: 'tel: <a href="tel:+393495845125">+39 349 5845125</a>',
+      tel: 'phone: <a href="tel:+393495845125">+39 349 5845125</a>',
       address2:
         "**Io sono VIVA Dolci e Gelati** <br> Via Kramer 35, 20129 Milano",
-      tel2: 'tel: <a href="tel:+393404082610">+39 340 4082610</a>',
+      tel2: 'phone: <a href="tel:+393404082610">+39 340 4082610</a>',
       mail: 'Info: <a href="shop@vivavivianavarese.it">shop@vivavivianavarese.it</a>',
       orari: "**Chiuso il lunedì.**",
     },

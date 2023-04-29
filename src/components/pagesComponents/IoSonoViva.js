@@ -68,6 +68,7 @@ export default function IoSonoViva() {
           fb=""
           insta=""
           childrensLogo={logos}
+          color="#FF0286"
         >
           <TextViva className="pb-8 text-lg">{Content.contatti.tel}</TextViva>
 

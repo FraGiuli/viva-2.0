@@ -33,7 +33,7 @@ export const PAGES_IT = {
   EVENTI: {
     name: "eventi",
     slug: "/eventi",
-    label: "VIVA gli EVENTI",
+    label: "VIVA GLI EVENTI",
   },
   WORK_WITH: {
     name: "work-with",
@@ -43,7 +43,7 @@ export const PAGES_IT = {
   CONTATTI: {
     name: "contatti",
     slug: "/contatti",
-    label: "Contatti",
+    label: "CONTATTI",
   },
   SHOP_VIVA: {
     name: "shop-viva",
@@ -72,22 +72,25 @@ export const PAGES_EN = {
     name: "viva",
     slug: "/viva",
     label: "VIVA Viviana Varese",
+    description: "Milan",
   },
   VILLADORATA: {
     name: "villadorata",
     slug: "/viva-villadorata",
     label: "W Villadorata Country Restaurant",
+    description: "Noto, Sicily",
   },
   BISTROT: {
     name: "bistrot",
     slug: "/viva-il-bistrot",
     label: "VIVA IL BISTROT",
+    description: "Noto, Sicily",
   },
-
   GELATI: {
     name: "gelati",
     slug: "/io-sono-viva",
     label: "IO SONO VIVA Dolci e Gelati",
+    description: "Milan",
   },
   EVENTI: {
     name: "eventi",
@@ -102,7 +105,7 @@ export const PAGES_EN = {
   CONTATTI: {
     name: "contatti",
     slug: "/contatti",
-    label: "Contacts",
+    label: "CONTACTS",
   },
   SHOP_VIVA: {
     name: "shop-viva",

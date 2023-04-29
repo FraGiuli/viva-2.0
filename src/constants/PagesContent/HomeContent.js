@@ -6,7 +6,7 @@ export const HOME_CONTENT = {
     subtitle:
       "LA FIAMMA BRUCIA.<br>È STUPORE E COLORE.<br> È IDEA E SENTIMENTO.<br>GIOIA DI CREARE E FAME DI FARE <br> **AL SEMBRARE PREFERISCO L’ESSERE.**",
     body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu condimentum ante, et fermentum nisl. **Aliquam venenatis ante non lorem** efficitur viverra et at metus.<br> Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. **Proin vulputate orci ac pretium laoreet**.  <br>Duis dolor eros, dignissim id velit maximus, blandit porta tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;  <br>Nunc ipsum lectus, faucibus id consectetur eu, tempus nec ex. Morbi est elit, ornare sed sodales sit amet, aliquet id dui.",
-    calltoaction: "> SCOPRI VIVIANA VARESE <",
+    calltoaction: "> Scopri di più su Viviava Varese <",
     locali: {
       title: "I locali di Viviana Varese",
       subtitle:

@@ -32,7 +32,6 @@ export const VIVA = {
     prenotaTitle: "Prenota VIVA Vivana Varese",
     prenotaSubtitle: "",
     prenotaLink: "https://module.lafourchette.com/it_IT/module/725605-f59ee",
-    regalaViva: "/viva/ITA_VIVA-regala-.png",
     shop: {
       title: "Viva lo Shopping",
       body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu condimentum ante, et fermentum nisl.<br> **Aliquam venenatis ante non lorem** efficitur viverra et at metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
@@ -53,17 +52,18 @@ export const VIVA = {
     bodyhead3: "THE SPACE",
     body3:
       "**VIVA Viviana Varese is living matter, colours, life**. On the second floor of Eataly Smeraldo, the room is illuminated by the light streaming in from the huge window looking out on Piazza 25 aprile. The space – that can host up to 90 people – has been thought out personally by Viviana Varese <br>The tables are from di Riva 1920 and the solid wood comes from Venice’s briccole, poles that mark the gondola stops along its canals.<br> **Togetherness and conviviality**, Viviana Varese’s constant and essential trademarks, find their place on the Social table designed by **Renzo and Matteo Piano** in antique Kauri wood, a symbol of new life and returning light. <br><br> The kitchen is a unique Molteni design.It is open to view so that guests may appreciate the dynamics of the brigade and follow what at times looks like a frenetic and yet precise dance. **Giò Ponti** designed the cutlery, that sits alongside **ceramics designed by the Chef** and were specially created for **VIVA Viviana Varese**.",
+    calltoaction: "> VIVA experience gift card <",
     menu: "b03_22_menu eng A5.pdf",
-    menuTitle: "DISCOVER OUR MENU",
+    menuTitle: "> DISCOVER OUR MENU <",
     menuDolci: "03_22_menu-a5.cdr.pdf",
-    menuDolciTitle: "DISCOVER OUR DESSERT",
+    menuDolciTitle: "> DISCOVER OUR DESSERT <",
     riconoscimenti: "Awards",
     contatti: {
       title: "Contacts",
       name: "VIVA Viviana Varese",
       address:
         "2° piano di Eataly Smeraldo - Piazza 25 Aprile, 10 – 20121 Milano",
-      tel: 'tel: <a href="tel:+390249497340">+39 02 4949 7340</a>',
+      tel: 'phone: <a href="tel:+390249497340">+39 02 4949 7340</a>',
       mail: 'Info and booking: <a href="mailto:info@vivavivianavarese.it">info@vivavivianavarese.it</a>',
       orari:
         "Tuesday – Saturday **12.30 pm >2pm** and **7.30pm >10pm** <br><br>**Sunday and monday closed. <br>Closed from 24th to 27th December. Closed on January 1st. <br>Closing for holidays: August, Christmas, 1st January, Easter.**",
@@ -72,7 +72,6 @@ export const VIVA = {
     prenotaTitle: "Booking VIVA Vivana Varese",
     prenotaSubtitle: "",
     prenotaLink: "https://module.lafourchette.com/en_GB/module/725605-f59ee",
-    regalaViva: "/viva/ENG_VIVA-regala-.png",
   },
 };
 
@@ -119,7 +118,7 @@ export const RICONOSCIMENTI = [
   },
   {
     anno: "2015",
-    name: "Gambero Rosso – giovane emergente dell’anno",
+    name: "Chef Ambassador Expo Milano",
     src: "/viva/expo.png",
   },
   {

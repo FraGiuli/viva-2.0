@@ -56,72 +56,6 @@ export default function Home() {
             />
           ))}
         </div>
-        {/* <div
-          className="flex flex-col flex-wrap lg:flex-row gap-16 mx-auto mt-16 mb-16 lg:mb-32 px-8 lg:px-0"
-          style={{ maxWidth: "1000px" }}
-        >
-          <Card
-            isHoverable
-            className="card-menu boxes max-w-[460px] mx-auto"
-            isPressable
-            width="300px"
-          >
-            <a href={PAGES_IT.VIVA.slug} target="_blank">
-              <Card.Image
-                src={Content.locali.vivaImg}
-                objectFit="cover"
-                width="100%"
-                height="100%"
-                alt="Viva Milano"
-              />
-            </a>
-          </Card>
-          <Card
-            isHoverable
-            className="card-menu boxes max-w-[460px] mx-auto"
-            isPressable
-          >
-            <a href={PAGES_IT.VILLADORATA.slug} target="_blank">
-              <Card.Image
-                src={Content.locali.villadorataImg}
-                objectFit="cover"
-                width="100%"
-                height="100%"
-                alt="villadorata"
-              />
-            </a>
-          </Card>
-          <Card
-            isHoverable
-            className="card-menu boxes max-w-[460px] mx-auto"
-            isPressable
-          >
-            <a href={PAGES_IT.BISTROT.slug} target="_blank">
-              <Card.Image
-                src={Content.locali.bistrotImg}
-                objectFit="cover"
-                width="100%"
-                height="100%"
-                alt="bistrot"
-              />
-            </a>
-          </Card>
-          <Card
-            isHoverable
-            className="card-menu boxes max-w-[460px] mx-auto"
-            isPressable
-          >
-            <a href={PAGES_IT.GELATI.slug} target="_blank">
-              <Card.Image
-                src={Content.locali.iosonovivaImg}
-                objectFit="cover"
-                width="100%"
-                height="100%"
-                alt="io-sono-viva"
-              />
-            </a>
-          </Card>
-        </div> */}
       </div>
       <div className="mx-auto md:mt-8" style={{ maxWidth: "1528px" }}>
         <div
@@ -133,7 +67,7 @@ export default function Home() {
           </TextViva>
           <div className="mb-16 lg:mb-32">
             <a
-              className="rainbow-link-inline large"
+              className="rainbow-link-inline"
               href={PAGES_IT.VIVIANA_VARESE.slug}
             >
               <span>{Content.calltoaction}</span>

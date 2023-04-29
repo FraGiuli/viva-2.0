@@ -11,14 +11,15 @@ export default function Contacts({
   insta,
   className,
   childrensLogo,
+  color,
   ...otherProps
 }) {
   return (
     <div
-      className={`${className} flex flex-col-reverse md:flex-row gap-8 md:gap-12 px-8 lg:px-0`}
+      className={`${className} flex flex-col-reverse justify-center md:flex-row gap-8 md:gap-12 px-8 lg:px-0`}
       {...otherProps}
     >
-      <div className="md:w-1/2">
+      {/* <div className="md:w-1/2">
         <iframe
           src={linkMap}
           width="100%"
@@ -27,8 +28,14 @@ export default function Contacts({
           referrerPolicy="no-referrer-when-downgrade"
           className="mappa"
         ></iframe>
-      </div>
-      <div className="md:w-1/2">
+      </div> */}
+      <div
+        className="w-full md:w-[600px] box-contatti"
+        style={{
+          border: `8px solid ${color}`,
+          borderRadius: "30px",
+        }}
+      >
         <TextViva className="text-4xl playfair font-regular mb-6">
           {title}
         </TextViva>

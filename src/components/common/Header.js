@@ -7,6 +7,7 @@ import { setLanguage } from "../../redux/language";
 import { PAGES_IT, PAGES_EN } from "../../constants/PagesConst";
 import { AiFillPhone } from "react-icons/ai";
 import { MdMail } from "react-icons/md";
+import LinkDropdown from "./LinkDropdown";
 
 export default function Header({ page }) {
   const selectedLanguage = useSelector(
@@ -30,7 +31,8 @@ export default function Header({ page }) {
   ];
 
   const dropDownMenuItem = subMenuItem.findIndex((el) => el.name === page) > -1;
-  const showLang = page === PAGES.BISTROT.name || page === PAGES.GELATI.name;
+  // const showLang = page === PAGES.BISTROT.name || page === PAGES.GELATI.name;
+  const showLang = false;
   return (
     <>
       <Navbar variant="sticky">
@@ -72,10 +74,14 @@ export default function Header({ page }) {
               }}
             >
               {subMenuItem.map((item) => (
-                <Dropdown.Item key={item.name} description={item.description}>
-                  <Navbar.Link isActive={page === item.name} href={item.slug}>
+                <Dropdown.Item key={item.name}>
+                  <LinkDropdown
+                    isActive={page === item.name}
+                    href={item.slug}
+                    description={item.description}
+                  >
                     {item.label}
-                  </Navbar.Link>
+                  </LinkDropdown>
                 </Dropdown.Item>
               ))}
             </Dropdown.Menu>

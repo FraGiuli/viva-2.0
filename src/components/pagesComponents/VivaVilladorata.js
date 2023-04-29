@@ -18,21 +18,6 @@ export default function VivaVilladorata() {
   const Content =
     selectedLanguage === "en" ? VILLADORATA_CONTENT.en : VILLADORATA_CONTENT.it;
 
-  const logos = (
-    <div className="mt-8">
-      <a
-        href="https://www.fondazioneslowfood.com/it/cosa-facciamo/alleanza-slow-food-dei-cuochi/#"
-        target="_blank"
-      >
-        <Image
-          src="/villadorata/slowfood-logo.jpg"
-          alt="slowfood-logo"
-          style={{ maxWidth: "150px" }}
-        />
-      </a>
-    </div>
-  );
-
   const [visible, setVisible] = useState(false);
   const handler = () => setVisible(true);
 
@@ -57,6 +42,18 @@ export default function VivaVilladorata() {
           <TextViva className="text-3xl playfair leading-relaxed text-center mb-4 font-medium">
             {Content.subtitle}
           </TextViva>
+          <div className="mt-8">
+            <a
+              href="https://www.fondazioneslowfood.com/it/cosa-facciamo/alleanza-slow-food-dei-cuochi/#"
+              target="_blank"
+            >
+              <Image
+                src="/villadorata/slowfood-logo.jpg"
+                alt="slowfood-logo"
+                style={{ maxWidth: "200px" }}
+              />
+            </a>
+          </div>
         </div>
         <TextImage
           bodyhead={Content.bodyhead}
@@ -87,15 +84,19 @@ export default function VivaVilladorata() {
         </div>
 
         <Contacts
-          className="mb-16"
+          className="mb-16 lg:mb-32"
           title={Content.contatti.title}
           name={Content.contatti.name}
           address={Content.contatti.address}
           linkMap="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6383.910579519786!2d15.039605!3d36.867489!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13122822089fabeb%3A0x8584a75b06e93787!2sCountry%20House%20Villadorata!5e0!3m2!1sit!2sit!4v1679587584763!5m2!1sit!2sit"
           fb="https://www.facebook.com/WVilladoratacountryrestaurant/"
           insta="https://www.instagram.com/wvilladorata/?igshid=19oq9l39w4yqb"
-          childrensLogo={logos}
+          color="#e8cc72"
         >
+          <TextViva className="text-lg">{Content.contatti.tel}</TextViva>
+          <TextViva className="pb-4 text-lg">{Content.contatti.mail}</TextViva>
+          <TextViva className="pb-4 text-lg">{Content.contatti.orari}</TextViva>
+
           <div className="mb-8 text-left">
             <a className="rainbow-link" onClick={handler}>
               <span>{Content.prenota}</span>

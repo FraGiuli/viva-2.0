@@ -140,26 +140,28 @@ export default function Viva() {
           </div>
         </div>
 
-        <div
-          className="flex flex-col  mx-auto mb-16 lg:mb-48 px-8 lg:px-0"
-          style={{ maxWidth: "1000px" }}
-        >
-          <TextViva className="text-5xl playfair leading-relaxed text-center mb-4">
-            {Content.shop.title}
-          </TextViva>
-          <TextViva className="text-2xl leading-relaxed text-center mb-8">
-            {Content.shop.body}
-          </TextViva>
-          <div className="text-center">
-            <a
-              className="rainbow-link-inline"
-              href={Content.shop.href}
-              target="_blank"
-            >
-              <span>{Content.shop.calltoaction}</span>
-            </a>
+        {Content.shop && (
+          <div
+            className="flex flex-col  mx-auto mb-16 lg:mb-48 px-8 lg:px-0"
+            style={{ maxWidth: "1000px" }}
+          >
+            <TextViva className="text-5xl playfair leading-relaxed text-center mb-4">
+              {Content.shop.title}
+            </TextViva>
+            <TextViva className="text-2xl leading-relaxed text-center mb-8">
+              {Content.shop.body}
+            </TextViva>
+            <div className="text-center">
+              <a
+                className="rainbow-link-inline"
+                href={Content.shop.href}
+                target="_blank"
+              >
+                <span>{Content.shop.calltoaction}</span>
+              </a>
+            </div>
           </div>
-        </div>
+        )}
       </div>
       <div
         className="mx-auto md:mt-8 my-16 md:my-32"
@@ -173,6 +175,7 @@ export default function Viva() {
           linkMap="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5594.931402896579!2d9.188105!3d45.48056600000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c134c8aeb8ef%3A0x2abf1c40e9ed1235!2sPiazza%20Venticinque%20Aprile%2C%2010%2C%2020124%20Milano%20MI!5e0!3m2!1sit!2sit!4v1680514749560!5m2!1sit!2sit"
           fb="https://www.facebook.com/vivavivianavarese"
           insta="https://www.instagram.com/vivavivianavarese/?hl=it"
+          color="#FF0286"
         >
           <TextViva className="text-lg">{Content.contatti.tel}</TextViva>
           <TextViva className="text-lg">{Content.contatti.mail}</TextViva>

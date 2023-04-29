@@ -1,8 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
 .nextui-c-hhqfap-kAwfsS-disableShadow-false {
   background: var(--nextui--navbarBlurBackgroundColor);
@@ -165,8 +163,17 @@ div.rainbow-link:hover:after {
   font-size: 25px !important;
 }
 
-.rainbow-link-inline.large {
-  font-size: 48px !important;
+.menu {
+  font-size: 25px !important;
+  border: 3px solid #212529;
+  padding: 12px 24px;
+  border-radius: 14px;
+  display: block;
+  width: 140px;
+}
+
+.menu:hover .rainbow-link-inline {
+  animation: slidebg 2s linear infinite;
 }
 
 /** Slider css **/
@@ -184,6 +191,24 @@ div.rainbow-link:hover:after {
   width: 550px;
 }
 
+.noActiveLink {
+  color: #212529;
+}
+.activeLink {
+  color: #ff0286;
+}
+
+.nextui-dropdown-item {
+  padding: 0px;
+}
+
 .mappa {
   min-height: 350px;
+}
+
+/** box-contatti */
+
+.box-contatti {
+  padding: 32px;
+  border-radius: 14px;
 }
