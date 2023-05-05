@@ -13,6 +13,7 @@ export const IO_SONO_VIVA = {
       title: "Contatti",
       name: "Io sono VIVA Dolci e Gelati c/o Mercato Comunale Isola",
       address: "Piazzale Lagosta, 7, 20159 Milano MI",
+      seeMap: "Vedi mappa",
       tel: 'tel: <a href="tel:+393495845125">+39 349 5845125</a>',
       address2:
         "**Io sono VIVA Dolci e Gelati** <br> Via Kramer 35, 20129 Milano",
@@ -32,9 +33,10 @@ export const IO_SONO_VIVA = {
     body2:
       "Proponiamo una pausa golosa in tutti i momenti della giornata, dalla colazione al pranzo e alla merenda, al dopo cena con **torte, monoporzioni, mignon, gelati**. E’ possibile ordinare dolci anche online su <a href='https://cosaporto.it/' targe='_blank'>cosaporto.it</a>. Il progetto parla il linguaggio dell’**inclusività, integrazione sociale e integrazione delle donne** nel mondo del lavoro. <br> In questo momento abbiamo un punto vendita a **Milano** in via Kramer 35 e all’interno di Eataly Milano Smeraldo al piano terra.",
     contatti: {
-      title: "Contatti",
+      title: "Contacts",
       name: "Io sono VIVA Dolci e Gelati c/o Mercato Comunale Isola",
       address: "Piazzale Lagosta, 7, 20159 Milano MI",
+      seeMap: "Look at the map",
       tel: 'phone: <a href="tel:+393495845125">+39 349 5845125</a>',
       address2:
         "**Io sono VIVA Dolci e Gelati** <br> Via Kramer 35, 20129 Milano",

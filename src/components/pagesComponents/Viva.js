@@ -20,13 +20,6 @@ export default function Viva() {
   );
   const Content = selectedLanguage === "en" ? VIVA.en : VIVA.it;
 
-  const [visible, setVisible] = useState(false);
-  const handler = () => setVisible(true);
-
-  const closeHandler = () => {
-    setVisible(false);
-  };
-
   return (
     <div>
       <Hero
@@ -57,14 +50,14 @@ export default function Viva() {
           </TextViva>
           <div className="mt-8 lg:mt-16 flex gap-12">
             <a
-              className="rainbow-link-inline"
+              className="menu-buttons-inline"
               href={Content.menu}
               target="_blank"
             >
               <span>{Content.menuTitle}</span>
             </a>
             <a
-              className="rainbow-link-inline"
+              className="menu-buttons-inline"
               href={Content.menuDolci}
               target="_blank"
             >
@@ -75,14 +68,6 @@ export default function Viva() {
         <div className="w-[100%] md:w-4/6 mt-16 mx-auto">
           <Slider images={SLIDER} />
         </div>
-        {/* <TextImage
-          title={Content.bodyhead2}
-          body={Content.body2}
-          src="/viva/terrotorio.jpg"
-          alt="territorio"
-          left
-          className="mb-32 mt-32"
-        /> */}
         <div
           className="flex flex-col mx-auto mb-32 mt-32 px-8 lg:px-0"
           style={{ maxWidth: "1000px" }}
@@ -100,12 +85,12 @@ export default function Viva() {
           sliderImages={SLIDER_LOCALE}
           right
           half
-          className="mb-32"
+          className="mb-8 md:mb-32"
           calltoaction={
             <div className="mt-8">
               <a
                 className="rainbow-link-inline"
-                href={Content.menu}
+                href={Content.calltoactionLink}
                 target="_blank"
               >
                 <span>{Content.calltoaction}</span>
@@ -172,54 +157,21 @@ export default function Viva() {
           title={Content.contatti.title}
           name={Content.contatti.name}
           address={Content.contatti.address}
-          linkMap="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5594.931402896579!2d9.188105!3d45.48056600000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c134c8aeb8ef%3A0x2abf1c40e9ed1235!2sPiazza%20Venticinque%20Aprile%2C%2010%2C%2020124%20Milano%20MI!5e0!3m2!1sit!2sit!4v1680514749560!5m2!1sit!2sit"
+          linkMap="https://goo.gl/maps/tRNN7PdhEchcAJKUA"
           fb="https://www.facebook.com/vivavivianavarese"
           insta="https://www.instagram.com/vivavivianavarese/?hl=it"
           color="#FF0286"
+          seeMap={Content.contatti.seeMap}
+          prenotaButton={Content.prenota}
+          prenotaTitle={Content.prenotaTitle}
+          prenotaSubtitle={Content.prenotaSubtitle}
+          prenotaLink={Content.prenotaLink}
         >
           <TextViva className="text-lg">{Content.contatti.tel}</TextViva>
           <TextViva className="text-lg">{Content.contatti.mail}</TextViva>
           <TextViva className="text-lg pb-8">{Content.contatti.orari}</TextViva>
-
-          <div className="pb-8">
-            <a className="rainbow-link" onClick={handler}>
-              <span>{Content.prenota}</span>
-            </a>
-          </div>
         </Contacts>
       </div>
-      <Modal
-        closeButton
-        aria-labelledby="modal-title"
-        open={visible}
-        onClose={closeHandler}
-        width="500px"
-      >
-        <Modal.Header>
-          <div className="flex flex-col">
-            <TextViva
-              className="text-3xl playfair font-medium mb-4"
-              id="modal-title"
-            >
-              {Content.prenotaTitle}
-            </TextViva>
-            <TextViva className="text-lg">{Content.prenotaSubtitle}</TextViva>
-          </div>
-        </Modal.Header>
-        <Modal.Body>
-          <div align="center">
-            <iframe
-              src={Content.prenotaLink}
-              style={{
-                width: "100%",
-                minHeight: "500px",
-                border: "none",
-                scrolling: "yes",
-              }}
-            ></iframe>
-          </div>
-        </Modal.Body>
-      </Modal>
     </div>
   );
 }

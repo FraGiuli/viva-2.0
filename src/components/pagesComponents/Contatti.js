@@ -62,6 +62,13 @@ export default function WorkWith() {
                 tel2={el.tel2}
                 address1={el.address1}
                 tel1={el.tel1}
+                seeMap={el.seeMap}
+                linkMap={el.linkMap}
+                seeMap1={el.seeMap1}
+                linkMap1={el.linkMap1}
+                seeMap2={el.seeMap2}
+                linkMap2={el.linkMap2}
+                href={el.href}
                 className="p-8 md:w-[46%] md:min-h-[650px]"
               />
             ))}

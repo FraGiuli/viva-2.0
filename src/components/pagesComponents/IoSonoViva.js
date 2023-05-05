@@ -64,11 +64,12 @@ export default function IoSonoViva() {
           title={Content.contatti.title}
           name={Content.contatti.name}
           address={Content.contatti.address}
-          linkMap="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5594.0491372150655!2d9.191055!3d45.489450000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c12cdaf33bbd%3A0x3a9395f1bcbdd1a0!2sPiazzale%20Lagosta%2C%207%2C%2020159%20Milano%20MI!5e0!3m2!1sit!2sit!4v1680621530798!5m2!1sit!2sit"
+          linkMap="https://goo.gl/maps/TuwSTqLpih7PGjY46"
           fb=""
           insta=""
           childrensLogo={logos}
           color="#FF0286"
+          seeMap={Content.contatti.seeMap}
         >
           <TextViva className="pb-8 text-lg">{Content.contatti.tel}</TextViva>
 

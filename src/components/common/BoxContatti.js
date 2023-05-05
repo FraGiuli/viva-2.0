@@ -1,5 +1,6 @@
 import TextViva from "./TextViva";
-import { Modal, Image, Card } from "@nextui-org/react";
+import Link from "next/link";
+import { Image, Card } from "@nextui-org/react";
 
 export default function BoxContatti({
   className,
@@ -15,6 +16,13 @@ export default function BoxContatti({
   address1,
   tel1,
   location,
+  seeMap,
+  linkMap,
+  seeMap1,
+  linkMap1,
+  seeMap2,
+  linkMap2,
+  href,
 }) {
   return (
     <Card
@@ -22,7 +30,9 @@ export default function BoxContatti({
       style={{ border: `8px solid ${borderColor}`, borderRadius: "30px" }}
     >
       <Card.Body css={{ flexGrow: 0 }}>
-        <Image src={src} alt={alt} width="100%" />
+        <Link href={href}>
+          <Image src={src} alt={alt} width="100%" />
+        </Link>
       </Card.Body>
       <Card.Footer css={{ justifyItems: "flex-start", height: "100%" }}>
         <div
@@ -35,31 +45,66 @@ export default function BoxContatti({
           </TextViva>
 
           {address && (
-            <TextViva className="text-lg leading-relaxed pb-4">
-              {address}
-            </TextViva>
+            <TextViva className="text-lg leading-relaxed">{address}</TextViva>
+          )}
+          {seeMap && (
+            <a
+              className="text-lg mb-[12px] block"
+              target="_blank"
+              href={linkMap}
+            >
+              {seeMap}
+            </a>
           )}
 
           {tel && (
             <TextViva className="text-lg leading-relaxed ">{tel}</TextViva>
           )}
 
-          {address1 && (
-            <TextViva className="text-lg leading-relaxed">{address1}</TextViva>
-          )}
-          {tel1 && (
-            <TextViva className="text-lg leading-relaxed ">{tel1}</TextViva>
-          )}
-          {address2 && (
-            <TextViva className="text-lg leading-relaxed pt-4">
-              {address2}
-            </TextViva>
-          )}
+          <div className="flex gap-[12px] mb-[24px]">
+            <div
+              className="flex flex-col pr-[12px]"
+              style={{ borderRight: "1px solid grey" }}
+            >
+              {address1 && (
+                <TextViva className="text-lg leading-relaxed">
+                  {address1}
+                </TextViva>
+              )}
+              {seeMap1 && (
+                <a
+                  className="text-lg mb-[12px] block"
+                  target="_blank"
+                  href={linkMap1}
+                >
+                  {seeMap1}
+                </a>
+              )}
+              {tel1 && (
+                <TextViva className="text-lg leading-relaxed ">{tel1}</TextViva>
+              )}
+            </div>
+            <div className="flex flex-col">
+              {address2 && (
+                <TextViva className="text-lg leading-relaxed">
+                  {address2}
+                </TextViva>
+              )}
+              {seeMap2 && (
+                <a
+                  className="text-lg mb-[12px] block"
+                  target="_blank"
+                  href={linkMap2}
+                >
+                  {seeMap2}
+                </a>
+              )}
 
-          {tel2 && (
-            <TextViva className="text-lg leading-relaxed ">{tel2}</TextViva>
-          )}
-
+              {tel2 && (
+                <TextViva className="text-lg leading-relaxed ">{tel2}</TextViva>
+              )}
+            </div>
+          </div>
           {mail && (
             <TextViva className="text-lg leading-relaxed">{mail}</TextViva>
           )}

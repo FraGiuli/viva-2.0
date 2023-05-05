@@ -15,6 +15,7 @@ export const BISTROT_CONTENT = {
       title: "Contatti",
       name: "VIVA IL BISTROT",
       address: "via Rocco Pirri 19, Noto (SR)",
+      seeMap: "Vedi mappa",
       tel: 'tel:<a href="tel:+393347933384">+39 334 7933384</a>',
       mail: 'Info e prenotazioni: <a href="mailto:vivabistrot@vivavivianavarese.it">vivabistrot@vivavivianavarese.it</a>',
       orari:
@@ -23,18 +24,24 @@ export const BISTROT_CONTENT = {
     prenota: "PRENOTA",
     prenotaTitle: "Prenota VIVA IL BISTROT ",
     prenotaSubtitle: "",
-    prenotaLink: "https://module.lafourchette.com/it_IT/module/726003-ad88e",
+    prenotaLink: "https://module.lafourchette.com/it_IT/module/755266-49c33",
+    menu: {
+      pdf: "/vivailbistrot/menu/05.05 MENU BISTROT ITA.pdf",
+      label: "Il nostro menu",
+    },
     menus: [
       {
-        pdf: "/vivailbistrot/menu/04.24 MENU BISTROT ITA.pdf",
-        label: "MENU",
+        pdf: "/vivailbistrot/menu/04.17 Carta VINI.pdf",
+        label: "I nostri vini",
       },
-      { pdf: "/vivailbistrot/menu/04.17 Carta VINI.pdf", label: "VINI" },
       {
         pdf: "/vivailbistrot/menu/04.18 MENU DOLCI E APE.pdf",
-        label: "DOLCI",
+        label: "I nostri dolci",
       },
-      { pdf: "/vivailbistrot/menu/04.18 MENU DRINK.pdf", label: "DRINK" },
+      {
+        pdf: "/vivailbistrot/menu/04.18 MENU DRINK.pdf",
+        label: "I nostri drink",
+      },
     ],
   },
   en: {
@@ -53,6 +60,7 @@ export const BISTROT_CONTENT = {
       title: "Contatti",
       name: "VIVA IL BISTROT",
       address: "via Rocco Pirri 19, Noto (SR)",
+      seeMap: "Look at the map",
       tel: 'tel:<a href="tel:+393347933384">+39 334 7933384</a>',
       mail: 'Info e prenotazioni: <a href="mailto:vivabistrot@vivavivianavarese.it">vivabistrot@vivavivianavarese.it</a>',
       orari:
@@ -61,18 +69,18 @@ export const BISTROT_CONTENT = {
     prenota: "PRENOTA",
     prenotaTitle: "Prenota VIVA IL BISTROT ",
     prenotaSubtitle: "",
-    prenotaLink: "https://module.lafourchette.com/it_IT/module/726003-ad88e",
+    prenotaLink: "https://module.lafourchette.com/it_IT/module/755266-49c33",
+    menu: {
+      pdf: "/vivailbistrot/menu/05.05 MENU BISTROT ENG.pdf",
+      label: "Our menu",
+    },
     menus: [
-      {
-        pdf: "/vivailbistrot/menu/04.24 MENU BISTROT ITA.pdf",
-        label: "MENU",
-      },
-      { pdf: "/vivailbistrot/menu/04.17 Carta VINI.pdf", label: "VINI" },
+      { pdf: "/vivailbistrot/menu/04.17 Carta VINI.pdf", label: "Our Wine" },
       {
         pdf: "/vivailbistrot/menu/04.18 MENU DOLCI E APE.pdf",
-        label: "DOLCI",
+        label: "Our desserts",
       },
-      { pdf: "/vivailbistrot/menu/04.18 MENU DRINK.pdf", label: "DRINK" },
+      { pdf: "/vivailbistrot/menu/04.18 MENU DRINK.pdf", label: "Our drinks" },
     ],
   },
 };

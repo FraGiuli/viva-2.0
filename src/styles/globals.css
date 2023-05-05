@@ -212,3 +212,26 @@ div.rainbow-link:hover:after {
   padding: 32px;
   border-radius: 14px;
 }
+
+/** Bottoni per i menu */
+
+.menu-buttons-inline {
+  font-size: 22px !important;
+  border: 2px solid #ff0286;
+  padding: 12px 24px;
+  border-radius: 14px;
+  display: block;
+  text-align: center;
+  width: 200px;
+}
+
+.menu-buttons-inline:hover {
+  font-size: 22px !important;
+  border: 2px solid #212529;
+  padding: 12px 24px;
+  border-radius: 14px;
+  display: block;
+  text-align: center;
+  width: 200px;
+  color: #212529;
+}

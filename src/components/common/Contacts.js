@@ -1,4 +1,5 @@
-import { Image } from "@nextui-org/react";
+import { useState, useEffect } from "react";
+import { Modal, Image } from "@nextui-org/react";
 import TextViva from "./TextViva";
 
 export default function Contacts({
@@ -12,23 +13,24 @@ export default function Contacts({
   className,
   childrensLogo,
   color,
+  seeMap,
+  prenotaButton,
+  prenotaTitle,
+  prenotaSubtitle,
+  prenotaLink,
   ...otherProps
 }) {
+  const [visible, setVisible] = useState(false);
+  const handler = () => setVisible(true);
+
+  const closeHandler = () => {
+    setVisible(false);
+  };
   return (
     <div
-      className={`${className} flex flex-col-reverse justify-center md:flex-row gap-8 md:gap-12 px-8 lg:px-0`}
+      className={`${className} flex justify-center px-8 lg:px-0`}
       {...otherProps}
     >
-      {/* <div className="md:w-1/2">
-        <iframe
-          src={linkMap}
-          width="100%"
-          height="100%"
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          className="mappa"
-        ></iframe>
-      </div> */}
       <div
         className="w-full md:w-[600px] box-contatti"
         style={{
@@ -40,30 +42,74 @@ export default function Contacts({
           {title}
         </TextViva>
         <TextViva className="text-lg font-bold">{name}</TextViva>
-        <TextViva className="text-lg mb-6">{address}</TextViva>
+        <TextViva className="text-lg">{address}</TextViva>
+        <a className="text-lg mb-[12px] block" target="_blank" href={linkMap}>
+          {seeMap}
+        </a>
         {children}
-        <div className="flex gap-2">
-          {fb && (
-            <a href={fb} target="_blank">
-              <Image
-                src="/iconafb.png"
-                alt="facebook"
-                style={{ maxWidth: "40px" }}
-              />
-            </a>
+        <div className="flex flex-row justify-between items-center">
+          {prenotaButton && (
+            <div>
+              <a className="rainbow-link" onClick={handler}>
+                <span>{prenotaButton}</span>
+              </a>
+            </div>
           )}
-          {insta && (
-            <a href={insta} target="_blank">
-              <Image
-                src="/iconainsta.png"
-                alt="instagram"
-                style={{ maxWidth: "40px" }}
-              />
-            </a>
-          )}
+          <div className="flex gap-2">
+            {fb && (
+              <a href={fb} target="_blank">
+                <Image
+                  src="/iconafb.png"
+                  alt="facebook"
+                  style={{ maxWidth: "40px" }}
+                />
+              </a>
+            )}
+            {insta && (
+              <a href={insta} target="_blank">
+                <Image
+                  src="/iconainsta.png"
+                  alt="instagram"
+                  style={{ maxWidth: "40px" }}
+                />
+              </a>
+            )}
+          </div>
         </div>
         {childrensLogo}
       </div>
+      <Modal
+        closeButton
+        aria-labelledby="modal-title"
+        open={visible}
+        onClose={closeHandler}
+        width="500px"
+      >
+        <Modal.Header>
+          <div className="flex flex-col">
+            <TextViva
+              className="text-3xl playfair font-medium mb-4"
+              id="modal-title"
+            >
+              {prenotaTitle}
+            </TextViva>
+            <TextViva className="text-lg">{prenotaSubtitle}</TextViva>
+          </div>
+        </Modal.Header>
+        <Modal.Body>
+          <div align="center">
+            <iframe
+              src={prenotaLink}
+              style={{
+                width: "100%",
+                minHeight: "500px",
+                border: "none",
+                scrolling: "yes",
+              }}
+            ></iframe>
+          </div>
+        </Modal.Body>
+      </Modal>
     </div>
   );
 }

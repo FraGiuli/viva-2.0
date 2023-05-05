@@ -12,17 +12,19 @@ export const VIVA = {
     bodyhead3: "LO SPAZIO",
     body3:
       "**VIVA Viviana Varese è materia viva, colore, vita**. Al secondo piano di Eataly Smeraldo, la sala è illuminata da una grande vetrata che affaccia su Piazza 25 aprile. L’ambiente – che può ospitare fino a 90 persone – è stato studiato personalmente da Viviana Varese. <br>I tavoli sono di Riva 1920 e sono fatti con legno massello di briccole, i pali che nella laguna di Venezia segnalano le vie d’acqua. <br> La **partecipazione e la convivialità**, da sempre elementi imprescindibili e distintivi di Viviana Varese, trovano posto al Social table disegnato da **Renzo e Matteo Piano** in antichissimo legno Kauri, simbolo di nuova vita e ritorno alla luce. <br><br> La cucina è un pezzo unico disegnato da Molteni ed è a vista, per poter godere le dinamiche della brigata e seguirne con gli occhi quella che sembra una danza concitata ed insieme precisa. **Giò Ponti** per le posate, che si affiancano a **oggetti e ceramiche disegnate dalla Chef** e realizzate per **VIVA Viviana Varese**.",
-    calltoaction: "> Regala l'espeienza Viva <",
+    calltoaction: "> Regala l'esperienza Viva <",
+    calltoactionLink: "https://www.shopify.com/",
     menu: "/viva/03_22_menu-a5.cdr.pdf",
-    menuTitle: "> SCOPRI IL NOSTRO MENÙ <",
-    menuDolci: "/viva/03_22_menu-a5.cdr.pdf",
-    menuDolciTitle: "> SCOPRI I NOSTRI DOLCI <",
+    menuTitle: "Il nostro menù",
+    menuDolci: "/viva/03_22_dolci.pdf",
+    menuDolciTitle: "I nostri dolci",
     riconoscimenti: "Riconoscimenti",
     contatti: {
       title: "Contatti",
       name: "VIVA Viviana Varese",
       address:
         "2° piano di Eataly Smeraldo - Piazza 25 Aprile, 10 – 20121 Milano",
+      seeMap: "Vedi mappa",
       tel: 'tel: <a href="tel:+390249497340">+39 02 4949 7340</a>',
       mail: 'Info e prenotazioni: <a href="mailto:info@vivavivianavarese.it">info@vivavivianavarese.it</a>',
       orari:
@@ -53,16 +55,18 @@ export const VIVA = {
     body3:
       "**VIVA Viviana Varese is living matter, colours, life**. On the second floor of Eataly Smeraldo, the room is illuminated by the light streaming in from the huge window looking out on Piazza 25 aprile. The space – that can host up to 90 people – has been thought out personally by Viviana Varese <br>The tables are from di Riva 1920 and the solid wood comes from Venice’s briccole, poles that mark the gondola stops along its canals.<br> **Togetherness and conviviality**, Viviana Varese’s constant and essential trademarks, find their place on the Social table designed by **Renzo and Matteo Piano** in antique Kauri wood, a symbol of new life and returning light. <br><br> The kitchen is a unique Molteni design.It is open to view so that guests may appreciate the dynamics of the brigade and follow what at times looks like a frenetic and yet precise dance. **Giò Ponti** designed the cutlery, that sits alongside **ceramics designed by the Chef** and were specially created for **VIVA Viviana Varese**.",
     calltoaction: "> VIVA experience gift card <",
-    menu: "b03_22_menu eng A5.pdf",
-    menuTitle: "> DISCOVER OUR MENU <",
-    menuDolci: "03_22_menu-a5.cdr.pdf",
-    menuDolciTitle: "> DISCOVER OUR DESSERT <",
+    calltoactionLink: "https://www.shopify.com/",
+    menu: "/viva/b03_22_menu eng A5.pdf",
+    menuTitle: "Our Menu",
+    menuDolci: "/viva/03_22_dolci.pdf",
+    menuDolciTitle: "Our Desserts",
     riconoscimenti: "Awards",
     contatti: {
       title: "Contacts",
       name: "VIVA Viviana Varese",
       address:
         "2° piano di Eataly Smeraldo - Piazza 25 Aprile, 10 – 20121 Milano",
+      seeMap: "Look at the map",
       tel: 'phone: <a href="tel:+390249497340">+39 02 4949 7340</a>',
       mail: 'Info and booking: <a href="mailto:info@vivavivianavarese.it">info@vivavivianavarese.it</a>',
       orari:
