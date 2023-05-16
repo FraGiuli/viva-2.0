@@ -18,7 +18,7 @@ export default function WorkWith() {
       />
       <div className="mx-auto mt-8 md:mt-32 " style={{ maxWidth: "1528px" }}>
         <div
-          className="flex flex-col items-center justify-center mx-auto"
+          className="flex flex-col items-center justify-center mx-auto px-[16px] lg:px-0"
           style={{ maxWidth: "1200px" }}
         >
           <h1 className="text-5xl md:text-6xl playfair pt-8 mb-16">

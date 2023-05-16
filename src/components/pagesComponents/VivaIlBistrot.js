@@ -26,7 +26,7 @@ export default function VivaIlBistrot() {
         />
         <div className="mx-auto mt-0 lg:mt-32" style={{ maxWidth: "1528px" }}>
           <div
-            className="flex flex-col items-center justify-center px-8 mb-16 mx-auto mt-16 md:mt-32"
+            className="flex flex-col items-center justify-center px-[16px] mb-16 mx-auto mt-16 md:mt-32"
             style={{ maxWidth: "1000px" }}
           >
             <TextViva className="text-3xl playfair leading-relaxed text-center mb-4 font-medium">
@@ -36,9 +36,14 @@ export default function VivaIlBistrot() {
             <TextViva className="text-lg leading-relaxed text-center mb-8">
               {Content.body}
             </TextViva>
-            <div className="w-full mb-8">
-              <Slider images={SLIDER} />
-            </div>
+          </div>
+          <div className="w-full mb-8">
+            <Slider images={SLIDER} />
+          </div>
+          <div
+            className="flex flex-col items-center justify-center px-[16px] mb-16 mx-auto mt-16 md:mt-32"
+            style={{ maxWidth: "1000px" }}
+          >
             <TextViva className="text-lg leading-relaxed text-center mb-8">
               {Content.body2}
             </TextViva>
@@ -56,7 +61,7 @@ export default function VivaIlBistrot() {
             </TextViva>
 
             <div
-              className="flex flex-wrap gap-16 justify-center mb-8 lg:mb-16"
+              className="flex flex-wrap gap-8 md:gap-16 justify-center mb-8 lg:mb-16"
               style={{ width: "100%" }}
             >
               {Content.menus.length > 0 &&

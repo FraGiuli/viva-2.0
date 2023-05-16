@@ -25,7 +25,7 @@ export default function VivianaVarese() {
       />
 
       <div className="mx-auto mt-8 md:mt-32" style={{ maxWidth: "1528px" }}>
-        <div className="px-8">
+        <div className="px-[16px]">
           <TextViva className="text-4xl playfair leading-relaxed text-center mb-4 font-medium">
             {Content.payoff.title1}
           </TextViva>
@@ -55,7 +55,7 @@ export default function VivianaVarese() {
           </div>
         </div>
         <div
-          className="flex flex-col px-8 mb-16 mx-auto mt-16 md:mt-32"
+          className="flex flex-col px-[16px] mb-16 mx-auto mt-16 md:mt-32"
           style={{ maxWidth: "1000px" }}
         >
           <TextViva className="text-lg leading-relaxed text-left mb-8">

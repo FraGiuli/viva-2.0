@@ -20,6 +20,7 @@ export default function Hero({
           borderNone ? "none" : `10px solid ${borderBottomColor}`
         }`,
         width: "100%",
+        minHeight: "500px",
         backgroundImage: `url(${src})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",

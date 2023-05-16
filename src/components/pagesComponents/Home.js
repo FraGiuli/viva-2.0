@@ -25,7 +25,7 @@ export default function Home() {
         style={{ width: "100%", height: "10px" }}
       ></div>
       <div
-        className="flex flex-col  mx-auto mt-16 lg:mt-32 px-8 lg:px-0"
+        className="flex flex-col mx-auto mt-16 lg:mt-32 px-[16px] lg:px-0"
         style={{ maxWidth: "1000px" }}
       >
         <TextViva className="text-5xl playfair leading-relaxed text-center mb-4">
@@ -39,69 +39,66 @@ export default function Home() {
             <span>{Content.locali.calltoaction}</span>
           </a>
         </div>
-        <div
-          className="flex flex-col lg:flex-row flex-wrap mb-8 lg:mb-32  mt-16 lg:mt-32 gap-8 px-8 lg:px-0 mx-auto justify-center items-center"
-          style={{ maxWidth: "1200px" }}
-        >
-          {Content.locali.array.map((el) => (
-            <BoxHome
-              key={el.text}
-              title={el.location}
-              text={el.text}
-              src={el.srcLogo}
-              alt={el.alt}
-              borderColor={el.bcolor}
-              className="p-8 md:w-[46%]"
-              href={el.href}
-            />
-          ))}
-        </div>
       </div>
-      <div className="mx-auto md:mt-8" style={{ maxWidth: "1528px" }}>
-        <div
-          className="flex flex-col items-center justify-center mx-auto"
-          style={{ maxWidth: "1200px" }}
-        >
-          <TextViva className="text-5xl leading-relaxed text-center mb-16">
-            {Content.subtitle}
-          </TextViva>
-          <div className="mb-16 lg:mb-32">
-            <a
-              className="rainbow-link-inline"
-              href={PAGES_IT.VIVIANA_VARESE.slug}
-            >
-              <span>{Content.calltoaction}</span>
-            </a>
-          </div>
-
-          <div
-            className="flex flex-col lg:flex-row flex-wrap mb-8 lg:mb-32 gap-8 px-8 lg:px-0 mx-auto justify-center items-center"
-            style={{ maxWidth: "1200px" }}
+      <div
+        className="flex flex-col lg:flex-row flex-wrap mb-16 lg:mb-32  mt-16 lg:mt-32 gap-8 px-[16px] lg:px-0 justify-center items-center mx-auto"
+        style={{ maxWidth: "1000px" }}
+      >
+        {Content.locali.array.map((el) => (
+          <BoxHome
+            key={el.text}
+            title={el.location}
+            text={el.text}
+            src={el.srcLogo}
+            alt={el.alt}
+            borderColor={el.bcolor}
+            className="p-8 md:w-[46%]"
+            href={el.href}
+          />
+        ))}
+      </div>
+      <div
+        className="flex flex-col items-center justify-center mx-auto  md:mt-8 px-[16px] lg:px-0"
+        style={{ maxWidth: "1200px" }}
+      >
+        <TextViva className="text-3xl md:text-5xl leading-relaxed text-center mb-16">
+          {Content.subtitle}
+        </TextViva>
+        <div className="mb-16 lg:mb-32">
+          <a
+            className="rainbow-link-inline"
+            href={PAGES_IT.VIVIANA_VARESE.slug}
           >
-            <BoxConFoto
-              title={Content.eventi.title}
-              body={Content.eventi.body}
-              src="/home/catering-banqueting.jpg"
-              alt="eventi"
-              className="md:w-[46%] md:min-h-[600px]"
-              calltoaction={Content.eventi.calltoaction}
-              href={Content.eventi.href}
-            />
-
-            <BoxConFoto
-              title={Content.work.title}
-              body={Content.work.body}
-              src="/home/work-with-bn.jpg"
-              alt="workwith"
-              className="md:w-[46%] md:min-h-[600px]"
-              calltoaction={Content.work.calltoaction}
-              href={Content.work.href}
-            />
-          </div>
+            <span>{Content.calltoaction}</span>
+          </a>
         </div>
       </div>
       <div
-        className="flex flex-col  mx-auto mb-16 lg:mb-48 px-8 lg:px-0"
+        className="flex flex-col lg:flex-row flex-wrap mb-8 lg:mb-32 gap-8 px-[16px] lg:px-0 mx-auto justify-center items-center"
+        style={{ maxWidth: "1200px" }}
+      >
+        <BoxConFoto
+          title={Content.eventi.title}
+          body={Content.eventi.body}
+          src="/home/catering-banqueting.jpg"
+          alt="eventi"
+          className="md:w-[46%] md:min-h-[600px]"
+          calltoaction={Content.eventi.calltoaction}
+          href={Content.eventi.href}
+        />
+
+        <BoxConFoto
+          title={Content.work.title}
+          body={Content.work.body}
+          src="/home/work-with-bn.jpg"
+          alt="workwith"
+          className="md:w-[46%] md:min-h-[600px]"
+          calltoaction={Content.work.calltoaction}
+          href={Content.work.href}
+        />
+      </div>
+      <div
+        className="flex flex-col  mx-auto mb-16 lg:mb-48 px-[16px] lg:px-0"
         style={{ maxWidth: "1000px" }}
       >
         <TextViva className="text-5xl playfair leading-relaxed text-center mb-4">

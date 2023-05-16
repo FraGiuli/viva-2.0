@@ -35,7 +35,7 @@ export default function IoSonoViva() {
       />
       <div className="mx-auto md:mt-8" style={{ maxWidth: "1528px" }}>
         <div
-          className="flex flex-col items-center justify-center px-8 mb-16 mx-auto mt-16 md:mt-32"
+          className="flex flex-col items-center justify-center px-[16px] mb-16 mx-auto mt-16 md:mt-32"
           style={{ maxWidth: "1000px" }}
         >
           <TextViva className="text-3xl playfair leading-relaxed text-center mb-4 font-medium">

@@ -27,7 +27,7 @@ export default function VivaVilladorata() {
       />
       <div className="mx-auto md:mt-8" style={{ maxWidth: "1528px" }}>
         <div
-          className="flex flex-col items-center justify-center px-8 mb-16 mx-auto mt-16 md:mt-32"
+          className="flex flex-col items-center justify-center px-[16px] mb-16 mx-auto mt-16 md:mt-32"
           style={{ maxWidth: "1000px" }}
         >
           <h1 className="text-5xl md:text-6xl playfair pt-8 mb-4">
@@ -70,7 +70,7 @@ export default function VivaVilladorata() {
             {Content.body2}
           </TextViva>
           <div
-            className="flex flex-wrap gap-16 justify-center mb-8 lg:mb-16 mt-4 lg:mt-8"
+            className="flex flex-wrap gap-8 md:gap-16 justify-center mb-8 lg:mb-16 mt-4 lg:mt-8"
             style={{ width: "100%" }}
           >
             {Content.menus.length > 0 &&

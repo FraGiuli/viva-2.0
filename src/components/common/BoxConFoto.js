@@ -23,7 +23,7 @@ export default function BoxConFoto({
         />
       </Card.Body>
       <Card.Footer css={{ justifyItems: "flex-start", height: "100%" }}>
-        <div className="flex flex-col p-8" style={{ height: "100%" }}>
+        <div className="flex flex-col p-4 md:p-8" style={{ height: "100%" }}>
           {title && (
             <TextViva className="text-3xl playfair leading-relaxed text-left mb-4 font-medium">
               {title}

@@ -61,11 +61,8 @@ export default function BoxContatti({
             <TextViva className="text-lg leading-relaxed ">{tel}</TextViva>
           )}
 
-          <div className="flex gap-[12px] mb-[24px]">
-            <div
-              className="flex flex-col pr-[12px]"
-              style={{ borderRight: "1px solid grey" }}
-            >
+          <div className="flex flex-col md:flex-row gap-[12px] mb-[24px]">
+            <div className="flex flex-col pr-[12px] bordo-laterale">
               {address1 && (
                 <TextViva className="text-lg leading-relaxed">
                   {address1}

@@ -198,9 +198,9 @@ div.rainbow-link:hover:after {
   color: #ff0286;
 }
 
-.nextui-dropdown-item {
+/* .nextui-dropdown-item {
   padding: 0px;
-}
+} */
 
 .mappa {
   min-height: 350px;
@@ -209,7 +209,6 @@ div.rainbow-link:hover:after {
 /** box-contatti */
 
 .box-contatti {
-  padding: 32px;
   border-radius: 14px;
 }
 
@@ -234,4 +233,10 @@ div.rainbow-link:hover:after {
   text-align: center;
   width: 200px;
   color: #212529;
+}
+
+@media (min-width: 960px) {
+  .bordo-laterale {
+    border-right: 1px solid grey;
+  }
 }

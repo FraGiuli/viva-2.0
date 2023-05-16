@@ -30,7 +30,7 @@ export default function Viva() {
 
       <div className="mx-auto md:mt-8" style={{ maxWidth: "1528px" }}>
         <div
-          className="flex flex-col items-center justify-center px-8 mb-16 mx-auto mt-16 md:mt-32"
+          className="flex flex-col items-center justify-center px-[16px] lg:px-0 mb-16 mx-auto mt-16 md:mt-32"
           style={{ maxWidth: "1000px" }}
         >
           <h1 className="text-5xl md:text-6xl playfair pt-8 mb-4">
@@ -48,7 +48,7 @@ export default function Viva() {
           <TextViva className="text-lg leading-relaxed text-center">
             {Content.body1}
           </TextViva>
-          <div className="mt-8 lg:mt-16 flex gap-12">
+          <div className="flex flex-col md:flex-row mt-8 lg:mt-16 flex gap-12">
             <a
               className="menu-buttons-inline"
               href={Content.menu}
@@ -69,7 +69,7 @@ export default function Viva() {
           <Slider images={SLIDER} />
         </div>
         <div
-          className="flex flex-col mx-auto mb-32 mt-32 px-8 lg:px-0"
+          className="flex flex-col mx-auto mb-32 mt-32 px-[16px] lg:px-0"
           style={{ maxWidth: "1000px" }}
         >
           <TextViva className="text-3xl playfair leading-relaxed text-center mb-4 font-medium">
@@ -127,7 +127,7 @@ export default function Viva() {
 
         {Content.shop && (
           <div
-            className="flex flex-col  mx-auto mb-16 lg:mb-48 px-8 lg:px-0"
+            className="flex flex-col  mx-auto mb-16 lg:mb-48 px-[16px] lg:px-0"
             style={{ maxWidth: "1000px" }}
           >
             <TextViva className="text-5xl playfair leading-relaxed text-center mb-4">

@@ -39,7 +39,7 @@ export default function TextImage({
         <div
           className={`${
             half ? "lg:w-1/2" : "lg:w-4/6"
-          } flex items-center justify-center  px-8 2xl:px-0`}
+          } flex items-center justify-center  px-[16px] 2xl:px-0`}
         >
           <div>
             {title && (
@@ -67,7 +67,7 @@ export default function TextImage({
         <div
           className={`${
             half ? "lg:w-1/2" : "lg:w-4/6"
-          } flex items-center justify-center  px-8 2xl:px-0`}
+          } flex items-center justify-center px-[16px] 2xl:px-0`}
         >
           <div>
             {title && (

@@ -28,11 +28,11 @@ export default function Contacts({
   };
   return (
     <div
-      className={`${className} flex justify-center px-8 lg:px-0`}
+      className={`${className} flex justify-center px-[16px] lg:px-0`}
       {...otherProps}
     >
       <div
-        className="w-full md:w-[600px] box-contatti"
+        className="w-full md:w-[600px] box-contatti p-[24px] md:p-[32px]"
         style={{
           border: `8px solid ${color}`,
           borderRadius: "30px",

@@ -19,7 +19,7 @@ export default function WorkWith() {
       />
       <div className="mx-auto mt-8 md:mt-32 " style={{ maxWidth: "1528px" }}>
         <div
-          className="flex flex-col items-center justify-center mx-auto px-8 lg:px-0"
+          className="flex flex-col items-center justify-center mx-auto px-[16px] lg:px-0"
           style={{ maxWidth: "1200px" }}
         >
           <h1 className="text-5xl md:text-6xl playfair pt-8 mb-16">
@@ -69,7 +69,7 @@ export default function WorkWith() {
                 seeMap2={el.seeMap2}
                 linkMap2={el.linkMap2}
                 href={el.href}
-                className="p-8 md:w-[46%] md:min-h-[650px]"
+                className="p-[8px] md:p-[16px] lg:w-[46%] md:min-h-[620px]"
               />
             ))}
           </div>
