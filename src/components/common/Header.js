@@ -116,18 +116,18 @@ export default function Header({ page }) {
           <a href="tel:+390249497340" className="icon-link">
             <AiFillPhone />
           </a>
-          {!showLang && selectedLanguage === "it" && (
-            <button
-              onClick={() => handleLanguageChange("en")}
-              disabled={selectedLanguage === "en"}
-            >
-              <Image src="/en.png" alt="en" width="30px" height="15px" />
-            </button>
-          )}
           {!showLang && selectedLanguage === "en" && (
             <button
               onClick={() => handleLanguageChange("it")}
               disabled={selectedLanguage === "it"}
+            >
+              <Image src="/en.png" alt="en" width="30px" height="15px" />
+            </button>
+          )}
+          {!showLang && selectedLanguage === "it" && (
+            <button
+              onClick={() => handleLanguageChange("en")}
+              disabled={selectedLanguage === "en"}
             >
               <Image src="/it.png" alt="en" width="30px" height="15px" />
             </button>

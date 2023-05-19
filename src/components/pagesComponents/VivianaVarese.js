@@ -51,7 +51,7 @@ export default function VivianaVarese() {
         <div className="w-[100%] lg:w-5/6 mx-auto  mt-16 mb-16">
           <Slider images={SLIDER} />
         </div>
-        <div className="w-[100%] lg:w-3/6 mx-auto  mt-32 mb-16">
+        <div className="w-[100%] lg:w-3/6 mx-auto  mt-32 mb-16 px-[16px]">
           <Zoom scale={1.4} arrows={false} indicators={true}>
             <div>
               <TextViva className="text-4xl playfair leading-relaxed text-center mb-4 font-medium">
