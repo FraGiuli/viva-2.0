@@ -6,11 +6,11 @@ export const HOME_CONTENT = {
     subtitle:
       "LA FIAMMA BRUCIA.<br>È STUPORE E COLORE.<br> È IDEA E SENTIMENTO.<br>GIOIA DI CREARE E FAME DI FARE <br> **AL SEMBRARE PREFERISCO L’ESSERE.**",
     body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu condimentum ante, et fermentum nisl. **Aliquam venenatis ante non lorem** efficitur viverra et at metus.<br> Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. **Proin vulputate orci ac pretium laoreet**.  <br>Duis dolor eros, dignissim id velit maximus, blandit porta tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;  <br>Nunc ipsum lectus, faucibus id consectetur eu, tempus nec ex. Morbi est elit, ornare sed sodales sit amet, aliquet id dui.",
-    calltoaction: "> Scopri di più su Viviava Varese <",
+    calltoaction: "> Conosci Viviava Varese <",
     locali: {
       title: "I locali di Viviana Varese",
       subtitle:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu condimentum ante, et fermentum nisl.<br> **Aliquam venenatis ante non lorem** efficitur viverra et at metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+        "La chef Viviana e il suo infaticabile staff vi aspettano nelle location di <br> Milano e Noto.<br> Per una cena indimenticabile, un pranzo in famiglia o un gelato tra amici <br> **VIVA è l'ingrediente segreto**",
       array: [
         {
           text: "1 stella michelin",
@@ -49,20 +49,20 @@ export const HOME_CONTENT = {
     },
     eventi: {
       title: "VIVA gli Eventi",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu condimentum ante, et fermentum nisl.<br> **Aliquam venenatis ante non lorem** efficitur viverra et at metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      body: "Cosa c'è di meglio del buon **cibo**? Gustarlo in buona **compagnia**. Per questo VIVA dedica all'organizzazione dei vostri **eventi** la stessa cura e la stessa passione con cui prepara ogni suo piatto.",
       calltoaction: "> Scopri di più <",
       href: PAGES_IT.EVENTI.slug,
     },
     work: {
       title: "Lavora con Noi",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu condimentum ante, et fermentum nisl.<br> **Aliquam venenatis ante non lorem** efficitur viverra et at metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+      body: "VIVA è più di un'azienda, è una **famiglia** in continua espansione.<br> Se hai talento, grinta e determnazione e sei in cerca di un' **opportunità** <br>invia un curriculum o vieni a conoscerci.",
       calltoaction: "> Scopri di più <",
       href: PAGES_IT.WORK_WITH.slug,
     },
     shop: {
       title: "Viva lo Shopping",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu condimentum ante, et fermentum nisl.<br> **Aliquam venenatis ante non lorem** efficitur viverra et at metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-      calltoaction: "> Vieni a scoprire i nostri prodotti <",
+      body: "Da oggi puoi contare su di noi per ogni occasione. Visita il notro <br> **e-commerce**, compila l'ordine e ricevi i **prodotti** migliori, direttamete a **casa**.",
+      calltoaction: "> Esplora lo shop <",
       href: "https://www.shopify.com/",
     },
   },
@@ -71,12 +71,11 @@ export const HOME_CONTENT = {
     subtitle:
       "LA FIAMMA BRUCIA.<br>È STUPORE E COLORE.<br> È IDEA E SENTIMENTO.<br>GIOIA DI CREARE E FAME DI FARE <br> **AL SEMBRARE PREFERISCO L’ESSERE.**",
     body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu condimentum ante, et fermentum nisl. **Aliquam venenatis ante non lorem** efficitur viverra et at metus.<br> Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. **Proin vulputate orci ac pretium laoreet**.  <br>Duis dolor eros, dignissim id velit maximus, blandit porta tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;  <br>Nunc ipsum lectus, faucibus id consectetur eu, tempus nec ex. Morbi est elit, ornare sed sodales sit amet, aliquet id dui.",
-    calltoaction: "> SCOPRI VIVIANA VARESE <",
+    calltoaction: "> Discover VIVIANA VARESE <",
     locali: {
-      title: "I locali di Viviana Varese",
+      title: "Viviana Varese's venues",
       subtitle:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu condimentum ante, et fermentum nisl.<br> **Aliquam venenatis ante non lorem** efficitur viverra et at metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-      array: [
+      "Chef Viviana and her tireless staff are waiting for you at the locations in <br> Milan and Noto.<br> For an unforgettable dinner, a family lunch, or an ice cream with friends, <br> **VIVA is the secret ingredient**.",      array: [
         {
           text: "1 stella michelin",
           location: "MILANO",
@@ -102,7 +101,7 @@ export const HOME_CONTENT = {
           href: PAGES_IT.BISTROT.slug,
         },
         {
-          text: "Bar pasticceria",
+          text: "Bar - Pastry Shop",
           location: "MILANO",
           srcLogo: "home/logo-iosonovia.png",
           alt: "Io sono viva",
@@ -110,24 +109,25 @@ export const HOME_CONTENT = {
           href: PAGES_IT.GELATI.slug,
         },
       ],
-      calltoaction: "> Scopri dove siamo <",
+      calltoaction: "> Reach Us <",
     },
     eventi: {
-      title: "VIVA gli Eventi",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu condimentum ante, et fermentum nisl.<br> **Aliquam venenatis ante non lorem** efficitur viverra et at metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-      calltoaction: "> Scopri di più <",
+      title: "VIVA Events",
+      body: "What is better than good **food**? Enjoying it in good **company**. That's why VIVA dedicates the same care and passion to organizing your events as it does to preparing each of its dishes.",
+      calltoaction: "> Discover More <",
       href: PAGES_IT.EVENTI.slug,
     },
     work: {
-      title: "Lavora con Noi",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu condimentum ante, et fermentum nisl.<br> **Aliquam venenatis ante non lorem** efficitur viverra et at metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-      calltoaction: "> Scopri di più <",
+      title: "Work With Us",
+      body: "VIVA is more than a company; it's a growing **family**. If you have talent, drive, and determination and are looking for an **opportunity**, send us your resume or come meet us.",
+      calltoaction: "> Discover More <",
       href: PAGES_IT.WORK_WITH.slug,
     },
     shop: {
-      title: "Viva lo Shopping",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu condimentum ante, et fermentum nisl.<br> **Aliquam venenatis ante non lorem** efficitur viverra et at metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-      calltoaction: "> Vieni a scoprire i nostri prodotti <",
+      title: "VIVA Shopping",
+      body: 
+      "Now, you can rely on us for every occasion. Visit our **e-commerce** platform, place your order, and receive the finest **products** directly at **home**.",
+      calltoaction: "> See The Products <",
       href: "https://www.shopify.com/",
     },
   },
