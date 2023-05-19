@@ -34,12 +34,6 @@ export const VIVA = {
     prenotaTitle: "Prenota VIVA Vivana Varese",
     prenotaSubtitle: "",
     prenotaLink: "https://module.lafourchette.com/it_IT/module/725605-f59ee",
-    shop: {
-      title: "Viva lo Shopping",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu condimentum ante, et fermentum nisl.<br> **Aliquam venenatis ante non lorem** efficitur viverra et at metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-      calltoaction: "> Vieni a scoprire i nostri prodotti <",
-      href: "https://www.shopify.com/",
-    },
   },
   en: {
     title: "VIVA Viviana Varese",

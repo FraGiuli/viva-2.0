@@ -2,7 +2,7 @@ export const VIVA_GLI_EVENTI = {
   it: {
     title: "Viva gli eventi",
     subtitle:
-      "La cucina non è solo cibo.<br> È compagnia, condivisione.<br> È il piacere di incontrarsi, di fare <br> di stare **insieme**.",
+      "La cucina non è solo cibo. È compagnia, condivisione. È il piacere di incontrarsi, di fare, di stare **insieme**.",
     bodyhead: "CATERING & BANQUETING",
     body: "VIVA Viviana Varese organizza eventi non solo all’interno del ristorante, ma anche in location esterne. La qualità e la creatività dei piatti, la professionalità nella cura dei dettagli e l’attenzione al servizio di sala ci caratterizzano per menu al tavolo o a buffet, dalle cene più intime ai grandi numeri.<br>La nostra proposta per gli eventi comprende menu ad hoc a cura di Viviana Varese, allestimenti con partner specializzati, personale a cura di VIVA Viviana Varese, supervisione dell’organizzazione, buffet, aperitivi, inaugurazioni, pranzi e cene servite con differenti menu a seconda di budget ed esigenze del cliente.",
     bodyhead1: "CORSI E TEAM BUILDING",
@@ -22,7 +22,7 @@ export const VIVA_GLI_EVENTI = {
   en: {
     title: "Viva Events",
     subtitle:
-    "Kitchen does not mean just food.<br> It's companionship, sharing.<br> It's the pleasure of meeting, of being **together.**",
+      "Kitchen does not mean just food. It's companionship, sharing. It's the pleasure of meeting, of being **together.**",
     bodyhead: "CATERING & BANQUETING",
     body: "VIVA Viviana Varese organises events both inside the restaurant and in external locations. The quality and creativity of the dishes, the professional attention paid to service both at tables or buffets are our trademark, be they intimate dinners or large events.<br>Our events offer includes an ad hoc menu created by Viviana Varese, logistics handled by specialised partners, VIVA Viviana Varese staff, organizational supervision, buffet, aperitifs, inaugurations, lunches and dinners with varying menus to suit the client’s budget and needs.",
     bodyhead1: "COURSES AND TEAM BUILDING",

@@ -28,7 +28,7 @@ export default function Contacts({
   };
   return (
     <div
-      className={`${className} flex justify-center px-[16px] lg:px-0`}
+      className={`${className} flex justify-center px-[16px] lg:px-[8px]`}
       {...otherProps}
     >
       <div

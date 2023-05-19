@@ -11,9 +11,9 @@ export const WORK_WITH = {
   en: {
     title: "Work with us",
     subtitle:
-    "VIVA's family is always looking for new talents and experienced individuals for its locations in **Noto** and **Milan**.<br> If you are passionate about the restaurant industry and enjoy being part of a **team**. <br>If you are a free, joyful and determined spirit...",
+      "VIVA's family is always looking for new talents and experienced individuals for its locations in **Noto** and **Milan**.<br> If you are passionate about the restaurant industry and enjoy being part of a **team**. <br>If you are a free, joyful and determined spirit...",
     calltoaction: "> See our job posts <",
 
-    info: "Visit our <a href='https://www.linkedin.com/company/alice-ristorante/?viewAsMember=true' target='_blank'>LinkedIn</a> profile 'VIVA Viviana Varese' or send you CV at <a href='mailto:job@vivavivianavarese.it'>job@vivavivianavarese.it</a>",
+    info: "or send your CV at <a href='mailto:job@vivavivianavarese.it'>job@vivavivianavarese.it</a>",
   },
 };

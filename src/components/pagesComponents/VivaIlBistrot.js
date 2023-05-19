@@ -37,7 +37,7 @@ export default function VivaIlBistrot() {
               {Content.body}
             </TextViva>
           </div>
-          <div className="w-full mb-8">
+          <div className="w-full md:w-4/6 mb-8 mx-auto">
             <Slider images={SLIDER} />
           </div>
           <div

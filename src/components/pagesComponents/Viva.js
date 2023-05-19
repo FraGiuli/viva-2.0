@@ -1,6 +1,5 @@
-import { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
-import { Modal, Image, Card } from "@nextui-org/react";
+import { Image } from "@nextui-org/react";
 import TextViva from "../common/TextViva";
 import Hero from "../common/Hero";
 import Slider from "../common/Slider";
@@ -11,7 +10,7 @@ import {
   SLIDER_LOCALE,
   RICONOSCIMENTI,
 } from "../../constants/PagesContent/VivaContent";
-import TextImage from "../common/TextImage";
+import { HOME_CONTENT } from "../../constants/PagesContent/HomeContent";
 import TextSlider from "../common/TextSlider";
 
 export default function Viva() {
@@ -19,6 +18,8 @@ export default function Viva() {
     (state) => state.language.selectedLanguage
   );
   const Content = selectedLanguage === "en" ? VIVA.en : VIVA.it;
+  const SHOP =
+    selectedLanguage === "en" ? HOME_CONTENT.en.shop : HOME_CONTENT.it.shop;
 
   return (
     <div>
@@ -30,12 +31,15 @@ export default function Viva() {
 
       <div className="mx-auto md:mt-8" style={{ maxWidth: "1528px" }}>
         <div
-          className="flex flex-col items-center justify-center px-[16px] lg:px-0 mb-16 mx-auto mt-16 md:mt-32"
+          className="flex flex-col items-center justify-center px-[16px] lg:px-[8px] mb-16 mx-auto mt-16 md:mt-32"
           style={{ maxWidth: "1000px" }}
         >
-          <h1 className="text-5xl md:text-6xl playfair pt-8 mb-4">
+          <TextViva
+            tag="h1"
+            className="text-5xl md:text-6xl playfair pt-8 mb-4 text-center"
+          >
             {Content.title}
-          </h1>
+          </TextViva>
           <Image
             src="viva/logo_michelin-1star.png"
             alt="logo-michelin"
@@ -69,10 +73,10 @@ export default function Viva() {
           <Slider images={SLIDER} />
         </div>
         <div
-          className="flex flex-col mx-auto mb-32 mt-32 px-[16px] lg:px-0"
+          className="flex flex-col mx-auto mb-32 mt-32 px-[16px] lg:px-[8px]"
           style={{ maxWidth: "1000px" }}
         >
-          <TextViva className="text-3xl playfair leading-relaxed text-center mb-4 font-medium">
+          <TextViva className="text-3xl text-center playfair leading-relaxed text-center mb-4 font-medium">
             {Content.bodyhead2}
           </TextViva>
           <TextViva className="text-lg leading-relaxed text-center">
@@ -125,24 +129,24 @@ export default function Viva() {
           </div>
         </div>
 
-        {Content.shop && (
+        {SHOP && (
           <div
-            className="flex flex-col  mx-auto mb-16 lg:mb-48 px-[16px] lg:px-0"
+            className="flex flex-col  mx-auto mb-16 lg:mb-48 px-[16px] lg:px-[8px]"
             style={{ maxWidth: "1000px" }}
           >
             <TextViva className="text-5xl playfair leading-relaxed text-center mb-4">
-              {Content.shop.title}
+              {SHOP.title}
             </TextViva>
             <TextViva className="text-2xl leading-relaxed text-center mb-8">
-              {Content.shop.body}
+              {SHOP.body}
             </TextViva>
             <div className="text-center">
               <a
                 className="rainbow-link-inline"
-                href={Content.shop.href}
+                href={SHOP.href}
                 target="_blank"
               >
-                <span>{Content.shop.calltoaction}</span>
+                <span>{SHOP.calltoaction}</span>
               </a>
             </div>
           </div>

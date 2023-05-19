@@ -1,13 +1,13 @@
 import { PAGES_IT } from "../PagesConst";
 export const CONTATTI = {
   it: {
-    title: "Vieni a trovarci",
+    title: "Contatti",
     subtitle:
-      "Diverse **location**, diversi **menù**, diversi **chef**, una filosofia in comune: <br> offrirvi un' **esperienza** da ricordare.",
+      "Diverse **location**, diversi **menù**, diversi **chef**, una filosofia in comune: <br> offrirvi un'**esperienza** da ricordare.",
     otherContatti:
       "**EVENTI**: <a href='mailto:eventi@vivavivianavarese.it'>eventi@vivavivianavarese.it</a> <br> **PRESS OFFICE**: <a href='mailto:comunicazione@vivavivianavarese.it'>comunicazione@vivavivianavarese.it</a> <br> **LAVORA CON NOI**: <a href='mailto:job@vivavivianavarese.it'>job@vivavivianavarese.it</a>",
     newsletter: "> Iscriviti alla nostra newsletter <",
-    visitUs: "Contatti",
+    visitUs: "Vieni a trovarci",
     array: [
       {
         title: "VIVIA Viviana Varese - 1 stella michelin",
@@ -71,7 +71,7 @@ export const CONTATTI = {
   en: {
     title: "Contacts",
     subtitle:
-    "Different **locations**, different **menus**, different **chefs**, a common philosophy: to offer you a memorable experience.",
+      "Different **locations**, different **menus**, different **chefs**, a common philosophy: to offer you a memorable experience.",
     otherContatti:
       "**EVENTS**: <a href='mailto:eventi@vivavivianavarese.it'>eventi@vivavivianavarese.it</a> <br> **PRESS OFFICE**: <a href='mailto:comunicazione@vivavivianavarese.it'>comunicazione@vivavivianavarese.it</a> <br> **WORK WITH US**: <a href='mailto:job@vivavivianavarese.it'>job@vivavivianavarese.it</a>",
     newsletter: "> Sign up to our newsletter <",

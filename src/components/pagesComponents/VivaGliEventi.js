@@ -21,13 +21,16 @@ export default function VivaGliEventi() {
       />
       <div className="mx-auto mt-8 md:mt-32 " style={{ maxWidth: "1528px" }}>
         <div
-          className="flex flex-col items-center justify-center mx-auto px-[16px] lg:px-0"
+          className="flex flex-col items-center justify-center mx-auto px-[16px] lg:px-[8px]"
           style={{ maxWidth: "1200px" }}
         >
-          <h1 className="text-5xl md:text-6xl playfair pt-8 mb-16">
+          <TextViva
+            tag="h1"
+            className="text-5xl md:text-6xl playfair pt-8 mb-16 text-center"
+          >
             {Content.title}
-          </h1>
-          <TextViva className="text-lg leading-relaxed text-center mb-4">
+          </TextViva>
+          <TextViva className="text-2xl leading-relaxed text-center mb-8">
             {Content.subtitle}
           </TextViva>
 
@@ -42,7 +45,7 @@ export default function VivaGliEventi() {
           </div>
         </div>
         <div
-          className="flex flex-col lg:flex-row flex-wrap mb-8 lg:mb-32 gap-8 px-[16px] lg:px-0 mx-auto justify-center items-center"
+          className="flex flex-col lg:flex-row flex-wrap mb-8 lg:mb-32 gap-8 px-[16px] lg:px-[8px] mx-auto justify-center items-center"
           style={{ maxWidth: "1200px" }}
         >
           <BoxConFoto
