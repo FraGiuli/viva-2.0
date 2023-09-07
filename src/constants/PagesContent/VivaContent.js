@@ -14,11 +14,16 @@ export const VIVA = {
       "**VIVA Viviana Varese è materia viva, colore, vita**. Al secondo piano di Eataly Smeraldo, la sala è illuminata da una grande vetrata che affaccia su Piazza 25 aprile. L’ambiente – che può ospitare fino a 90 persone – è stato studiato personalmente da Viviana Varese. <br>I tavoli sono di Riva 1920 e sono fatti con legno massello di briccole, i pali che nella laguna di Venezia segnalano le vie d’acqua. <br> La **partecipazione e la convivialità**, da sempre elementi imprescindibili e distintivi di Viviana Varese, trovano posto al Social table disegnato da **Renzo e Matteo Piano** in antichissimo legno Kauri, simbolo di nuova vita e ritorno alla luce. <br><br> La cucina è un pezzo unico disegnato da Molteni ed è a vista, per poter godere le dinamiche della brigata e seguirne con gli occhi quella che sembra una danza concitata ed insieme precisa. **Giò Ponti** per le posate, che si affiancano a **oggetti e ceramiche disegnate dalla Chef** e realizzate per **VIVA Viviana Varese**.",
     calltoaction: "> Regala l'esperienza Viva <",
     calltoactionLink: "https://www.shopify.com/",
+    bodyhead4: "VIVA il vino!",
+    body4:
+      "Con cura, con attenzione, con passione. È così che in VIVA Viviana Varese scegliamo i vini dalla nostra cantina.<br>La carta è ricchissima, 800 le etichette. Una **cantina che si contraddistingue** per profondità e ricercatezza delle aziende produttrici e delle annate. <br><br> Le prime, selezionate puntando l’attenzione sul **territorio e sulla sostenibilità**; le seconde, scelte con cura per carattere e preziosità. <br> Un viaggio nelle vigne e nelle cantine nazionali ed europee che diventa ogni giorno più ricco, sempre alla ricerca di etichette italiane uniche e personalizzate. Non possono ovviamente mancare referenze che escono dai nostri confini, con un occhio di riguardo ai Borgogna e allo Champagne!",
     menu: "/viva/03_22_menu-a5.cdr.pdf",
-    menuTitle: "Il nostro menù",
+    menuTitle: "Il menù",
     menuDolci: "/viva/03_22_dolci.pdf",
-    menuDolciTitle: "I nostri dolci",
+    menuDolciTitle: "I dolci",
     riconoscimenti: "Riconoscimenti",
+    menuLunchTitle: "Lunch",
+    menuLunch: "/viva/business_lunch.pdf",
     contatti: {
       title: "Contatti",
       name: "VIVA Viviana Varese",
@@ -28,7 +33,7 @@ export const VIVA = {
       tel: 'tel: <a href="tel:+390249497340">+39 02 4949 7340</a>',
       mail: 'Info e prenotazioni: <a href="mailto:info@vivavivianavarese.it">info@vivavivianavarese.it</a>',
       orari:
-        "Martedì – Sabato **12.30 > 14** e **19.30 > 22.00** <br>**Domenica e Lunedì chiuso. Chiuso dal 24 al 27 dicembre. <br>Chiuso il 1 Gennaio Chiusura estiva ad agosto, Pasqua.**",
+        "Lunedi – Sabato **12.30 > 14** e **19.00 > 22.30** <br> Domenica aperto solo a pranzo dalle **12.30** alle **14.00**. Chiuso dal 24 al 27 dicembre. <br>Chiuso il 1 Gennaio Chiusura estiva ad agosto, Pasqua.",
     },
     prenota: "PRENOTA",
     prenotaTitle: "Prenota VIVA Vivana Varese",
@@ -50,10 +55,15 @@ export const VIVA = {
       "**VIVA Viviana Varese is living matter, colours, life**. On the second floor of Eataly Smeraldo, the room is illuminated by the light streaming in from the huge window looking out on Piazza 25 aprile. The space – that can host up to 90 people – has been thought out personally by Viviana Varese <br>The tables are from di Riva 1920 and the solid wood comes from Venice’s briccole, poles that mark the gondola stops along its canals.<br> **Togetherness and conviviality**, Viviana Varese’s constant and essential trademarks, find their place on the Social table designed by **Renzo and Matteo Piano** in antique Kauri wood, a symbol of new life and returning light. <br><br> The kitchen is a unique Molteni design.It is open to view so that guests may appreciate the dynamics of the brigade and follow what at times looks like a frenetic and yet precise dance. **Giò Ponti** designed the cutlery, that sits alongside **ceramics designed by the Chef** and were specially created for **VIVA Viviana Varese**.",
     calltoaction: "> VIVA experience gift card <",
     calltoactionLink: "https://www.shopify.com/",
+    bodyhead4: "VIVA wine!",
+    body4:
+      "With care, with attention, with passion. This is how at VIVA Viviana Varese we choose the wines from our cellar.<br> The paper is very rich, 800 labels. A cellar that stands out for the depth and refinement of the producing companies and the vintages. The former, selected by focusing attention on the territory and sustainability; the latter, carefully chosen for their character and preciousness.<br> A journey through national and European vineyards and cellars that becomes richer every day, always in search of unique and personalized Italian labels. Obviously, references that go beyond our borders cannot be missing, with an eye to Burgundy and Champagne.",
     menu: "/viva/b03_22_menu eng A5.pdf",
     menuTitle: "Our Menu",
     menuDolci: "/viva/03_22_dolci.pdf",
     menuDolciTitle: "Our Desserts",
+    menuLunchTitle: "Lunch",
+    menuLunch: "/viva/business_lunch.pdf",
     riconoscimenti: "Awards",
     contatti: {
       title: "Contacts",
@@ -64,7 +74,7 @@ export const VIVA = {
       tel: 'phone: <a href="tel:+390249497340">+39 02 4949 7340</a>',
       mail: 'Info and booking: <a href="mailto:info@vivavivianavarese.it">info@vivavivianavarese.it</a>',
       orari:
-        "Tuesday – Saturday **12.30 pm >2pm** and **7.30pm >10pm** <br><br>**Sunday and monday closed. <br>Closed from 24th to 27th December. Closed on January 1st. <br>Closing for holidays: August, Christmas, 1st January, Easter.**",
+        "From Monday to Saturday from **12.30pm** to **2.00pm** and from **7.00pm** to **10.30pm**. Sunday open only for lunch from **12.30pm** to **2.00pm**. <br>Closed from 24th to 27th December. Closed on January 1st. <br>Closing for holidays: August, Christmas, 1st January, Easter.",
     },
     prenota: "BOOKING",
     prenotaTitle: "Booking VIVA Vivana Varese",

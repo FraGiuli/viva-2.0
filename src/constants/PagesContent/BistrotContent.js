@@ -18,8 +18,7 @@ export const BISTROT_CONTENT = {
       seeMap: "Vedi mappa",
       tel: 'tel:<a href="tel:+393347933384">+39 334 7933384</a>',
       mail: 'Info e prenotazioni: <a href="mailto:vivabistrot@vivavivianavarese.it">vivabistrot@vivavivianavarese.it</a>',
-      orari:
-        "Aperto a cena dalle **19.00 alle 23.00**. <br> **Chiuso il martedì**. <br> Aperto a pranzo il sabato e la domenica dalle **12.00 alle 14.30**",
+      orari: "Aperto a cena dalle **19.00** alle **23.00** tutti i giorni",
     },
     prenota: "PRENOTA",
     prenotaTitle: "Prenota VIVA IL BISTROT ",
@@ -62,8 +61,7 @@ export const BISTROT_CONTENT = {
       seeMap: "Look at the map",
       tel: 'phone:<a href="tel:+393347933384">+39 334 7933384</a>',
       mail: 'Info and booking: <a href="mailto:vivabistrot@vivavivianavarese.it">vivabistrot@vivavivianavarese.it</a>',
-      orari:
-        "Open for dinner from **7.00pm to 11.00pm**. <br> **Closed on Tuesdays**. <br> Open for lunch on Saturday and Sunday from **12.00 to 14.30**",
+      orari: "Open for dinner from **7.00pm** to **11.00pm** every day",
     },
     prenota: "BOOKING",
     prenotaTitle: "Booking VIVA IL BISTROT ",

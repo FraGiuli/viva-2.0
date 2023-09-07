@@ -30,7 +30,7 @@ export const VILLADORATA_CONTENT = {
     prenotaLink: "https://module.lafourchette.com/it_IT/module/726003-ad88e",
     menu: {
       pdf: "/villadorata/menu/04.28 Menu Carta Villadorata 2023.pdf",
-      label: "Il nostro menù",
+      label: "Il menù",
     },
     menus: [
       {

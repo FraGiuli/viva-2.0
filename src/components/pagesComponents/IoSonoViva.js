@@ -62,22 +62,11 @@ export default function IoSonoViva() {
         <Contacts
           className="mb-16"
           title={Content.contatti.title}
-          name={Content.contatti.name}
-          address={Content.contatti.address}
-          linkMap="https://goo.gl/maps/TuwSTqLpih7PGjY46"
           fb=""
           insta=""
           childrensLogo={logos}
           color="#FF0286"
-          seeMap={Content.contatti.seeMap}
         >
-          <TextViva className="pb-8 text-lg">{Content.contatti.tel}</TextViva>
-
-          <TextViva className="pb-4 text-lg">
-            {Content.contatti.address2}
-          </TextViva>
-          <TextViva className="pb-4 text-lg">{Content.contatti.tel2}</TextViva>
-          <TextViva className="text-lg">{Content.contatti.orari}</TextViva>
           <TextViva className="text-lg">{Content.contatti.mail}</TextViva>
         </Contacts>
       </div>

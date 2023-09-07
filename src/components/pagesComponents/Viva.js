@@ -67,6 +67,13 @@ export default function Viva() {
             >
               <span>{Content.menuDolciTitle}</span>
             </a>
+            <a
+              className="menu-buttons-inline"
+              href={Content.menuLunch}
+              target="_blank"
+            >
+              <span>{Content.menuLunchTitle}</span>
+            </a>
           </div>
         </div>
         <div className="w-[100%] md:w-4/6 mt-16 mx-auto">
@@ -102,7 +109,17 @@ export default function Viva() {
             </div>
           }
         />
-
+        <div
+          className="flex flex-col mx-auto mb-32 mt-32 px-[16px] lg:px-[8px]"
+          style={{ maxWidth: "1000px" }}
+        >
+          <TextViva className="text-3xl text-center playfair leading-relaxed text-center mb-4 font-medium">
+            {Content.bodyhead4}
+          </TextViva>
+          <TextViva className="text-lg leading-relaxed text-center">
+            {Content.body4}
+          </TextViva>
+        </div>
         <div className="md:my-32">
           <TextViva className="text-4xl playfair mb-16 text-center">
             {Content.riconoscimenti}
