@@ -23,7 +23,7 @@ export default function VivaVilladorata() {
       <Hero
         src="/villadorata/Villadorata-tre.jpg"
         borderBottomColor="#e8cc72"
-        srcLogo="/villadorata/w-villadorata-restaurant-logo.png"
+        srcLogo="/villadorata/Logo_villadorata_white.png"
       />
       <div className="mx-auto md:mt-8" style={{ maxWidth: "1528px" }}>
         <div
@@ -51,12 +51,13 @@ export default function VivaVilladorata() {
           <TextViva className="text-xl playfair leading-relaxed text-center mb-4 font-bold">
             {Content.bodyhead}
           </TextViva>
-          <TextViva className="text-lg leading-relaxed text-center">
+          <TextViva className="text-lg leading-relaxed text-center mb-4 lg:mb-8">
             {Content.body1}
           </TextViva>
-          <div
+
+          {/* <div
             key={Content.menu.label}
-            className="text-center mb-8 lg:mb-16 mt-4 lg:mt-8"
+            className="text-center mb-8 lg:mb-16 "
           >
             <a
               href={Content.menu.pdf}
@@ -65,11 +66,18 @@ export default function VivaVilladorata() {
             >
               <span>{Content.menu.label}</span>
             </a>
-          </div>
+          </div> */}
+
+          <img
+            src="/villadorata/composizione.jpg"
+            alt="ristorante"
+            width="100%"
+            className="mb-8 lg:mb-16"
+          />
           <TextViva className="text-lg leading-relaxed text-center">
             {Content.body2}
           </TextViva>
-          <div
+          {/* <div
             className="flex flex-wrap gap-8 md:gap-16 justify-center mb-8 lg:mb-16 mt-4 lg:mt-8"
             style={{ width: "100%" }}
           >
@@ -85,7 +93,7 @@ export default function VivaVilladorata() {
                   </a>
                 </div>
               ))}
-          </div>
+          </div> */}
         </div>
         <TextSlider
           body={Content.body3}
@@ -94,7 +102,9 @@ export default function VivaVilladorata() {
           half
           className="mb-8 md:mb-32"
         />
-
+        {/* <TextViva className="text-4xl font-medium playfair leading-relaxed text-center mb-8 lg:mb-32">
+          {Content.opening}
+        </TextViva> */}
         <Contacts
           className="mb-16 lg:mb-32"
           title={Content.contatti.title}
@@ -105,14 +115,17 @@ export default function VivaVilladorata() {
           insta="https://www.instagram.com/wvilladorata/?igshid=19oq9l39w4yqb"
           color="#e8cc72"
           seeMap={Content.contatti.seeMap}
-          prenotaButton={Content.prenota}
+          // prenotaButton={Content.prenota}
           prenotaTitle={Content.prenotaTitle}
           prenotaSubtitle={Content.prenotaSubtitle}
           prenotaLink={Content.prenotaLink}
         >
-          <TextViva className="text-lg">{Content.contatti.tel}</TextViva>
+          {/* <TextViva className="text-lg">{Content.contatti.tel}</TextViva>
           <TextViva className="pb-4 text-lg">{Content.contatti.mail}</TextViva>
-          <TextViva className="pb-4 text-lg">{Content.contatti.orari}</TextViva>
+          <TextViva className="pb-4 text-lg">{Content.contatti.orari}</TextViva> */}
+          <TextViva className="pb-4 text-2xl font-bold">
+            {Content.opening}
+          </TextViva>
         </Contacts>
       </div>
     </div>

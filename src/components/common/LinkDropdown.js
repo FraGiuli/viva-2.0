@@ -7,14 +7,17 @@ export default function LinkDropdown({
   isActive,
   href,
   description,
+  target,
   ...otherProps
 }) {
+  console.log("target", target);
   return (
     <Link
       href={href}
       className={`${className} roboto p-[8px] leading-5 ${
         isActive ? "activeLink" : "noActiveLink"
       } block`}
+      target={target}
       {...otherProps}
     >
       {children}

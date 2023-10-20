@@ -146,7 +146,7 @@ export default function Viva() {
           </div>
         </div>
 
-        {SHOP && (
+        {/* {SHOP && (
           <div
             className="flex flex-col  mx-auto mb-16 lg:mb-48 px-[16px] lg:px-[8px]"
             style={{ maxWidth: "1000px" }}
@@ -167,7 +167,7 @@ export default function Viva() {
               </a>
             </div>
           </div>
-        )}
+        )} */}
       </div>
       <div
         className="mx-auto md:mt-8 my-16 md:my-32"

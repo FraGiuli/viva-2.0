@@ -13,7 +13,7 @@ export const VILLADORATA_CONTENT = {
     body2:
       "Tutte le coltivazioni della tenuta di Villadorata seguono il metodo biodinamico, che non prevede l’utilizzo di pesticidi e concimi, e considera la terra come un grande organismo da tutelare e del quale ottimizzarne la fertilità. <br><br>La salvaguardia del pianeta in tutte le sue forme e la limitazione dello sfruttamento intensivo di colture, allevamenti, mari sono la nostra priorità. Per Viviana Varese e Country house sostenibilità non è un concetto legato solo all’uso della materia prima, ma anche alla scelta di collaborare sia con i piccoli artigiani, proteggendo e valorizzando il loro lavoro, sia con le **cooperative sociali** tra cui **<i>Si può fare</i>** di Noto ed **Eta Beta** di Bologna.",
     body3:
-      'I principi di questa singolare esperienza sono la valorizzazione del territorio e della sua biodiversità, il rispetto delle materie prime e degli ingredienti utilizzati nei piatti, il tutto accompagnato dalla gioia del “ristorare”. <br> <br> Nel menù del ristorante le produzioni locali sono protagonisti, oltre alle verdure, ai pomodori e alle erbe aromatiche anche le farine di grani antichi come la timilia e la maiorca, l’olio, gli agrumi; piatti unici preparati attraverso l’affumicatura, il fuoco e il forno, caratteristici della cucina di Viviana Varese e che raccontano le sue radici. <br> I vini presenti alla carta sono prevalentemente di origine siciliana, non mancano di certo le bollicine, i vini biodinamici, ancestrali e il Marsala D.O.C a fine pasto. Sono anche presenti le birre artigianali e una carta di cocktails i cui profumi richiamano la terra della Sicilia.<br> <br> Dal 2022 a portare avanti il progetto sono due ex sous chef di VIVA, entrambi con un’esperienza di diversi anni al fianco di Viviana Varese che hanno, inoltre, collaborato con la Chef per le nuove aperture di Io sono VIVA dolci e gelati a Milano: **Matteo Carnaghi**, ora Executive Chef di W Villadorata e **Ida Brenna**, Pastry Chef insieme con una squadra giovane sia in cucina che in sala formata presso VIVA a Milano. Un menu alla carta dove i sapori della materia prima della Val di Noto e della Sicilia sono esaltati dalla creatività dello Chef. Una sala interna ha la cucina a legna a vista, un’esperienza totale con posti al bancone ad assistere allo spettacolo. <br><br>Dal 2022 W Villadorata entra a far parte dell’<a href="https://www.fondazioneslowfood.com/it/cosa-facciamo/alleanza-slow-food-dei-cuochi/#" target="_blank">Alleanza Slow Food</a>',
+      'I principi di questa singolare esperienza sono la valorizzazione del territorio e della sua biodiversità, il rispetto delle materie prime e degli ingredienti utilizzati nei piatti, il tutto accompagnato dalla gioia del “ristorare”. <br> Nel menù del ristorante le produzioni locali sono protagonisti, oltre alle verdure, ai pomodori e alle erbe aromatiche anche le farine di grani antichi come la timilia e la maiorca, l’olio, gli agrumi; piatti unici preparati attraverso l’affumicatura, il fuoco e il forno, caratteristici della cucina di Viviana Varese e che raccontano le sue radici. <br> I vini presenti alla carta sono prevalentemente di origine siciliana, non mancano di certo le bollicine, i vini biodinamici, ancestrali e il Marsala D.O.C a fine pasto. Sono anche presenti le birre artigianali e una carta di cocktails i cui profumi richiamano la terra della Sicilia.<br> <br> Dal 2022 a portare avanti il progetto sono due ex sous chef di VIVA, entrambi con un’esperienza di diversi anni al fianco di Viviana Varese che hanno, inoltre, collaborato con la Chef per le nuove aperture di Io sono VIVA dolci e gelati a Milano: **Matteo Carnaghi**, ora Executive Chef di W Villadorata e **Ida Brenna**, Pastry Chef insieme con una squadra giovane sia in cucina che in sala formata presso VIVA a Milano. Un menu alla carta dove i sapori della materia prima della Val di Noto e della Sicilia sono esaltati dalla creatività dello Chef. Una sala interna ha la cucina a legna a vista, un’esperienza totale con posti al bancone ad assistere allo spettacolo. <br><br>Dal 2022 W Villadorata entra a far parte dell’<a href="https://www.fondazioneslowfood.com/it/cosa-facciamo/alleanza-slow-food-dei-cuochi/#" target="_blank">Alleanza Slow Food</a>',
     opening: "Prossima Apertura Pasqua 2023",
     contatti: {
       title: "Contatti",
@@ -42,6 +42,7 @@ export const VILLADORATA_CONTENT = {
         label: "I nostri drink",
       },
     ],
+    opening: "W Villadorata riaprirà ad aprile 2024",
   },
   en: {
     title: "W VILLADORATA",
@@ -87,6 +88,7 @@ export const VILLADORATA_CONTENT = {
       },
     ],
   },
+  opening: "W Villadorata will reopen in April 2024",
 };
 
 export const SLIDER = [

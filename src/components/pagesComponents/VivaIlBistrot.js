@@ -22,7 +22,7 @@ export default function VivaIlBistrot() {
         <Hero
           src="/vivailbistrot/bistrot-interno.jpg"
           borderBottomColor="#ba8a76"
-          srcLogo="/vivailbistrot/logo-bistrot-4.png"
+          srcLogo="/vivailbistrot/bistrot-logo-bianco.png"
         />
         <div className="mx-auto mt-0 lg:mt-32" style={{ maxWidth: "1528px" }}>
           <div
@@ -56,6 +56,12 @@ export default function VivaIlBistrot() {
                 <span>{Content.menu.label}</span>
               </a>
             </div>
+            <img
+              src="/vivailbistrot/composizione-bistrot.jpg"
+              alt="ristorante"
+              width="100%"
+              className="mb-8 lg:mb-16"
+            />
             <TextViva className="text-lg leading-relaxed text-center mb-8 lg:mb-16">
               {Content.body3}
             </TextViva>
@@ -85,8 +91,8 @@ export default function VivaIlBistrot() {
             name={Content.contatti.name}
             address={Content.contatti.address}
             linkMap="https://goo.gl/maps/PJJFTFfkhusi7NUx6"
-            fb="/"
-            insta="/"
+            fb="https://www.facebook.com/vivailbistrotnoto"
+            insta="https://www.instagram.com/viva_ilbistrotnoto/"
             color="#ba8a76"
             seeMap={Content.contatti.seeMap}
             prenotaButton={Content.prenota}

@@ -50,7 +50,7 @@ export default function Footer() {
               alt="Toques Italia"
               width="50px"
             />
-            <TextViva className="text-sm mt-4">Toques Italia</TextViva>
+            <TextViva className="text-sm mt-4">Les collectionneurs</TextViva>
           </div>
         </div>
         <div className="flex flex-wrap gap-8 mt-8 md:w-1/4">

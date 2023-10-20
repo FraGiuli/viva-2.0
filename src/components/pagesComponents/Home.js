@@ -54,6 +54,8 @@ export default function Home() {
             borderColor={el.bcolor}
             className="p-8 md:w-[46%]"
             href={el.href}
+            srcbg={el.srcbg}
+            target={el.target}
           />
         ))}
       </div>
@@ -97,7 +99,8 @@ export default function Home() {
           href={Content.work.href}
         />
       </div>
-      <div
+      {/* SHOP BANNER */}
+      {/* <div
         className="flex flex-col  mx-auto mb-16 lg:mb-48 px-[16px] lg:px-[8px]"
         style={{ maxWidth: "1000px" }}
       >
@@ -116,7 +119,7 @@ export default function Home() {
             <span>{Content.shop.calltoaction}</span>
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

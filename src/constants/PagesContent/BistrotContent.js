@@ -5,7 +5,7 @@ export const BISTROT_CONTENT = {
     location: "Noto (Sicilia)",
     bodyhead:
       "VIVA IL BISTROT è il nuovo ristorante di Viviana Varese a Noto <br>all’interno di Palazzo Nicolaci",
-    body: "**Resident Chef Ida Brenna.** <br> **L’amore per la Sicilia si amplia con un altro indirizzo dopo quello di W Villadorata Country Restaurant guidato dal Resident Chef Matteo Carnaghi.** <br> VIVA IL BISTROT è un posto che vuole essere innanzitutto **un luogo che accoglie, un abbraccio culinario e dove il vino ha uno spazio importante.** <br> **Una cucina che profuma di Mediterraneo** perché le proposte in tavola attingono dalle diverse culture gastronomiche del bacino del Mare Nostrum. <br> In carta ci sono piatti della tradizione meridionale e siciliana con alcune incursioni mediorientali o nordafricane. <br><br> Anche la carta dei vini – **creata dalla Sommelier Valentina Rizzi** - sposa l’idea dell’incontro e della contaminazione e quindi spazio alle referenze provenienti dai paesi che affacciano sullo stesso mare con etichette dalla Grecia, dal Marocco, dalla Spagna e dalla Francia.",
+    body: "**Resident Chef Ida Brenna. L’amore per la Sicilia si amplia con un altro indirizzo dopo quello di W Villadorata Country Restaurant guidato dal Resident Chef Matteo Carnaghi.** <br> VIVA IL BISTROT è un posto che vuole essere innanzitutto **un luogo che accoglie, un abbraccio culinario e dove il vino ha uno spazio importante.** **Una cucina che profuma di Mediterraneo** perché le proposte in tavola attingono dalle diverse culture gastronomiche del bacino del Mare Nostrum. In carta ci sono piatti della tradizione meridionale e siciliana con alcune incursioni mediorientali o nordafricane. <br><br> Anche la carta dei vini – **creata dalla Sommelier Valentina Rizzi** - sposa l’idea dell’incontro e della contaminazione e quindi spazio alle referenze provenienti dai paesi che affacciano sullo stesso mare con etichette dalla Grecia, dal Marocco, dalla Spagna e dalla Francia.",
     body2:
       "**Gli spazi sono all’interno del più bel palazzo di Noto, Palazzo Nicolaci** della metà del XVIII secolo, concepito in puro stile barocco. VIVA IL BISTROT è proprio nelle cantine che furono della residenza: archi ogivali e campate a botte su sale ampie e fresche costruite nella tipica pietra sedimentaria della zona dalle colorazioni calde e delicate. **A rendere dinamico e contemporaneo l’ambiente sono l’arte e il design** con arredi selezionati dalla proprietaria della location **Cristina Summa**.<br><br> In VIVA IL BISTROT anche l’Arte ha il suo palcoscenico grazie alla **collaborazione con la Galleria d’arte Spazionoto di Paolo Perrelli**, “vicino di casa” del locale. Qui hanno esposto personaggi noti come il regista Pedro Almodovar e l’attrice Eva Robin’s. Il progetto è una sorta di ampliamento delle mura di Spazionoto che si allungano fino a quelle di **VIVA IL BISTROT diventando di fatto un’altra galleria espositiva con artisti nazionali e internazionali** che si alterneranno nel corso delle stagioni, colorando e accendendo le pareti del bistrot.",
     body3:
@@ -25,20 +25,20 @@ export const BISTROT_CONTENT = {
     prenotaSubtitle: "",
     prenotaLink: "https://module.lafourchette.com/it_IT/module/755266-49c33",
     menu: {
-      pdf: "/vivailbistrot/menu/05.05 MENU BISTROT ITA.pdf",
+      pdf: "/vivailbistrot/menu/menu.pdf",
       label: "Il menu",
     },
     menus: [
       {
-        pdf: "/vivailbistrot/menu/04.17 Carta VINI.pdf",
+        pdf: "/vivailbistrot/menu/vini.pdf",
         label: "I nostri vini",
       },
       {
-        pdf: "/vivailbistrot/menu/04.18 MENU DOLCI E APE.pdf",
+        pdf: "/vivailbistrot/menu/dolci.pdf",
         label: "I nostri dolci",
       },
       {
-        pdf: "/vivailbistrot/menu/04.18 MENU DRINK.pdf",
+        pdf: "/vivailbistrot/menu/drink.pdf",
         label: "I nostri drink",
       },
     ],
@@ -68,16 +68,16 @@ export const BISTROT_CONTENT = {
     prenotaSubtitle: "",
     prenotaLink: "https://module.lafourchette.com/it_IT/module/755266-49c33",
     menu: {
-      pdf: "/vivailbistrot/menu/05.05 MENU BISTROT ENG.pdf",
+      pdf: "/vivailbistrot/menu/menu-eng.pdf",
       label: "Our menu",
     },
     menus: [
-      { pdf: "/vivailbistrot/menu/04.17 Carta VINI.pdf", label: "Our Wine" },
+      { pdf: "/vivailbistrot/menu/vini.pdf", label: "Our Wine" },
       {
-        pdf: "/vivailbistrot/menu/04.18 MENU DOLCI E APE.pdf",
+        pdf: "/vivailbistrot/menu/dolci.pdf",
         label: "Our desserts",
       },
-      { pdf: "/vivailbistrot/menu/04.18 MENU DRINK.pdf", label: "Our drinks" },
+      { pdf: "/vivailbistrot/menu/drink", label: "Our drinks" },
     ],
   },
 };

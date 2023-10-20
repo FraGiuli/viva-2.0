@@ -17,13 +17,13 @@ export const VIVA = {
     bodyhead4: "VIVA il vino!",
     body4:
       "Con cura, con attenzione, con passione. È così che in VIVA Viviana Varese scegliamo i vini dalla nostra cantina.<br>La carta è ricchissima, 800 le etichette. Una **cantina che si contraddistingue** per profondità e ricercatezza delle aziende produttrici e delle annate. <br><br> Le prime, selezionate puntando l’attenzione sul **territorio e sulla sostenibilità**; le seconde, scelte con cura per carattere e preziosità. <br> Un viaggio nelle vigne e nelle cantine nazionali ed europee che diventa ogni giorno più ricco, sempre alla ricerca di etichette italiane uniche e personalizzate. Non possono ovviamente mancare referenze che escono dai nostri confini, con un occhio di riguardo ai Borgogna e allo Champagne!",
-    menu: "/viva/03_22_menu-a5.cdr.pdf",
+    menu: "/viva/menu/menu.pdf",
     menuTitle: "Il menù",
-    menuDolci: "/viva/03_22_dolci.pdf",
+    menuDolci: "/viva/menu/dolci.pdf",
     menuDolciTitle: "I dolci",
     riconoscimenti: "Riconoscimenti",
     menuLunchTitle: "Lunch",
-    menuLunch: "/viva/business_lunch.pdf",
+    menuLunch: "/viva/menu/business_lunch.pdf",
     contatti: {
       title: "Contatti",
       name: "VIVA Viviana Varese",
@@ -58,12 +58,12 @@ export const VIVA = {
     bodyhead4: "VIVA wine!",
     body4:
       "With care, with attention, with passion. This is how at VIVA Viviana Varese we choose the wines from our cellar.<br> The paper is very rich, 800 labels. A cellar that stands out for the depth and refinement of the producing companies and the vintages. The former, selected by focusing attention on the territory and sustainability; the latter, carefully chosen for their character and preciousness.<br> A journey through national and European vineyards and cellars that becomes richer every day, always in search of unique and personalized Italian labels. Obviously, references that go beyond our borders cannot be missing, with an eye to Burgundy and Champagne.",
-    menu: "/viva/b03_22_menu eng A5.pdf",
+    menu: "/viva/menu/menu-eng.pdf",
     menuTitle: "Our Menu",
-    menuDolci: "/viva/03_22_dolci.pdf",
+    menuDolci: "/viva/menu/dolci.pdf",
     menuDolciTitle: "Our Desserts",
     menuLunchTitle: "Lunch",
-    menuLunch: "/viva/business_lunch.pdf",
+    menuLunch: "/viva/menu/business_lunch.pdf",
     riconoscimenti: "Awards",
     contatti: {
       title: "Contacts",

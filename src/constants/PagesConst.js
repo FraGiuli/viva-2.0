@@ -10,7 +10,7 @@ export const PAGES_IT = {
     name: "viva",
     slug: "/viva",
     label: "VIVA Viviana Varese",
-    description: "Milano",
+    description: "Milano - 1 stella Michelin",
   },
   VILLADORATA: {
     name: "villadorata",
@@ -29,6 +29,13 @@ export const PAGES_IT = {
     slug: "/io-sono-viva",
     label: "IO SONO VIVA Dolci e Gelati",
     description: "Milano",
+  },
+  POLPO: {
+    name: "polpo",
+    slug: "http://polpopesce.it/",
+    label: "POLPO - Semplicemente pesce",
+    description: "Milano",
+    target: "_blank",
   },
   EVENTI: {
     name: "eventi",
@@ -55,10 +62,10 @@ export const PAGES_IT = {
     slug: "https://www.shopify.com/",
     label: "SHOP VILLADORATA",
   },
-  LOCALI: {
-    name: "locali",
+  PROGETTI: {
+    name: "progetti",
     slug: "#",
-    label: "I LOCALI",
+    label: "I PROGETTI",
   },
 };
 export const PAGES_EN = {
@@ -72,7 +79,7 @@ export const PAGES_EN = {
     name: "viva",
     slug: "/viva",
     label: "VIVA Viviana Varese",
-    description: "Milan",
+    description: "Milan - 1 Michelin star",
   },
   VILLADORATA: {
     name: "villadorata",
@@ -91,6 +98,13 @@ export const PAGES_EN = {
     slug: "/io-sono-viva",
     label: "IO SONO VIVA Dolci e Gelati",
     description: "Milan",
+  },
+  POLPO: {
+    name: "polpo",
+    slug: "http://polpopesce.it/",
+    label: "POLPO - Simply fish",
+    description: "Milano",
+    target: "_blank",
   },
   EVENTI: {
     name: "eventi",
@@ -117,9 +131,9 @@ export const PAGES_EN = {
     slug: "https://www.shopify.com/",
     label: "SHOP VILLADORATA",
   },
-  LOCALI: {
-    name: "locali",
+  PROGETTI: {
+    name: "projects",
     slug: "#",
-    label: "PLACES",
+    label: "PROJECTS",
   },
 };

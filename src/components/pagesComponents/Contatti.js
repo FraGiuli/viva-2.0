@@ -14,7 +14,7 @@ export default function WorkWith() {
     <div>
       <Hero
         borderBottomColor="#FF0286"
-        src="/contatti/Piastrelle.png"
+        src="/contatti/contatti-sfondo.jpg"
         nooverlay
       />
       <div className="mx-auto mt-8 md:mt-32 " style={{ maxWidth: "1528px" }}>
@@ -47,16 +47,8 @@ export default function WorkWith() {
               src={el.srcLogo}
               alt={el.alt}
               borderColor={el.bcolor}
-              address2={el.address2}
-              tel2={el.tel2}
-              address1={el.address1}
-              tel1={el.tel1}
               seeMap={el.seeMap}
               linkMap={el.linkMap}
-              seeMap1={el.seeMap1}
-              linkMap1={el.linkMap1}
-              seeMap2={el.seeMap2}
-              linkMap2={el.linkMap2}
               href={el.href}
               className="p-[8px] md:p-[16px] lg:w-[46%] md:min-h-[620px]"
             />

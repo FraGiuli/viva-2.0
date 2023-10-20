@@ -30,7 +30,7 @@ export default function IoSonoViva() {
       <Hero
         src="/iosonoviva/VivaIlGelato_hero.jpg"
         borderBottomColor="#FF0286"
-        srcLogo="/iosonoviva/logo-dolci-gelati.png"
+        srcLogo="/iosonoviva/io-sono-viva-white.png"
         width="300px"
       />
       <div className="mx-auto md:mt-8" style={{ maxWidth: "1528px" }}>

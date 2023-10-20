@@ -53,23 +53,14 @@ export default function VivaGliEventi() {
             body={Content.body}
             src="/vivaglieventi/catering-banqueting.jpg"
             alt="catering"
-            className="md:w-[46%] md:min-h-[800px]"
+            className="md:w-[98%] md:min-h-[500px]"
           />
-          {Content.bodyhead3 && (
-            <BoxConFoto
-              title={Content.bodyhead3}
-              body={Content.body3}
-              src="/vivaglieventi/viva-aperitivo.jpg"
-              alt="aperitivo"
-              className="md:w-[46%] md:min-h-[800px]"
-            />
-          )}
           <BoxConFoto
             title={Content.bodyhead1}
             body={Content.body1}
             src="/vivaglieventi/corsi-team-building.jpg"
             alt="team-building"
-            className="md:w-[46%] md:min-h-[800px]"
+            className="md:w-[47%] md:min-h-[700px]"
           />
 
           <BoxConFoto
@@ -77,7 +68,7 @@ export default function VivaGliEventi() {
             body={Content.body2}
             src="/vivaglieventi/showcooking.jpg"
             alt="showcooking.jpg"
-            className="md:w-[46%] md:min-h-[800px]"
+            className="md:w-[47%] md:min-h-[700px]"
           />
         </div>
       </div>

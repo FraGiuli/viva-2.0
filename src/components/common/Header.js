@@ -28,6 +28,7 @@ export default function Header({ page }) {
     PAGES.VILLADORATA,
     PAGES.BISTROT,
     PAGES.GELATI,
+    PAGES.POLPO,
   ];
 
   const dropDownMenuItem = subMenuItem.findIndex((el) => el.name === page) > -1;
@@ -63,11 +64,11 @@ export default function Header({ page }) {
                 }}
                 ripple={false}
               >
-                {PAGES.LOCALI.label}
+                {PAGES.PROGETTI.label}
               </Dropdown.Button>
             </Navbar.Item>
             <Dropdown.Menu
-              aria-label="I locali"
+              aria-label="I progetti"
               css={{
                 $$dropdownMenuWidth: "340px",
                 $$dropdownItemHeight: "auto",
@@ -79,6 +80,7 @@ export default function Header({ page }) {
                     isActive={page === item.name}
                     href={item.slug}
                     description={item.description}
+                    target={item.target}
                   >
                     {item.label}
                   </LinkDropdown>
@@ -86,9 +88,9 @@ export default function Header({ page }) {
               ))}
             </Dropdown.Menu>
           </Dropdown>
-          <Navbar.Link href={PAGES.SHOP_VIVA.slug} target="_blank">
+          {/* <Navbar.Link href={PAGES.SHOP_VIVA.slug} target="_blank">
             {PAGES.SHOP_VIVA.label}
-          </Navbar.Link>
+          </Navbar.Link> */}
           <Navbar.Link
             isActive={page === PAGES.EVENTI.name}
             href={PAGES.EVENTI.slug}
@@ -160,11 +162,11 @@ export default function Header({ page }) {
                 }}
                 ripple={false}
               >
-                {PAGES.LOCALI.label}
+                {PAGES.PROGETTI.label}
               </Dropdown.Button>
             </Navbar.CollapseItem>
             <Dropdown.Menu
-              aria-label="I locali"
+              aria-label="I progetti"
               css={{
                 $$dropdownMenuWidth: "340px",
                 $$dropdownItemHeight: "50px",
