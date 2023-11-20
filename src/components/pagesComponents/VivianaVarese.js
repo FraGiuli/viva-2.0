@@ -48,7 +48,7 @@ export default function VivianaVarese() {
           </div>
         </div>
 
-        <div className="w-[100%] lg:w-5/6 mx-auto  mt-16 mb-16">
+        <div className="w-[100%] lg:w-4/6 mx-auto  mt-16 mb-16">
           <Slider images={SLIDER} />
         </div>
         <div className="w-[100%] lg:w-3/6 mx-auto  mt-32 mb-16 px-[16px]">

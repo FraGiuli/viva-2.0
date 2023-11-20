@@ -46,9 +46,15 @@ export const VIVIANA_VARESE = {
 };
 
 export const SLIDER = [
-  "/vivianavarese/bianco-nero.jpg",
-  "/vivianavarese/cevice.jpg",
-  "/vivianavarese/minestra.jpg",
-  "/vivianavarese/Superspaghettino.jpg",
-  "/vivianavarese/zucca.jpg",
+  "/vivianavarese/1.jpg",
+  "/vivianavarese/2.jpg",
+  "/vivianavarese/3.jpg",
+  "/vivianavarese/4.jpg",
+  "/vivianavarese/5.jpg",
+  "/vivianavarese/6.jpg",
+  "/vivianavarese/7.jpg",
+  "/vivianavarese/8.jpg",
+  "/vivianavarese/9.jpg",
+  "/vivianavarese/10.jpg",
+  "/vivianavarese/11.jpg",
 ];
