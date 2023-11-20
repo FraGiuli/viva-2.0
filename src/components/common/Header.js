@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import { Image } from "@nextui-org/react";
+import { Image, Modal } from "@nextui-org/react";
 import { Navbar, Dropdown } from "@nextui-org/react";
 import { useSelector, useDispatch } from "react-redux";
 import { setLanguage } from "../../redux/language";
@@ -8,8 +8,14 @@ import { PAGES_IT, PAGES_EN } from "../../constants/PagesConst";
 import { AiFillPhone } from "react-icons/ai";
 import { MdMail } from "react-icons/md";
 import LinkDropdown from "./LinkDropdown";
+import TextViva from "./TextViva";
 
 export default function Header({ page }) {
+  const [visible, setVisible] = useState(false);
+  const handler = () => setVisible(true);
+  const closeHandler = () => {
+    setVisible(false);
+  };
   const selectedLanguage = useSelector(
     (state) => state.language.selectedLanguage
   );
@@ -34,6 +40,15 @@ export default function Header({ page }) {
   const dropDownMenuItem = subMenuItem.findIndex((el) => el.name === page) > -1;
   // const showLang = page === PAGES.BISTROT.name || page === PAGES.GELATI.name;
   const showLang = false;
+  const PRENOTA = selectedLanguage === "en" ? "Book" : "Prenota";
+  const PRENOTA_TITLE =
+    selectedLanguage === "en"
+      ? "Booking VIVA Vivana Varese"
+      : "Prenota VIVA Vivana Varese";
+  const PRENOTA_SUBTITLE =
+    selectedLanguage === "en"
+      ? "1 Michelin's star Restaurant"
+      : "Ristorante 1 stella Michelin";
   return (
     <>
       <Navbar variant="sticky">
@@ -88,9 +103,12 @@ export default function Header({ page }) {
               ))}
             </Dropdown.Menu>
           </Dropdown>
-          {/* <Navbar.Link href={PAGES.SHOP_VIVA.slug} target="_blank">
+          <Navbar.Link
+            href="/shop/Catalogo Regali Natale 2023 Viviana Varese_.pdf"
+            target="_blank"
+          >
             {PAGES.SHOP_VIVA.label}
-          </Navbar.Link> */}
+          </Navbar.Link>
           <Navbar.Link
             isActive={page === PAGES.EVENTI.name}
             href={PAGES.EVENTI.slug}
@@ -112,6 +130,9 @@ export default function Header({ page }) {
         </Navbar.Content>
 
         <Navbar.Content>
+          <a className="buttons-inline-book" onClick={handler}>
+            <span>{PRENOTA}</span>
+          </a>
           <a href="mailto:info@vivavivianavarese.it" className="icon-link">
             <MdMail />
           </a>
@@ -232,6 +253,38 @@ export default function Header({ page }) {
           </Navbar.CollapseItem>
         </Navbar.Collapse>
       </Navbar>
+      <Modal
+        closeButton
+        aria-labelledby="modal-title"
+        open={visible}
+        onClose={closeHandler}
+        width="500px"
+      >
+        <Modal.Header>
+          <div className="flex flex-col">
+            <TextViva
+              className="text-3xl playfair font-medium mb-4"
+              id="modal-title"
+            >
+              {PRENOTA_TITLE}
+            </TextViva>
+            <TextViva className="text-lg">{PRENOTA_SUBTITLE}</TextViva>
+          </div>
+        </Modal.Header>
+        <Modal.Body>
+          <div align="center">
+            <iframe
+              src="https://module.lafourchette.com/it_IT/module/725605-f59ee"
+              style={{
+                width: "100%",
+                minHeight: "500px",
+                border: "none",
+                scrolling: "yes",
+              }}
+            ></iframe>
+          </div>
+        </Modal.Body>
+      </Modal>
       <div className="rainbowbg" style={{ height: "10px" }}></div>
     </>
   );

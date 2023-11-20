@@ -243,6 +243,26 @@ div.rainbow-link:hover:after {
   color: #212529;
 }
 
+.buttons-inline-book {
+  font-size: 18px !important;
+  border: 2px solid #ff0286;
+  padding: 12px 24px;
+  border-radius: 14px;
+  display: block;
+  text-align: center;
+  width: auto;
+}
+.buttons-inline-book:hover {
+  font-size: 19ì8px !important;
+  border: 2px solid #212529;
+  padding: 12px 24px;
+  border-radius: 14px;
+  display: block;
+  text-align: center;
+  width: auto;
+  color: #212529;
+}
+
 @media (min-width: 960px) {
   .bordo-laterale {
     border-right: 1px solid grey;

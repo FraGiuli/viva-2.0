@@ -21,7 +21,7 @@ export default function VivaVilladorata() {
   return (
     <div>
       <Hero
-        src="/villadorata/Villadorata-tre.jpg"
+        src="/villadorata/foto-ristorante.jpg"
         borderBottomColor="#e8cc72"
         srcLogo="/villadorata/Logo_villadorata_white.png"
       />
@@ -69,7 +69,7 @@ export default function VivaVilladorata() {
           </div> */}
 
           <img
-            src="/villadorata/composizione.jpg"
+            src="/villadorata/gruppo.jpg"
             alt="ristorante"
             width="100%"
             className="mb-8 lg:mb-16"

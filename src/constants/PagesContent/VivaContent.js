@@ -84,14 +84,28 @@ export const VIVA = {
 };
 
 export const SLIDER = [
-  "/viva/1_tortello_rainbow.jpg",
-  "/viva/2_crub_primaverile.jpg",
-  "/viva/3_crub_zuppa_granchio.jpg",
-  "/viva/4_fruttini.jpg",
-  "/viva/5_iride.jpg",
-  "/viva/6_la_spugna.jpg",
-  "/viva/7_rinascita.jpg",
-  "/viva/8_zuppetta_primavera.jpg",
+  "/viva/gallery_piatti/1.jpg",
+  "/viva/gallery_piatti/2.jpg",
+  "/viva/gallery_piatti/3.jpg",
+  "/viva/gallery_piatti/4.jpg",
+  "/viva/gallery_piatti/5.jpg",
+  "/viva/gallery_piatti/6.jpg",
+  "/viva/gallery_piatti/7.jpg",
+  "/viva/gallery_piatti/8.jpg",
+  "/viva/gallery_piatti/9.jpg",
+  "/viva/gallery_piatti/10.jpg",
+  "/viva/gallery_piatti/11.jpg",
+  "/viva/gallery_piatti/12.jpg",
+  "/viva/gallery_piatti/13.jpg",
+  "/viva/gallery_piatti/14.jpg",
+  "/viva/gallery_piatti/15.jpg",
+  "/viva/gallery_piatti/16.jpg",
+  "/viva/gallery_piatti/17.jpg",
+  "/viva/gallery_piatti/18.jpg",
+  "/viva/gallery_piatti/19.jpg",
+  "/viva/gallery_piatti/20.jpg",
+  "/viva/gallery_piatti/21.jpg",
+  "/viva/gallery_piatti/22.jpg",
 ];
 
 export const SLIDER_LOCALE = [

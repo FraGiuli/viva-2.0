@@ -15,6 +15,7 @@ export default function BoxContatti({
   seeMap,
   linkMap,
   href,
+  instagram,
 }) {
   return (
     <Card
@@ -53,10 +54,23 @@ export default function BoxContatti({
             <TextViva className="text-lg leading-relaxed ">{tel}</TextViva>
           )}
 
-          <div className="flex flex-col md:flex-row gap-[12px] mb-[24px]"></div>
           {mail && (
-            <TextViva className="text-lg leading-relaxed">{mail}</TextViva>
+            <TextViva className="text-lg leading-relaxed mb-[24px]">
+              {mail}
+            </TextViva>
           )}
+
+          <div className="flex flex-col items-center">
+            {instagram && (
+              <a href={instagram} target="_blank">
+                <Image
+                  src="/iconainsta.png"
+                  alt="instagram"
+                  style={{ maxWidth: "40px" }}
+                />
+              </a>
+            )}
+          </div>
         </div>
       </Card.Footer>
     </Card>

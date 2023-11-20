@@ -22,6 +22,7 @@ export const CONTATTI = {
         mail: "<a href='mailto:info@vivavivianavarese.it'>info@vivavivianavarese.it</a>",
         seeMap: "Vedi mappa",
         linkMap: "https://goo.gl/maps/tRNN7PdhEchcAJKUA",
+        instagram: "https://www.instagram.com/vivavivianavarese/?hl=it",
       },
       {
         title: "W VILLADORATA Country Restaurant",
@@ -35,6 +36,8 @@ export const CONTATTI = {
         mail: "<a href='mailto:villadorata@vivavivianavarese.it'>villadorata@vivavivianavarese.it</a>",
         seeMap: "Vedi mappa",
         linkMap: "https://goo.gl/maps/y5U26yAijbcTiHk96",
+        instagram:
+          "https://www.instagram.com/wvilladorata/?igshid=19oq9l39w4yqb,",
       },
       {
         title: "VIVA IL BISTROT",
@@ -48,6 +51,7 @@ export const CONTATTI = {
         mail: "<a href='mailto:vivabistrot@vivavivianavarese.it'>vivabistrot@vivavivianavarese.it</a>",
         seeMap: "Vedi mappa",
         linkMap: "https://goo.gl/maps/PJJFTFfkhusi7NUx6",
+        instagram: "https://www.instagram.com/viva_ilbistrotnoto/",
       },
       {
         title: "POLPO - Semplicemente Pesce",
@@ -62,6 +66,7 @@ export const CONTATTI = {
         seeMap: "Vedi mappa",
         linkMap:
           "https://www.google.com/maps/place/Via+Rocco+Pirri,+19,+96017+Noto+SR/@36.89184,15.069395,16z/data=!4m6!3m5!1s0x131229ae4c539e19:0x2ff4017d09fa1660!8m2!3d36.8918402!4d15.0693954!16s%2Fg%2F11c4kr98hh?ll=36.89184,15.069395&z=16&t=m&hl=it&gl=IT&mapclient=embed&q=Via+Rocco+Pirri,+19+96017+Noto+SR&shorturl=1",
+        instagram: "https://www.instagram.com/polpopesce/",
       },
     ],
   },
@@ -87,6 +92,7 @@ export const CONTATTI = {
         mail: "<a href='mailto:info@vivavivianavarese.it'>info@vivavivianavarese.it</a>",
         seeMap: "See map",
         linkMap: "https://goo.gl/maps/tRNN7PdhEchcAJKUA",
+        instagram: "https://www.instagram.com/vivavivianavarese/?hl=it",
       },
       {
         title: "W VILLADORATA Country Restaurant",
@@ -100,6 +106,8 @@ export const CONTATTI = {
         mail: "<a href='mailto:villadorata@vivavivianavarese.it'>villadorata@vivavivianavarese.it</a>",
         seeMap: "See map",
         linkMap: "https://goo.gl/maps/y5U26yAijbcTiHk96",
+        instagram:
+          "https://www.instagram.com/wvilladorata/?igshid=19oq9l39w4yqb,",
       },
       {
         title: "VIVA IL BISTROT",
@@ -113,6 +121,7 @@ export const CONTATTI = {
         mail: "<a href='mailto:vivabistrot@vivavivianavarese.it'>vivabistrot@vivavivianavarese.it</a>",
         seeMap: "See map",
         linkMap: "https://goo.gl/maps/PJJFTFfkhusi7NUx6",
+        instagram: "https://www.instagram.com/viva_ilbistrotnoto/",
       },
       {
         title: "POLPO - Semplicemente Pesce",
@@ -127,6 +136,7 @@ export const CONTATTI = {
         seeMap: "See map",
         linkMap:
           "https://www.google.com/maps/place/Via+Rocco+Pirri,+19,+96017+Noto+SR/@36.89184,15.069395,16z/data=!4m6!3m5!1s0x131229ae4c539e19:0x2ff4017d09fa1660!8m2!3d36.8918402!4d15.0693954!16s%2Fg%2F11c4kr98hh?ll=36.89184,15.069395&z=16&t=m&hl=it&gl=IT&mapclient=embed&q=Via+Rocco+Pirri,+19+96017+Noto+SR&shorturl=1",
+        instagram: "https://www.instagram.com/polpopesce/",
       },
     ],
   },

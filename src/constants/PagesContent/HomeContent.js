@@ -20,7 +20,7 @@ export const HOME_CONTENT = {
           srcbg: "/home/viva-box-home.jpg",
         },
         {
-          text: "Coutry Restaurant",
+          text: "Country Restaurant",
           location: "NOTO, Sicilia",
           srcLogo: "home/Logo_villadorata_white.png",
           alt: "Villadorata",
@@ -85,7 +85,7 @@ export const HOME_CONTENT = {
           srcbg: "/home/viva-box-home.jpg",
         },
         {
-          text: "Coutry Restaurant",
+          text: "Country Restaurant",
           location: "NOTO, Sicilia",
           srcLogo: "home/Logo_villadorata_white.png",
           alt: "Villadorata",

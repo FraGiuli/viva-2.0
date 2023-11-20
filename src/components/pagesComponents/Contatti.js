@@ -50,6 +50,7 @@ export default function WorkWith() {
               seeMap={el.seeMap}
               linkMap={el.linkMap}
               href={el.href}
+              instagram={el.instagram}
               className="p-[8px] md:p-[16px] lg:w-[46%] md:min-h-[620px]"
             />
           ))}

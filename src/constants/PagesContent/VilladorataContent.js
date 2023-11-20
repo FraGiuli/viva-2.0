@@ -92,14 +92,18 @@ export const VILLADORATA_CONTENT = {
 };
 
 export const SLIDER = [
-  "/villadorata/ANELLINI.jpg",
-  "/villadorata/LA-BRIOCHE-CON-IL-PISTACCHIO.jpg",
-  "/villadorata/LA-PERFEZIONE-NON-ESISTE.jpg",
-  "/villadorata/MARE.jpg",
-  "/villadorata/MELANZANA.jpg",
-  "/villadorata/ORTO.jpg",
-  "/villadorata/PACCHERO.jpg",
-  "/villadorata/TAGLIOLINI.jpg",
-  "/villadorata/TONNATO.jpg",
-  "/villadorata/VIVA-LINSALATA.jpg",
+  "/villadorata/gallery_piatti/1.jpg",
+  "/villadorata/gallery_piatti/2.jpg",
+  "/villadorata/gallery_piatti/3.jpg",
+  "/villadorata/gallery_piatti/4.jpg",
+  "/villadorata/gallery_piatti/5.jpg",
+  "/villadorata/gallery_piatti/6.jpg",
+  "/villadorata/gallery_piatti/7.jpg",
+  "/villadorata/gallery_piatti/8.jpg",
+  "/villadorata/gallery_piatti/9.jpg",
+  "/villadorata/gallery_piatti/10.jpg",
+  "/villadorata/gallery_piatti/11.jpg",
+  "/villadorata/gallery_piatti/12.jpg",
+  "/villadorata/gallery_piatti/13.jpg",
+  "/villadorata/gallery_piatti/14.jpg",
 ];

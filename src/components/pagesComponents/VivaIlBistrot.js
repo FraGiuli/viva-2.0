@@ -57,7 +57,7 @@ export default function VivaIlBistrot() {
               </a>
             </div>
             <img
-              src="/vivailbistrot/composizione-bistrot.jpg"
+              src="/vivailbistrot/gruppo.jpg"
               alt="ristorante"
               width="100%"
               className="mb-8 lg:mb-16"
