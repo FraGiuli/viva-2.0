@@ -18,7 +18,7 @@ export default function IoSonoViva() {
         target="_blank"
       >
         <Image
-          src="/iosonoviva/cosatiportologo.png"
+          src="/iosonoviva/cosatiportologo.jpg"
           alt="cosa-ti-porto"
           style={{ maxWidth: "200px" }}
         />
@@ -45,7 +45,7 @@ export default function IoSonoViva() {
             {Content.body1}
           </TextViva>
           <Image
-            src="/iosonoviva/donne-maltrattate.png"
+            src="/iosonoviva/donne-maltrattate.jpg"
             alt="cadmi"
             className="pb-8"
             style={{ maxWidth: "200px" }}

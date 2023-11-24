@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="flex flex-wrap gap-8  md:gap-16">
           <div className="flex flex-grow flex-col items-center">
             <Image
-              src="/footer/newfooter_1.png"
+              src="/footer/newfooter_1.jpg"
               alt="Ristorante 1 Stella MICHELIN"
               width="50px"
             />
@@ -22,7 +22,7 @@ export default function Footer() {
           </div>
           <div className="flex flex-grow flex-col items-center">
             <Image
-              src="/footer/newfooter_2.png"
+              src="/footer/newfooter_2.jpg"
               alt="Associazione Le Soste"
               width="50px"
             />
@@ -30,7 +30,7 @@ export default function Footer() {
           </div>
           <div className="flex flex-grow flex-col items-center">
             <Image
-              src="/footer/newfooter_3.png"
+              src="/footer/newfooter_3.jpg"
               alt="Ambasciatori del Gusto"
               width="50px"
             />
@@ -38,7 +38,7 @@ export default function Footer() {
           </div>
           <div className="flex flex-grow flex-col items-center">
             <Image
-              src="/footer/newfooter_4.png"
+              src="/footer/newfooter_4.jpg"
               alt="50Best Discovery"
               width="50px"
             />
@@ -46,7 +46,7 @@ export default function Footer() {
           </div>
           <div className="flex flex-grow flex-col items-center">
             <Image
-              src="/footer/newfooter_5.png"
+              src="/footer/newfooter_5.jpg"
               alt="Toques Italia"
               width="50px"
             />
@@ -60,7 +60,7 @@ export default function Footer() {
             className="flex flex-grow flex-col items-center"
           >
             <Image
-              src="/footer/CP-logo-orizzontale-1.png"
+              src="/footer/CP-logo-orizzontale-1.jpg"
               alt="Cosa ti porto"
               width="150px"
             />
@@ -71,7 +71,7 @@ export default function Footer() {
             className="flex flex-grow flex-col items-center"
           >
             <Image
-              src="/footer/scoolinary.png"
+              src="/footer/scoolinary.jpg"
               alt="Scoolinary"
               width="150px"
             />

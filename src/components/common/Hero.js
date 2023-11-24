@@ -7,7 +7,7 @@ export default function Hero({
   srcLogo,
   title,
   subtitle,
-  width = "500px",
+  width = "300px",
   nooverlay,
   bgPosition,
   payoff,

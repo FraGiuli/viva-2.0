@@ -46,14 +46,10 @@ export const VIVIANA_VARESE = {
 };
 
 export const SLIDER = [
-  "/vivianavarese/7.jpg",
-  "/vivianavarese/8.jpg",
-  "/vivianavarese/9.jpg",
-  "/vivianavarese/10.jpg",
-  "/vivianavarese/11.jpg",
-  "/vivianavarese/1.jpg",
+  "/vivianavarese/6.jpg",
   "/vivianavarese/2.jpg",
   "/vivianavarese/3.jpg",
   "/vivianavarese/5.jpg",
-  "/vivianavarese/6.jpg",
+  "/vivianavarese/1.jpg",
+  "/vivianavarese/7.jpg",
 ];

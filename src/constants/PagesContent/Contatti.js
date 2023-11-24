@@ -3,7 +3,7 @@ export const CONTATTI = {
   it: {
     title: "Contatti",
     subtitle:
-      "Diverse **location**, diversi **menù**, diversi **chef**, una filosofia in comune: <br> offrirvi un'**esperienza** da ricordare.",
+      "Diverse **location**, diversi **menù**, diverse **squadre**, una filosofia in comune: <br> offrirvi un'**esperienza** da ricordare.",
     otherContatti:
       "**EVENTI**: <a href='mailto:eventi@vivavivianavarese.it'>eventi@vivavivianavarese.it</a> <br> **PRESS OFFICE**: <a href='mailto:comunicazione@vivavivianavarese.it'>comunicazione@vivavivianavarese.it</a> <br> **LAVORA CON NOI**: <a href='mailto:job@vivavivianavarese.it'>job@vivavivianavarese.it</a>",
     newsletter: "> Iscriviti alla nostra newsletter <",
@@ -12,7 +12,7 @@ export const CONTATTI = {
       {
         title: "VIVIA Viviana Varese - 1 stella michelin",
         location: "MILANO",
-        srcLogo: "contatti/logo-viva.png",
+        srcLogo: "contatti/logo-viva.jpg",
         alt: "Viva",
         bcolor: "rgba(228,34,129, 0.8)",
         href: PAGES_IT.VIVA.slug,
@@ -27,7 +27,7 @@ export const CONTATTI = {
       {
         title: "W VILLADORATA Country Restaurant",
         location: "NOTO, Sicilia",
-        srcLogo: "contatti/logo_villadorata.png",
+        srcLogo: "contatti/logo_villadorata.jpg",
         alt: "Villadorata",
         bcolor: "rgb(232,204,114, 0.7)",
         href: PAGES_IT.VILLADORATA.slug,
@@ -42,7 +42,7 @@ export const CONTATTI = {
       {
         title: "VIVA IL BISTROT",
         location: "NOTO, Sicilia",
-        srcLogo: "contatti/logo-bistrot.png",
+        srcLogo: "contatti/logo-bistrot.jpg",
         alt: "Bistrot",
         bcolor: "rgba(194,133,106, 0.7)",
         href: PAGES_IT.BISTROT.slug,
@@ -56,7 +56,7 @@ export const CONTATTI = {
       {
         title: "POLPO - Semplicemente Pesce",
         location: "MILANO",
-        srcLogo: "contatti/logo-polpo-blu.png",
+        srcLogo: "contatti/logo-polpo-blu.jpg",
         alt: "polpopesce",
         bcolor: "rgba(47,56,136, 1)",
         href: "http://polpopesce.it/",
@@ -73,7 +73,7 @@ export const CONTATTI = {
   en: {
     title: "Contacts",
     subtitle:
-      "Different **locations**, different **menus**, different **chefs**, a common philosophy: to offer you a memorable experience.",
+      "Different **locations**, different **menus**, different **teams**, a common philosophy: <br> to offer you an **experience** to remember.",
     otherContatti:
       "**EVENTS**: <a href='mailto:eventi@vivavivianavarese.it'>eventi@vivavivianavarese.it</a> <br> **PRESS OFFICE**: <a href='mailto:comunicazione@vivavivianavarese.it'>comunicazione@vivavivianavarese.it</a> <br> **WORK WITH US**: <a href='mailto:job@vivavivianavarese.it'>job@vivavivianavarese.it</a>",
     newsletter: "> Sign up to our newsletter <",
@@ -82,7 +82,7 @@ export const CONTATTI = {
       {
         title: "VIVIA Viviana Varese - 1 Michelin star",
         location: "MILANO",
-        srcLogo: "contatti/logo-viva.png",
+        srcLogo: "contatti/logo-viva.jpg",
         alt: "Viva",
         bcolor: "rgba(228,34,129, 0.8)",
         href: PAGES_IT.VIVA.slug,
@@ -97,7 +97,7 @@ export const CONTATTI = {
       {
         title: "W VILLADORATA Country Restaurant",
         location: "NOTO, Sicilia",
-        srcLogo: "contatti/logo_villadorata.png",
+        srcLogo: "contatti/logo_villadorata.jpg",
         alt: "Villadorata",
         bcolor: "rgb(232,204,114, 0.7)",
         href: PAGES_IT.VILLADORATA.slug,
@@ -112,7 +112,7 @@ export const CONTATTI = {
       {
         title: "VIVA IL BISTROT",
         location: "NOTO, Sicilia",
-        srcLogo: "contatti/logo-bistrot.png",
+        srcLogo: "contatti/logo-bistrot.jpg",
         alt: "Bistrot",
         bcolor: "rgba(194,133,106, 0.7)",
         href: PAGES_IT.BISTROT.slug,
@@ -126,7 +126,7 @@ export const CONTATTI = {
       {
         title: "POLPO - Semplicemente Pesce",
         location: "MILANO",
-        srcLogo: "contatti/logo-polpo-blu.png",
+        srcLogo: "contatti/logo-polpo-blu.jpg",
         alt: "polpopesce",
         bcolor: "rgba(47,56,136, 1)",
         href: "http://polpopesce.it/",

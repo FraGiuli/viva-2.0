@@ -9,7 +9,7 @@ export const HOME_CONTENT = {
     locali: {
       title: "I Progetti di Viviana Varese",
       subtitle:
-        "La chef Viviana e il suo infaticabile staff vi aspettano nelle location di Milano e Noto.<br> Per una cena indimenticabile, un pranzo in famiglia o un gelato tra amici <br> **VIVA è l'ingrediente segreto**",
+        "La chef Viviana Varese e il suo staff vi aspettano nelle location di Milano e Noto. <br> **VIVA è l'ingrediente segreto**",
       array: [
         {
           text: "1 stella michelin",
@@ -74,7 +74,7 @@ export const HOME_CONTENT = {
     locali: {
       title: "Viviana Varese's projects",
       subtitle:
-        "Chef Viviana and her tireless staff are waiting for you at the locations in Milan and Noto.<br> For an unforgettable dinner, a family lunch, or an ice cream with friends, <br> **VIVA is the secret ingredient**.",
+        "Chef Viviana Varese and her staff await you in the locations in Milan and Noto. <br> **VIVA is the secret ingredient**.",
       array: [
         {
           text: "1 Michelin star",

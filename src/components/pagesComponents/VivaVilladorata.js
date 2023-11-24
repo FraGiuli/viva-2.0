@@ -36,7 +36,7 @@ export default function VivaVilladorata() {
           <TextViva className="text-3xl playfair leading-relaxed text-center mb-4 font-medium">
             {Content.subtitle}
           </TextViva>
-          <div className="mt-8 mb-8">
+          <div className="flex gap-[16px] mt-8 mb-8">
             <a
               href="https://www.fondazioneslowfood.com/it/cosa-facciamo/alleanza-slow-food-dei-cuochi/#"
               target="_blank"
@@ -47,6 +47,11 @@ export default function VivaVilladorata() {
                 style={{ maxWidth: "200px" }}
               />
             </a>
+            <Image
+              src="/villadorata/Il-golosario.jpg"
+              alt="slowfood-logo"
+              style={{ maxWidth: "200px" }}
+            />
           </div>
           <TextViva className="text-xl playfair leading-relaxed text-center mb-4 font-bold">
             {Content.bodyhead}

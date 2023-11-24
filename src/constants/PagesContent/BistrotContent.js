@@ -83,13 +83,13 @@ export const BISTROT_CONTENT = {
 };
 
 export const SLIDER = [
-  "/vivailbistrot/gallery/Arance siciliane con finocchi in insalata, cipolle e mandorle di noto - Ph Victoria.jpg",
-  "/vivailbistrot/gallery/Ceci pascia presidio Slow Food con baccalà e salsa al prezzemolo - Ph Victoria.jpg",
-  "/vivailbistrot/gallery/ceviche di ombrina con avocado siciliano, cipolla rossa marinata, pomodorini e lime - Ph Victoria.jpg",
-  "/vivailbistrot/gallery/Gambero rosso del mediterraneo con pomodoro Clause, granita di ricotta e basilico - Ph Victoria.jpg",
-  "/vivailbistrot/gallery/Insalata verde dell'orto con avocado e pistacchio siciliano - Ph Victoria.jpg",
-  "/vivailbistrot/gallery/pizza fritta ph victoria.jpg",
-  "/vivailbistrot/gallery/profumo di sicilia - Ph victoria.jpg",
-  "/vivailbistrot/gallery/Scarola cotta dell'orto con salsa all'acciuga, olive e salsa allo yogurt - Ph Victoria.jpg",
-  "/vivailbistrot/gallery/uovo con bieta, crema di zucchine alla scapece ed erbe dell'orto - Ph Victoria.jpg",
+  "/vivailbistrot/gallery/1.jpg",
+  "/vivailbistrot/gallery/2.jpg",
+  "/vivailbistrot/gallery/3.jpg",
+  "/vivailbistrot/gallery/4.jpg",
+  "/vivailbistrot/gallery/5.jpg",
+  "/vivailbistrot/gallery/6.jpg",
+  "/vivailbistrot/gallery/7.jpg",
+  "/vivailbistrot/gallery/8.jpg",
+  "/vivailbistrot/gallery/9.jpg",
 ];

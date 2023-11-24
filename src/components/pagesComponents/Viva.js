@@ -26,7 +26,7 @@ export default function Viva() {
       <Hero
         src="/viva/hero_viva.jpg"
         borderBottomColor="#FF0286"
-        srcLogo="/viva/logo-viva-2019.svg"
+        srcLogo="/viva/logo-viva-2019.png"
       />
 
       <div className="mx-auto md:mt-8" style={{ maxWidth: "1528px" }}>
@@ -40,12 +40,17 @@ export default function Viva() {
           >
             {Content.title}
           </TextViva>
-          <Image
-            src="viva/logo_michelin-1star.png"
-            alt="logo-michelin"
-            width="150px"
-            className="py-8"
-          />
+          <a
+            href="https://guide.michelin.com/it/it/lombardia/milano/ristorante/alice-eataly-smeraldo"
+            target="_blank"
+          >
+            <Image
+              src="viva/Logo 2024.jpg"
+              alt="logo-michelin"
+              width="150px"
+              className="py-8"
+            />
+          </a>
           <TextViva className="text-3xl playfair leading-relaxed text-center mb-4 font-medium">
             {Content.bodyhead1}
           </TextViva>

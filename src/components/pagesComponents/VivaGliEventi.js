@@ -16,7 +16,7 @@ export default function VivaGliEventi() {
     <div>
       <Hero
         borderBottomColor="#FF0286"
-        src="/vivaglieventi/eventi-sfondo-hero.png"
+        src="/vivaglieventi/eventi-sfondo-hero.jpg"
         nooverlay
       />
       <div className="mx-auto mt-8 md:mt-32 " style={{ maxWidth: "1528px" }}>

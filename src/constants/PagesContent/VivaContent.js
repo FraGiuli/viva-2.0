@@ -109,12 +109,12 @@ export const SLIDER = [
 ];
 
 export const SLIDER_LOCALE = [
-  "/viva/1_credit-sonia_marin.jpg",
-  "/viva/2_credit-sonia_marin.jpg",
-  "/viva/3_credit-sonia_marin.jpg",
-  "/viva/4_credit-sonia_marin.jpg",
-  "/viva/5_credit-sonia_marin.jpg",
-  "/viva/6_credit-sonia_marin.jpg",
+  "/viva/Slider_locale/1_credit-sonia_marin.jpg",
+  "/viva/Slider_locale/2_credit-sonia_marin.jpg",
+  "/viva/Slider_locale/3_credit-sonia_marin.jpg",
+  "/viva/Slider_locale/4_credit-sonia_marin.jpg",
+  "/viva/Slider_locale/5_credit-sonia_marin.jpg",
+  "/viva/Slider_locale/6_credit-sonia_marin.jpg",
 ];
 
 export const RICONOSCIMENTI = [
