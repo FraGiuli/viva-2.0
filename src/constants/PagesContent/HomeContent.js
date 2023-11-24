@@ -63,7 +63,7 @@ export const HOME_CONTENT = {
       title: "Viva lo Shopping",
       body: "Da oggi puoi contare su di noi per ogni occasione. Visita il nostro <br> **e-commerce**, compila l'ordine e ricevi i **prodotti** migliori, direttamente a **casa**.",
       calltoaction: "> Esplora lo shop <",
-      href: "https://www.shopify.com/",
+      href: "/Shop/Catalogo_natale_2023.pdf",
     },
   },
   en: {
@@ -128,7 +128,7 @@ export const HOME_CONTENT = {
       title: "VIVA Shopping",
       body: "Now, you can rely on us for every occasion. Visit our **e-commerce** platform, place your order, and receive the finest **products** directly at **home**.",
       calltoaction: "> See The Products <",
-      href: "https://www.shopify.com/",
+      href: "/Shop/Catalogo_natale_2023.pdf",
     },
   },
 };

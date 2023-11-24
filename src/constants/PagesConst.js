@@ -54,12 +54,12 @@ export const PAGES_IT = {
   },
   SHOP_VIVA: {
     name: "shop-viva",
-    slug: "https://www.shopify.com/",
+    slug: "/Shop/Catalogo_natale_2023.pdf",
     label: "SHOP",
   },
   SHOP_VILLADORATA: {
     name: "shop-villadorata",
-    slug: "https://www.shopify.com/",
+    slug: "/Shop/Catalogo_natale_2023.pdf",
     label: "SHOP VILLADORATA",
   },
   PROGETTI: {
@@ -123,12 +123,12 @@ export const PAGES_EN = {
   },
   SHOP_VIVA: {
     name: "shop-viva",
-    slug: "https://www.shopify.com/",
+    slug: "/Shop/Catalogo_natale_2023.pdf",
     label: "SHOP",
   },
   SHOP_VILLADORATA: {
     name: "shop-villadorata",
-    slug: "https://www.shopify.com/",
+    slug: "/Shop/Catalogo_natale_2023.pdf",
     label: "SHOP VILLADORATA",
   },
   PROGETTI: {
