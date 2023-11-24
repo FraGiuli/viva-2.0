@@ -103,7 +103,7 @@ export default function Header({ page }) {
               ))}
             </Dropdown.Menu>
           </Dropdown>
-          <Navbar.Link href="/shop/Catalogo_natale_2023.pdf" target="_blank">
+          <Navbar.Link href="/Shop/Catalogo_natale_2023.pdf" target="_blank">
             {PAGES.SHOP_VIVA.label}
           </Navbar.Link>
           <Navbar.Link

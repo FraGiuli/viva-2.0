@@ -47,7 +47,7 @@ export default function VivaIlBistrot() {
             <TextViva className="text-lg leading-relaxed text-center mb-8">
               {Content.body2}
             </TextViva>
-            <div key={Content.menu.label} className="text-center mb-[56px]">
+            {/* <div key={Content.menu.label} className="text-center mb-[56px]">
               <a
                 href={Content.menu.pdf}
                 target="_blank"
@@ -55,7 +55,7 @@ export default function VivaIlBistrot() {
               >
                 <span>{Content.menu.label}</span>
               </a>
-            </div>
+            </div> */}
             <img
               src="/vivailbistrot/gruppo.jpg"
               alt="ristorante"
@@ -66,7 +66,7 @@ export default function VivaIlBistrot() {
               {Content.body3}
             </TextViva>
 
-            <div
+            {/* <div
               className="flex flex-wrap gap-8 md:gap-16 justify-center mb-8 lg:mb-16"
               style={{ width: "100%" }}
             >
@@ -82,7 +82,7 @@ export default function VivaIlBistrot() {
                     </a>
                   </div>
                 ))}
-            </div>
+            </div> */}
           </div>
 
           <Contacts
