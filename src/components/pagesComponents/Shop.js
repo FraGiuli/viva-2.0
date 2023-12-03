@@ -11,7 +11,7 @@ export default function Shop() {
 
   return (
     <div>
-      <Hero src="/shop/Shop_hero.jpg" borderBottomColor="#e8cc72" />
+      <Hero src="/shopviva/Shop_hero.jpg" borderBottomColor="#e8cc72" />
       <div className="mx-auto md:mt-8" style={{ maxWidth: "1528px" }}>
         <div
           className="flex flex-col items-center justify-center mx-auto px-[16px] lg:px-[8px]"
