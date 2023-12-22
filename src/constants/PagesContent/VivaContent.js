@@ -33,7 +33,7 @@ export const VIVA = {
       tel: 'tel: <a href="tel:+390249497340">+39 02 4949 7340</a>',
       mail: 'Info e prenotazioni: <a href="mailto:info@vivavivianavarese.it">info@vivavivianavarese.it</a>',
       orari:
-        "Lunedi – Sabato **12.30 > 14** e **19.00 > 22.30** <br> Domenica aperto solo a pranzo dalle **12.30** alle **14.00**. Chiuso dal 24 al 27 dicembre. <br>Chiuso il 1 Gennaio Chiusura estiva ad agosto, Pasqua.",
+        "Martedì – Sabato **12.30 > 14** e **19.00 > 22.30**  <br>Domenica e Lunedì chiuso. <br> Chiuso dal 24 al 27 dicembre. <br>Chiuso il 1 Gennaio Chiusura estiva ad agosto, Pasqua.",
     },
     prenota: "PRENOTA",
     prenotaTitle: "Prenota VIVA Vivana Varese",
@@ -74,7 +74,7 @@ export const VIVA = {
       tel: 'phone: <a href="tel:+390249497340">+39 02 4949 7340</a>',
       mail: 'Info and booking: <a href="mailto:info@vivavivianavarese.it">info@vivavivianavarese.it</a>',
       orari:
-        "From Monday to Saturday from **12.30pm** to **2.00pm** and from **7.00pm** to **10.30pm**. Sunday open only for lunch from **12.30pm** to **2.00pm**. <br>Closed from 24th to 27th December. Closed on January 1st. <br>Closing for holidays: August, Christmas, 1st January, Easter.",
+        "From Tuesday to Saturday from **12.30pm** to **2.00pm** and from **7.00pm** to **10.30pm**.  <br>Sunday and Monday closed. <br>Closed from 24th to 27th December. Closed on January 1st. <br>Closing for holidays: August, Christmas, 1st January, Easter.",
     },
     prenota: "BOOKING",
     prenotaTitle: "Booking VIVA Vivana Varese",
