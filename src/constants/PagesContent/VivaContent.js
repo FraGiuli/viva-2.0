@@ -23,7 +23,7 @@ export const VIVA = {
     menuDolciTitle: "I dolci",
     riconoscimenti: "Riconoscimenti",
     menuLunchTitle: "Lunch",
-    menuLunch: "/viva/menu/business_lunch.pdf",
+    menuLunch: "/viva/menu/business_lunch_01_2024.pdf",
     contatti: {
       title: "Contatti",
       name: "VIVA Viviana Varese",
@@ -63,7 +63,7 @@ export const VIVA = {
     menuDolci: "/viva/menu/dolci.pdf",
     menuDolciTitle: "Our Desserts",
     menuLunchTitle: "Lunch",
-    menuLunch: "/viva/menu/business_lunch.pdf",
+    menuLunch: "/viva/menu/business_lunch_01_2024.pdf",
     riconoscimenti: "Awards",
     contatti: {
       title: "Contacts",

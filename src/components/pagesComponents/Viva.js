@@ -102,17 +102,17 @@ export default function Viva() {
           right
           half
           className="mb-8 md:mb-32"
-          calltoaction={
-            <div className="mt-8">
-              <a
-                className="rainbow-link-inline"
-                href={Content.calltoactionLink}
-                target="_blank"
-              >
-                <span>{Content.calltoaction}</span>
-              </a>
-            </div>
-          }
+          // calltoaction={
+          //   <div className="mt-8">
+          //     <a
+          //       className="rainbow-link-inline"
+          //       href={Content.calltoactionLink}
+          //       target="_blank"
+          //     >
+          //       <span>{Content.calltoaction}</span>
+          //     </a>
+          //   </div>
+          // }
         />
         <div
           className="flex flex-col mx-auto mb-32 mt-32 px-[16px] lg:px-[8px]"

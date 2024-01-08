@@ -26,7 +26,7 @@ export default function Shop() {
           <TextViva className="text-2xl leading-relaxed text-center mb-8">
             {Content.body}
           </TextViva>
-          <div className="mb-16">
+          {/* <div className="mb-16">
             <a
               className="rainbow-link-inline"
               target="_blank"
@@ -34,7 +34,7 @@ export default function Shop() {
             >
               <span>{Content.calltoaction}</span>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
