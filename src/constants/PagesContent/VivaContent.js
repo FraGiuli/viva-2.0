@@ -5,7 +5,7 @@ export const VIVA = {
     location: "Milano",
     bodyhead1: "LA BRIGATA E LA SALA",
     body1:
-      "La cucina è fatta di persone che vivono gomito a gomito, comunicano con lo sguardo, colgono gesti e sanno dare loro il giusto significato. <br> **La brigata di VIVA Viviana Varese** è forte, giovane, preparata, compatta. Pronta a seguire la guida sicura e inconfondibile di Viviana Varese. <br><br>La sala è il luogo dell’accoglienza e del racconto. Dietro ogni persona c’è una profonda conoscenza, degli ingredienti, delle preparazioni, dell’idea che c’è dentro ogni piatto. Un sapere che si nutre di passione e deve saziare le curiosità di chi vuole approfondire e scoprire la cucina di Viviana Varese. <br><br>**C’è entusiasmo, rispetto, cultura.** <br>C’è l’impronta della Chef, nella brigata pronta e piena d’energia e nella sala serena e attenta. **Viva**!",
+      "La cucina è fatta di persone che vivono gomito a gomito, comunicano con lo sguardo, colgono gesti e sanno dare loro il giusto significato. <br> **La brigata di VIVA Viviana Varese** è forte, giovane, preparata, compatta. Pronta a seguire la guida sicura e inconfondibile di Viviana Varese. <br><br>La sala è il luogo dell’accoglienza e del racconto. Dietro ogni persona c’è una profonda conoscenza, degli ingredienti, delle preparazioni, dell’idea che c’è dentro ogni piatto. Un sapere che si nutre di passione e deve saziare le curiosità di chi vuole approfondire e scoprire la cucina di Viviana Varese. <br><br>**C’è entusiasmo, rispetto, cultura.** <br>C’è l’impronta della Chef, nella brigata pronta e piena d’energia e nella sala serena e attenta. **Viva**!<br><br> **VIVA Viviana Varese Ristorante chiuderà da Eataly il 20 aprile 2024**.<br> Eataly Smeraldo e la Chef Viviana Varese concluderanno la loro collaborazione durata oltre dieci anni per perseguire entrambi nuovi e ambiziosi progetti.",
     bodyhead2: "IL TERRITORIO",
     body2:
       "**Milano ci accoglie, ci ospita, ci ispira**. Prendiamo da Milano la sua anima cosmopolita, che fa dell’incontro la sua crescita e della contaminazione la sua ricchezza, portandola dentro la nostra cucina. Il luogo dell’**inclusione, della diversità, dell’accoglienza**: siamo un laboratorio sociale e ci nutriamo di quello che ci rende unici. Di Milano ammiriamo la bellezza, tocchiamo le influenze e cogliamo gli spunti creativi. <br><br>Punto di riferimento dell’**arte e del design, della moda e dell’innovazione**, Milano ogni giorno ci insegna a non fermarci, a coltivare l’immaginazione e a non perdere mai la **curiosità**.<br> La cucina di Viviana Varese è un omaggio alle energie che permeano la nostra città: **aperta, sempre nuova, assolutamente VIVA**.",
@@ -17,9 +17,9 @@ export const VIVA = {
     bodyhead4: "VIVA il vino!",
     body4:
       "Con cura, con attenzione, con passione. È così che in VIVA Viviana Varese scegliamo i vini dalla nostra cantina.<br>La carta è ricchissima, 800 le etichette. Una **cantina che si contraddistingue** per profondità e ricercatezza delle aziende produttrici e delle annate. <br><br> Le prime, selezionate puntando l’attenzione sul **territorio e sulla sostenibilità**; le seconde, scelte con cura per carattere e preziosità. <br> Un viaggio nelle vigne e nelle cantine nazionali ed europee che diventa ogni giorno più ricco, sempre alla ricerca di etichette italiane uniche e personalizzate. Non possono ovviamente mancare referenze che escono dai nostri confini, con un occhio di riguardo ai Borgogna e allo Champagne!",
-    menu: "/viva/menu/menu.pdf",
+    menu: "/viva/menu/menu_02_24.pdf",
     menuTitle: "Il menù",
-    menuDolci: "/viva/menu/dolci.pdf",
+    menuDolci: "/viva/menu/dolci_02_24.pdf",
     menuDolciTitle: "I dolci",
     riconoscimenti: "Riconoscimenti",
     menuLunchTitle: "Lunch",
@@ -33,7 +33,7 @@ export const VIVA = {
       tel: 'tel: <a href="tel:+390249497340">+39 02 4949 7340</a>',
       mail: 'Info e prenotazioni: <a href="mailto:info@vivavivianavarese.it">info@vivavivianavarese.it</a>',
       orari:
-        "Martedì – Sabato **12.30 > 14** e **19.00 > 22.30**  <br>Domenica e Lunedì chiuso. <br> Chiuso dal 24 al 27 dicembre. <br>Chiuso il 1 Gennaio Chiusura estiva ad agosto, Pasqua.",
+        "Martedì – Sabato **12.30 > 14** e **19.00 > 22.30**  <br>Domenica e Lunedì chiuso. <br> Chiuso dal 21 aprile 2024.",
     },
     prenota: "PRENOTA",
     prenotaTitle: "Prenota VIVA Vivana Varese",
@@ -46,7 +46,7 @@ export const VIVA = {
     location: "Milano",
     bodyhead1: "THE KITCHEN BRIGADE AND FRONT OF HOUSE TEAM",
     body1:
-      "The kitchen is full of people living shoulder to shoulder, communicating through glances and gestures that transmit exactly what they mean. <br> **The VIVA Viviana Varese brigade** is strong, young, prepared, compact. Ready to follow Viviana Varese’s safe and unmistakable guidance. <br><br>Front of house is where people are welcomed and the stories are told. Each member of our staff has a deep understanding of the ingredients, processes and ideas that lie behind every dish.A knowledge fed by passion and a desire to satisfy the curiosity of those who want to delve deeper and truly discover Viviana Varese’s cuisine.<br><br>**There is enthusiasm, respect, culture** <br> The active, serene and energetic stamp of the Chef is palpable throughout the kitchen brigade and front of house team. **Viva**!",
+      "The kitchen is full of people living shoulder to shoulder, communicating through glances and gestures that transmit exactly what they mean. <br> **The VIVA Viviana Varese brigade** is strong, young, prepared, compact. Ready to follow Viviana Varese’s safe and unmistakable guidance. <br><br>Front of house is where people are welcomed and the stories are told. Each member of our staff has a deep understanding of the ingredients, processes and ideas that lie behind every dish.A knowledge fed by passion and a desire to satisfy the curiosity of those who want to delve deeper and truly discover Viviana Varese’s cuisine.<br><br>**There is enthusiasm, respect, culture** <br> The active, serene and energetic stamp of the Chef is palpable throughout the kitchen brigade and front of house team. **Viva**! <br><br> **VIVA Viviana Varese Ristorante will close at Eataly on 20 April 2024**.<br> Eataly Smeraldo and Chef Viviana Varese will conclude their collaboration lasting over ten years to both cover new and ambitious projects",
     bodyhead2: "THE TERRITORY",
     body2:
       "**Milan welcomes us, hosts us, inspires us**. We feed off Milan’s cosmopolitan soul, where every meeting leads to growth and every contamination to riches, and we bring all this into our kitchen. An **inclusive, diverse, welcoming space**: we are a social workshop and we revel in what makes us different. We admire Milan’s beauty, touching on influences and finding creative stimuli. <br><br>A reference point for **art and design, fashion and innovation**, every day Milan teaches us never to stop, to cultivate our imagination and never mislay our **curiosity**.<br> Viviana Varese’s cuisine pays homage to the energy that permeates our city: open, constantly renewing itself, **totally ALIVE, VIVA**.",
@@ -60,7 +60,7 @@ export const VIVA = {
       "With care, with attention, with passion. This is how at VIVA Viviana Varese we choose the wines from our cellar.<br> The paper is very rich, 800 labels. A cellar that stands out for the depth and refinement of the producing companies and the vintages. The former, selected by focusing attention on the territory and sustainability; the latter, carefully chosen for their character and preciousness.<br> A journey through national and European vineyards and cellars that becomes richer every day, always in search of unique and personalized Italian labels. Obviously, references that go beyond our borders cannot be missing, with an eye to Burgundy and Champagne.",
     menu: "/viva/menu/menu-eng.pdf",
     menuTitle: "Our Menu",
-    menuDolci: "/viva/menu/dolci.pdf",
+    menuDolci: "/viva/menu/dolci_02_24.pdf",
     menuDolciTitle: "Our Desserts",
     menuLunchTitle: "Lunch",
     menuLunch: "/viva/menu/business_lunch_01_2024.pdf",
@@ -74,7 +74,7 @@ export const VIVA = {
       tel: 'phone: <a href="tel:+390249497340">+39 02 4949 7340</a>',
       mail: 'Info and booking: <a href="mailto:info@vivavivianavarese.it">info@vivavivianavarese.it</a>',
       orari:
-        "From Tuesday to Saturday from **12.30pm** to **2.00pm** and from **7.00pm** to **10.30pm**.  <br>Sunday and Monday closed. <br>Closed from 24th to 27th December. Closed on January 1st. <br>Closing for holidays: August, Christmas, 1st January, Easter.",
+        "From Tuesday to Saturday from **12.30pm** to **2.00pm** and from **7.00pm** to **10.30pm**.  <br>Sunday and Monday closed. <br>Closed from 21 April 2024.",
     },
     prenota: "BOOKING",
     prenotaTitle: "Booking VIVA Vivana Varese",
