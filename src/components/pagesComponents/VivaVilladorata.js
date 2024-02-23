@@ -120,13 +120,13 @@ export default function VivaVilladorata() {
           insta="https://www.instagram.com/wvilladorata/?igshid=19oq9l39w4yqb"
           color="#e8cc72"
           seeMap={Content.contatti.seeMap}
-          // prenotaButton={Content.prenota}
+          prenotaButton={Content.prenota}
           prenotaTitle={Content.prenotaTitle}
           prenotaSubtitle={Content.prenotaSubtitle}
           prenotaLink={Content.prenotaLink}
         >
-          {/* <TextViva className="text-lg">{Content.contatti.tel}</TextViva>
-          <TextViva className="pb-4 text-lg">{Content.contatti.mail}</TextViva>
+          <TextViva className="text-lg">{Content.contatti.tel}</TextViva>
+          {/* <TextViva className="pb-4 text-lg">{Content.contatti.mail}</TextViva>
           <TextViva className="pb-4 text-lg">{Content.contatti.orari}</TextViva> */}
           <TextViva className="pb-4 text-2xl font-bold">
             {Content.opening}
