@@ -1,6 +1,6 @@
 export const VIVA_GLI_EVENTI = {
   it: {
-    title: "Viva gli eventi",
+    title: "Gli eventi",
     subtitle:
       "La cucina non è solo cibo. È compagnia, condivisione. È il piacere di incontrarsi, di fare, di stare **insieme**.",
     bodyhead: "CATERING & BANQUETING",
@@ -16,7 +16,7 @@ export const VIVA_GLI_EVENTI = {
     info: "Per richieste e informazioni <a href='mailto:eventi@vivavivianavarese.it'>eventi@vivavivianavarese.it</a>",
   },
   en: {
-    title: "Viva Events",
+    title: "Events",
     subtitle:
       "Kitchen does not mean just food. It's companionship, sharing. It's the pleasure of meeting, of being **together.**",
     bodyhead: "CATERING & BANQUETING",
