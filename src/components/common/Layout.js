@@ -6,7 +6,7 @@ import Footer from "./Footer";
 import { setLanguage } from "../../redux/language";
 
 export default function Layout({ children, title, metaDescription, page }) {
-  const metaTitle = `Viva Viviana Varese - ${title}`;
+  const metaTitle = `Viviana Varese - ${title}`;
 
   const selectedLanguage = useSelector(
     (state) => state.language.selectedLanguage
