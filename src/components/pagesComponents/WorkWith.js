@@ -30,7 +30,7 @@ export default function WorkWith() {
           <TextViva className="text-2xl leading-relaxed text-center mb-8">
             {Content.subtitle}
           </TextViva>
-          <div className="mb-8">
+          {/* <div className="mb-8">
             <a
               className="rainbow-link-inline"
               target="_blank"
@@ -38,7 +38,7 @@ export default function WorkWith() {
             >
               <span>{Content.calltoaction}</span>
             </a>
-          </div>
+          </div> */}
           <TextViva className="text-2xl leading-relaxed text-center mb-16">
             {Content.info}
           </TextViva>

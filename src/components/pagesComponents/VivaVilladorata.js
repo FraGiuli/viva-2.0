@@ -74,7 +74,7 @@ export default function VivaVilladorata() {
           </div> */}
 
           <img
-            src="/villadorata/gruppo.jpg"
+            src="/villadorata/gruppo-1.jpg"
             alt="ristorante"
             width="100%"
             className="mb-8 lg:mb-16"
@@ -126,11 +126,11 @@ export default function VivaVilladorata() {
           prenotaLink={Content.prenotaLink}
         >
           <TextViva className="text-lg">{Content.contatti.tel}</TextViva>
-          {/* <TextViva className="pb-4 text-lg">{Content.contatti.mail}</TextViva>
-          <TextViva className="pb-4 text-lg">{Content.contatti.orari}</TextViva> */}
-          <TextViva className="pb-4 text-2xl font-bold">
+          {/* <TextViva className="pb-4 text-lg">{Content.contatti.mail}</TextViva> */}
+          <TextViva className="pb-4 text-lg">{Content.contatti.orari}</TextViva>
+          {/* <TextViva className="pb-4 text-2xl font-bold">
             {Content.opening}
-          </TextViva>
+          </TextViva> */}
         </Contacts>
       </div>
     </div>

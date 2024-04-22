@@ -82,7 +82,7 @@ export default function Home() {
         <BoxConFoto
           title={Content.eventi.title}
           body={Content.eventi.body}
-          src="/home/catering-banqueting.jpg"
+          src="/home/catering-banqueting-2.jpg"
           alt="eventi"
           className="md:w-[46%] md:min-h-[600px]"
           calltoaction={Content.eventi.calltoaction}

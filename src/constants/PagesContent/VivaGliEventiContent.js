@@ -4,13 +4,13 @@ export const VIVA_GLI_EVENTI = {
     subtitle:
       "La cucina non è solo cibo. È compagnia, condivisione. È il piacere di incontrarsi, di fare, di stare **insieme**.",
     bodyhead: "CATERING & BANQUETING",
-    body: "VIVA Viviana Varese organizza eventi non solo all’interno del ristorante, ma anche in location esterne. La qualità e la creatività dei piatti, la professionalità nella cura dei dettagli e l’attenzione al servizio di sala ci caratterizzano per menu al tavolo o a buffet, dalle cene più intime ai grandi numeri.<br>La nostra proposta per gli eventi comprende menu ad hoc a cura di Viviana Varese, allestimenti con partner specializzati, personale a cura di VIVA Viviana Varese, supervisione dell’organizzazione, buffet, aperitivi, inaugurazioni, pranzi e cene servite con differenti menu a seconda di budget ed esigenze del cliente.",
+    body: "Viviana Varese organizza eventi non solo all’interno dei suoi ristoranti, ma anche in location esterne. La qualità e la creatività dei piatti, la professionalità nella cura dei dettagli e l’attenzione al servizio di sala ci caratterizzano per menu al tavolo o a buffet, dalle cene più intime ai grandi numeri.<br><br>La nostra proposta per gli eventi comprende menu ad hoc a cura di Viviana Varese, allestimenti con partner specializzati, personale a cura di della Chef, supervisione dell’organizzazione, buffet, aperitivi, inaugurazioni, pranzi e cene servite con differenti menu a seconda di budget ed esigenze del cliente.",
     bodyhead1: "CORSI E TEAM BUILDING",
     body1:
-      "VIVA Viviana Varese e il suo staff sono disponibili per corsi di cucina e team building.",
+      "Viviana Varese e il suo staff sono disponibili per corsi di cucina e team building.",
     bodyhead2: "SHOWCOOKING",
     body2:
-      "La Chef Viviana Varese può essere la protagonista di showcooking a tema con ricette, trucchi e curiosità legati al mondo del cibo, del mare e del vino in abbinamento. Gli showcooking possono essere svolti all’interno di VIVA Viviana Varese in location esterne su richiesta del cliente.",
+      "La Chef Viviana Varese può essere la protagonista di showcooking a tema con ricette, trucchi e curiosità legati al mondo del cibo, del mare e del vino in abbinamento. Gli showcooking possono essere svolti in location esterne su richiesta del cliente.",
     calltoaction: "> Esplora <",
     pdf: "/vivaglieventi/VIVA_presentazione_eventi-compresso.pdf",
     info: "Per richieste e informazioni <a href='mailto:eventi@vivavivianavarese.it'>eventi@vivavivianavarese.it</a>",
@@ -20,13 +20,13 @@ export const VIVA_GLI_EVENTI = {
     subtitle:
       "Kitchen does not mean just food. It's companionship, sharing. It's the pleasure of meeting, of being **together.**",
     bodyhead: "CATERING & BANQUETING",
-    body: "VIVA Viviana Varese organises events both inside the restaurant and in external locations. The quality and creativity of the dishes, the professional attention paid to service both at tables or buffets are our trademark, be they intimate dinners or large events.<br>Our events offer includes an ad hoc menu created by Viviana Varese, logistics handled by specialised partners, VIVA Viviana Varese staff, organizational supervision, buffet, aperitifs, inaugurations, lunches and dinners with varying menus to suit the client’s budget and needs.",
+    body: "Viviana Varese organizes events not only inside its restaurants, but also in external locations. The quality and creativity of the dishes, the professionalism in the attention to detail and the attention to dining room service characterize us for table or buffet menus, from the most intimate dinners to large numbers.<br><br>Our proposal for guests events include ad hoc menus curated by Viviana Varese, setups with specialized partners, staff curated by the Chef, organization supervision, buffets, aperitifs, inaugurations, lunches and dinners served with different menus depending on the budget and customer needs.",
     bodyhead1: "COURSES AND TEAM BUILDING",
     body1:
-      "Viviana Varese and her staff are available for cooking and team building courses.",
+      "Viviana Varese and her staff are available for cooking courses and team building.",
     bodyhead2: "SHOWCOOKING",
     body2:
-      "Chef Viviana Varese can put on themed showcooking performances demonstrating recipes, tricks and curiosities linked to the world of food from land and sea, and the accompanying wines. Showcooking events can take place on VIVA Viviana Varese premises in external locations requested by the client.",
+      "Chef Viviana Varese can be the protagonist of themed show cooking with recipes, tricks and curiosities related to the world of food, sea and wine combined. Show cooking can be carried out in external locations upon customer request.",
 
     calltoaction: "> Learn more <",
     pdf: "/vivaglieventi/VIVA_events_eng-compresso.pdf",

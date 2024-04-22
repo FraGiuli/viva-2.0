@@ -11,11 +11,6 @@ import LinkDropdown from "./LinkDropdown";
 import TextViva from "./TextViva";
 
 export default function Header({ page }) {
-  const [visible, setVisible] = useState(false);
-  const handler = () => setVisible(true);
-  const closeHandler = () => {
-    setVisible(false);
-  };
   const selectedLanguage = useSelector(
     (state) => state.language.selectedLanguage
   );
@@ -30,11 +25,11 @@ export default function Header({ page }) {
 
   const PAGES = selectedLanguage === "en" ? PAGES_EN : PAGES_IT;
   const subMenuItem = [
-    PAGES.VIVA,
     PAGES.VILLADORATA,
     PAGES.BISTROT,
-    PAGES.GELATI,
     PAGES.POLPO,
+    PAGES.FAAK,
+    PAGES.PASSALACQUA,
   ];
 
   const dropDownMenuItem = subMenuItem.findIndex((el) => el.name === page) > -1;
@@ -53,9 +48,9 @@ export default function Header({ page }) {
     <>
       <Navbar variant="sticky">
         <Navbar.Brand>
-          <div style={{ width: "80px" }}>
+          <div style={{ width: "160px", padding: "8px" }}>
             <Link href={PAGES.HOME.slug}>
-              <Image alt="logo" src="/logo-viva.png" />
+              <Image alt="logo" src="/logo-viva-firma.png" />
             </Link>
           </div>
         </Navbar.Brand>
@@ -103,9 +98,9 @@ export default function Header({ page }) {
               ))}
             </Dropdown.Menu>
           </Dropdown>
-          <Navbar.Link href={PAGES.SHOP_VIVA.slug}>
+          {/* <Navbar.Link href={PAGES.SHOP_VIVA.slug}>
             {PAGES.SHOP_VIVA.label}
-          </Navbar.Link>
+          </Navbar.Link> */}
           <Navbar.Link
             isActive={page === PAGES.EVENTI.name}
             href={PAGES.EVENTI.slug}
@@ -127,14 +122,8 @@ export default function Header({ page }) {
         </Navbar.Content>
 
         <Navbar.Content>
-          <a className="buttons-inline-book" onClick={handler}>
-            <span>{PRENOTA}</span>
-          </a>
-          <a href="mailto:info@vivavivianavarese.it" className="icon-link">
+          <a href="mailto:info@vivianavaresechef.it" className="icon-link">
             <MdMail />
-          </a>
-          <a href="tel:+390249497340" className="icon-link">
-            <AiFillPhone />
           </a>
           {!showLang && selectedLanguage === "en" && (
             <button
@@ -205,7 +194,7 @@ export default function Header({ page }) {
               ))}
             </Dropdown.Menu>
           </Dropdown>
-          <Navbar.CollapseItem>
+          {/* <Navbar.CollapseItem>
             <Link
               color="inherit"
               className={"navbar-collapse-link"}
@@ -213,7 +202,7 @@ export default function Header({ page }) {
             >
               {PAGES.SHOP_VIVA.label}
             </Link>
-          </Navbar.CollapseItem>
+          </Navbar.CollapseItem> */}
           <Navbar.CollapseItem>
             <Link
               color="inherit"
@@ -249,38 +238,6 @@ export default function Header({ page }) {
           </Navbar.CollapseItem>
         </Navbar.Collapse>
       </Navbar>
-      <Modal
-        closeButton
-        aria-labelledby="modal-title"
-        open={visible}
-        onClose={closeHandler}
-        width="500px"
-      >
-        <Modal.Header>
-          <div className="flex flex-col">
-            <TextViva
-              className="text-3xl playfair font-medium mb-4"
-              id="modal-title"
-            >
-              {PRENOTA_TITLE}
-            </TextViva>
-            <TextViva className="text-lg">{PRENOTA_SUBTITLE}</TextViva>
-          </div>
-        </Modal.Header>
-        <Modal.Body>
-          <div align="center">
-            <iframe
-              src="https://module.lafourchette.com/it_IT/module/725605-f59ee"
-              style={{
-                width: "100%",
-                minHeight: "500px",
-                border: "none",
-                scrolling: "yes",
-              }}
-            ></iframe>
-          </div>
-        </Modal.Body>
-      </Modal>
       <div className="rainbowbg" style={{ height: "10px" }}></div>
     </>
   );

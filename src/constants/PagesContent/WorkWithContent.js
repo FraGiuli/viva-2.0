@@ -2,18 +2,18 @@ export const WORK_WITH = {
   it: {
     title: "Lavora con noi",
     subtitle:
-      "La famiglia di VIVA è sempre in cerca di nuovi talenti e figure di esperienza per le sue sedi di **Milano** e **Noto**. <br> Se la ristorazione ti appassiona e ami il gioco di **squadra**.<br> Se hai uno spirito **libero, solare e determinato**...",
+      "Viviana Varese è sempre in cerca di nuovi talenti e figure di esperienza per i suoi locali.<br>Se la ristorazione ti appassiona e ami il gioco di squadra.<br>Se hai uno spirito libero, solare e determinato…",
 
     calltoaction: "> Vedi i nostri annunci <",
 
-    info: "oppure scrivi a <a href='mailto:job@vivavivianavarese.it'>job@vivavivianavarese.it</a>",
+    info: "inviaci il curriculum a <a href='mailto:info@vivianavaresechef.it'>info@vivianavaresechef.it</a>",
   },
   en: {
     title: "Work with us",
     subtitle:
-      "VIVA's family is always looking for new talents and experienced individuals for its locations in **Milan** and **Noto**.<br> If you are passionate about the restaurant industry and enjoy being part of a **team**. <br>If you are a free, joyful and determined spirit...",
+      "Viviana Varese is always looking for new talents and experienced figures for her premises.<br>If you are passionate about catering and you love teamwork.<br>If you have a free, cheerful and determined spirit…",
     calltoaction: "> See our job posts <",
 
-    info: "or send your CV at <a href='mailto:job@vivavivianavarese.it'>job@vivavivianavarese.it</a>",
+    info: "send us your CV to <a href='mailto:info@vivianavaresechef.it'>info@vivianavaresechef.it</a>",
   },
 };

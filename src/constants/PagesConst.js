@@ -6,12 +6,6 @@ export const PAGES_IT = {
     label: "VIVIANA VARESE",
     description: "",
   },
-  VIVA: {
-    name: "viva",
-    slug: "/viva",
-    label: "VIVA Viviana Varese",
-    description: "Milano - 1 stella Michelin",
-  },
   VILLADORATA: {
     name: "villadorata",
     slug: "/viva-villadorata",
@@ -24,12 +18,6 @@ export const PAGES_IT = {
     label: "VIVA IL BISTROT",
     description: "Noto, Sicilia",
   },
-  GELATI: {
-    name: "gelati",
-    slug: "/io-sono-viva",
-    label: "IO SONO VIVA Dolci e Gelati",
-    description: "Milano",
-  },
   POLPO: {
     name: "polpo",
     slug: "http://polpopesce.it/",
@@ -37,10 +25,24 @@ export const PAGES_IT = {
     description: "Milano",
     target: "_blank",
   },
+  FAAK: {
+    name: "faak",
+    slug: "https://www.faakfaak.it/",
+    label: "FAAK - Cibo e Vino a ribellione naturale",
+    description: "Milano",
+    target: "_blank",
+  },
+  PASSALACQUA: {
+    name: "passalacqua",
+    slug: "https://www.passalacqua.it/en/taste/",
+    label: "PASSALACQUA",
+    description: "Moltrasio, Lago di Como",
+    target: "_blank",
+  },
   EVENTI: {
     name: "eventi",
     slug: "/eventi",
-    label: "VIVA GLI EVENTI",
+    label: "GLI EVENTI",
   },
   WORK_WITH: {
     name: "work-with",
@@ -75,12 +77,6 @@ export const PAGES_EN = {
     slug: "/viviana-varese",
     label: "VIVIANA VARESE",
   },
-  VIVA: {
-    name: "viva",
-    slug: "/viva",
-    label: "VIVA Viviana Varese",
-    description: "Milan - 1 Michelin star",
-  },
   VILLADORATA: {
     name: "villadorata",
     slug: "/viva-villadorata",
@@ -93,17 +89,25 @@ export const PAGES_EN = {
     label: "VIVA IL BISTROT",
     description: "Noto, Sicily",
   },
-  GELATI: {
-    name: "gelati",
-    slug: "/io-sono-viva",
-    label: "IO SONO VIVA Dolci e Gelati",
-    description: "Milan",
-  },
   POLPO: {
     name: "polpo",
     slug: "http://polpopesce.it/",
     label: "POLPO - Simply fish",
     description: "Milano",
+    target: "_blank",
+  },
+  FAAK: {
+    name: "faak",
+    slug: "https://www.faakfaak.it/",
+    label: "FAAK - Naturally rebellious food and wine",
+    description: "Milano",
+    target: "_blank",
+  },
+  PASSALACQUA: {
+    name: "passalacqua",
+    slug: "https://www.passalacqua.it/en/taste/",
+    label: "PASSALACQUA",
+    description: "Moltrasio, Como Lake",
     target: "_blank",
   },
   EVENTI: {

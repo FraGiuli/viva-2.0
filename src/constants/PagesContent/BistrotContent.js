@@ -4,8 +4,8 @@ export const BISTROT_CONTENT = {
     subtitle: "Ristorante",
     location: "Noto (Sicilia)",
     bodyhead:
-      "VIVA IL BISTROT è il nuovo ristorante di Viviana Varese a Noto <br>all’interno di Palazzo Nicolaci",
-    body: "**Resident Chef Ida Brenna. L’amore per la Sicilia si amplia con un altro indirizzo dopo quello di W Villadorata Country Restaurant guidato dal Resident Chef Matteo Carnaghi.** <br> VIVA IL BISTROT è un posto che vuole essere innanzitutto **un luogo che accoglie, un abbraccio culinario e dove il vino ha uno spazio importante.** **Una cucina che profuma di Mediterraneo** perché le proposte in tavola attingono dalle diverse culture gastronomiche del bacino del Mare Nostrum. In carta ci sono piatti della tradizione meridionale e siciliana con alcune incursioni mediorientali o nordafricane. <br><br> Anche la carta dei vini sposa l’idea dell’incontro e della contaminazione e quindi spazio alle referenze provenienti dai paesi che affacciano sul mare Mediterraneo.",
+      "VIVA IL BISTROT è il ristorante di Viviana Varese a Noto <br>all’interno di Palazzo Nicolaci. <br>Resident Chef Ida Brenna.",
+    body: "VIVA IL BISTROT è un posto che vuole essere innanzitutto **un luogo che accoglie, un abbraccio culinario e dove il vino ha uno spazio importante.** **Una cucina che profuma di Mediterraneo** perché le proposte in tavola attingono dalle diverse culture gastronomiche del bacino del Mare Nostrum. In carta ci sono piatti della tradizione meridionale e siciliana con alcune incursioni mediorientali o nordafricane. <br><br> Anche la carta dei vini sposa l’idea dell’incontro e della contaminazione e quindi spazio alle referenze provenienti dai paesi che affacciano sul mare Mediterraneo.",
     body2:
       "**Gli spazi sono all’interno del più bel palazzo di Noto, Palazzo Nicolaci** della metà del XVIII secolo, concepito in puro stile barocco. VIVA IL BISTROT è proprio nelle cantine che furono della residenza: archi ogivali e campate a botte su sale ampie e fresche costruite nella tipica pietra sedimentaria della zona dalle colorazioni calde e delicate. **A rendere dinamico e contemporaneo l’ambiente sono l’arte e il design** con arredi selezionati dalla proprietaria della location **Cristina Summa**.<br><br> In VIVA IL BISTROT anche l’Arte ha il suo palcoscenico grazie alla **collaborazione con la Galleria d’arte Spazionoto di Paolo Perrelli**, “vicino di casa” del locale. Qui hanno esposto personaggi noti come il regista Pedro Almodovar e l’attrice Eva Robin’s. Il progetto è una sorta di ampliamento delle mura di Spazionoto che si allungano fino a quelle di **VIVA IL BISTROT diventando di fatto un’altra galleria espositiva con artisti nazionali e internazionali** che si alterneranno nel corso delle stagioni, colorando e accendendo le pareti del bistrot.",
     body3:
@@ -17,9 +17,9 @@ export const BISTROT_CONTENT = {
       address: "via Rocco Pirri 19, Noto (SR)",
       seeMap: "Vedi mappa",
       tel: 'tel:<a href="tel:+393347933384">+39 334 7933384</a> - <a href="tel:0931316631">0931 316631</a>',
-      mail: 'Info e prenotazioni: <a href="mailto:vivabistrot@vivavivianavarese.it">vivabistrot@vivavivianavarese.it</a>',
+      mail: 'Info e prenotazioni: <a href="mailto:vivabistrot@vivianavaresechef.it">vivabistrot@vivianavaresechef.it</a>',
       orari:
-        "Aperto da aprile a novembre.<br> **VIVA il Bistrot riapre il 15 aprile 2024.**",
+        "Mercoledì – Lunedì 19.00 > 23.00 - Martedì chiuso. <br>Aperto a pranzo la domenica 12.00 > 15.00",
     },
     prenota: "PRENOTA",
     prenotaTitle: "Prenota VIVA IL BISTROT ",
@@ -49,8 +49,8 @@ export const BISTROT_CONTENT = {
     subtitle: "Ristorante",
     location: "Noto (Sicilia)",
     bodyhead:
-      "VIVA IL BISTROT is Viviana Varese’s new restaurant in Palazzo Nicolaci, Noto",
-    body: "**Resident Chef Ida Brenna.** <br> **Love for Sicily grows with another venue following the W Villadorata Country Restaurant run by Resident Chef Matteo Carnagh** <br> VIVA IL BISTROT is a place that seeks above all to be a **welcoming environment, a culinary embrace, where wine is given important space.** **The cuisine has the fragrance of the Mediterranean** as the choices served at the tables draw from the  different gastronomic cultures of the Mare Nostrum basin. The menu has dishes from the southern and Sicilian tradition, with some incursions from the Middle East  and North Africa. <br><br> Even the wine list marries the idea of ​​meeting and contamination and therefore space for references coming from countries overlooking the Mediterranean Sea.",
+      "VIVA IL BISTROT is Viviana Varese’s new restaurant in Palazzo Nicolaci, Noto. <br> Resident Chef Ida Brenna",
+    body: "VIVA IL BISTROT is a place that seeks above all to be a **welcoming environment, a culinary embrace, where wine is given important space.** **The cuisine has the fragrance of the Mediterranean** as the choices served at the tables draw from the  different gastronomic cultures of the Mare Nostrum basin. The menu has dishes from the southern and Sicilian tradition, with some incursions from the Middle East  and North Africa. <br><br> Even the wine list marries the idea of ​​meeting and contamination and therefore space for references coming from countries overlooking the Mediterranean Sea.",
     body2:
       "**The spaces are inside the most beautiful building in Noto, Palazzo Nicolaci**, from the mid-eighteenth  century, designed in pure Baroque style. VIVA IL BISTROT occupies what were the cellars of the  residence: ogival arches and barrel vaults span large, cool rooms built in the typical sedimentary stone of the  area, with warm, delicate colours. **The environment is made dynamic and contemporary by art and design**, with furniture selected by the owner of the location, **Cristina Summa**. Art also has its own stage in VIVA IL BISTROT, thanks to collaboration with the Spazionoto Art Gallery  owned by Paolo Perrelli, a neighbour of the restaurant. Well-known figures have exhibited here, including  the director Pedro Almodovar and actress Eva Robin’s. The project is a kind of extension of the walls of  Spazionoto to those of VIVA IL BISTROT, which becomes an additional exhibition gallery for national  and international artists, who will alternate through the seasons, colouring and lighting up the walls of the  bistrot.",
     body3:
@@ -61,9 +61,9 @@ export const BISTROT_CONTENT = {
       address: "via Rocco Pirri 19, Noto (SR)",
       seeMap: "Look at the map",
       tel: 'phone:<a href="tel:+393347933384">+39 334 7933384</a> - <a href="tel:0931316631">0931 316631</a>',
-      mail: 'Info and booking: <a href="mailto:vivabistrot@vivavivianavarese.it">vivabistrot@vivavivianavarese.it</a>',
+      mail: 'Info and booking: <a href="mailto:vivabistrot@vivianavaresechef.it">vivabistrot@vivianavaresechef.it</a>',
       orari:
-        "Open from April to November.<br> **VIVA il Bistrot reopens on April 15, 2024.**",
+        "Wednesday – Monday 7.00pm > 11.00pm - Tuesday closed. <br>Open for lunch on Sundays 12.00 > 15.00",
     },
     prenota: "BOOKING",
     prenotaTitle: "Booking VIVA IL BISTROT ",
