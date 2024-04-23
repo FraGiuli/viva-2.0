@@ -229,7 +229,7 @@ div.rainbow-link:hover:after {
   border-radius: 14px;
   display: block;
   text-align: center;
-  width: 200px;
+  width: 300px;
 }
 
 .menu-buttons-inline:hover {
@@ -239,7 +239,7 @@ div.rainbow-link:hover:after {
   border-radius: 14px;
   display: block;
   text-align: center;
-  width: 200px;
+
   color: #212529;
 }
 

@@ -20,7 +20,7 @@ export const VILLADORATA_CONTENT = {
       address: "Contrada Portelle, Noto SR",
       seeMap: "Vedi mappa",
       tel: 'tel: <a href="tel:+393428163083">+39 342 8163083</a>',
-      mail: 'Info e prenotazioni: <a href="villadorata@vivavivianavarese.it">villadorata@vivavivianavarese.it</a>',
+      mail: 'Info e prenotazioni: <a href="villadorata@vivianavaresechef.it">villadorata@vivianavaresechef.it</a>',
       orari: "Lunedì – Domenica 19:00 – 22:00",
     },
     prenota: "PRENOTA",
@@ -28,17 +28,17 @@ export const VILLADORATA_CONTENT = {
     prenotaSubtitle: "",
     prenotaLink: "https://module.lafourchette.com/it_IT/module/726003-ad88e",
     menu: {
-      pdf: "/villadorata/menu/04.28 Menu Carta Villadorata 2023.pdf",
+      pdf: "",
       label: "Il menù",
     },
     menus: [
       {
-        pdf: "/villadorata/menu/04.17 carta vini villadorata IMPAGINATA 2023.pdf",
-        label: "I nostri vini",
+        pdf: "/villadorata/menu/Menu_Aperitivo.pdf",
+        label: "Menu aperitivo",
       },
       {
-        pdf: "/villadorata/menu/04.18 Menu DRINK cena.pdf",
-        label: "I nostri drink",
+        pdf: "/villadorata/menu/Menu_cena.pdf",
+        label: "Menu cena",
       },
     ],
     opening: "W Villadorata Country Restaurant riaprirà <br>il 19 aprile 2024.",
@@ -57,14 +57,14 @@ export const VILLADORATA_CONTENT = {
     body2:
       "All the crops on the Villadorata estate follow the biodynamic method, which does not involve the use of pesticides and fertilizers, and considers the earth as a large organism to be protected and whose fertility must be optimised.<br><br>Safeguarding the planet in all its forms and the limitation of the intensive exploitation of crops, livestock and seas are our priority. For Viviana Varese and Country house, sustainability is not a concept linked only to the use of raw materials, but also to the choice to collaborate both with small artisans, protecting and enhancing their work, and with social cooperatives including Noto and Eta Beta of Bologna.",
     body3:
-      'The principles of this singular experience are the valorization of the territory and its biodiversity, respect for the raw materials and ingredients used in the dishes, all accompanied by the joy of "restaurant".<br>In the restaurant menu, local products are the protagonists , in addition to vegetables, tomatoes and aromatic herbs, also ancient grain flours such as timilia and mallorca, oil, citrus fruits; unique dishes prepared through smoking, fire and oven, characteristic of Viviana Varese`s cuisine and which tell of her roots.<br>The wines on the list are mainly of Sicilian origin, there is certainly no shortage of bubbles, biodynamic, ancestral and Marsala D.O.C at the end of the meal. There are also craft beers and a menu of cocktails whose aromas recall the land of Sicily.<br><br>From 2022, two former VIVA sous chefs will be carrying on the project, both with experience in several years alongside Viviana Varese: **Matteo Carnaghi**, now Executive Chef of W Villadorata and **Ida Brenna**, Pastry Chef together with a young team both in the kitchen and in the dining room. An à la carte menu where the flavors of the raw materials from Val di Noto and Sicily are enhanced by the Chef`s creativity. An internal room has an open wood-burning kitchen, a total experience with seats at the counter to watch the show.<br>From 2022 W Villadorata join the <a href="https://www.fondazioneslowfood.com/it/cosa-facciamo/alleanza-slow-food-dei-cuochi/#" target="_blank">Alleanza Slow Food</a>',
+      "The principles of this singular experience are the valorization of the territory and its biodiversity, respect for the raw materials and ingredients used in the dishes, all accompanied by the joy of 'restaurant'.<br>In the restaurant menu, local products are the protagonists, in addition to vegetables, tomatoes and aromatic herbs, also ancient grain flours such as timilia and mallorca, oil, citrus fruits; unique dishes prepared through smoking, fire and oven, characteristic of Viviana Varese's cuisine and which tell of her roots.<br>The wines on the list are mainly of Sicilian origin, there is certainly no shortage of bubbles, biodynamic, ancestral and Marsala D.O.C at the end of the meal. There are also craft beers and a menu of cocktails whose aromas recall the land of Sicily.<br><br>From 2022, two former VIVA sous chefs will be carrying on the project, both with experience in several years alongside Viviana Varese: **Matteo Carnaghi**, now Executive Chef of W Villadorata and **Ida Brenna**, Pastry Chef together with a young team both in the kitchen and in the dining room. An à la carte menu where the flavors of the raw materials from Val di Noto and Sicily are enhanced by the Chef's creativity. An internal room has an open wood-burning kitchen, a total experience with seats at the counter to watch the show.<br>From 2022 W Villadorata join the <a href='https://www.fondazioneslowfood.com/it/cosa-facciamo/alleanza-slow-food-dei-cuochi/#' target='_blank'>Alleanza Slow Food</a>",
     contatti: {
       title: "Contacts",
       name: "W VILLADORATA Country Restaurant",
       address: "Contrada Portelle, Noto SR",
       seeMap: "Look at the map",
       tel: 'phone: <a href="tel:+393428163083">+39 342 8163083</a>',
-      mail: 'Info and booking: <a href="villadorata@vivavivianavarese.it">villadorata@vivavivianavarese.it</a>',
+      mail: 'Info and booking: <a href="villadorata@vivianavaresechef.it">villadorata@vivianavaresechef.it</a>',
       orari: "Monday – Sunday 7.00pm – 10.00pm",
     },
     prenota: "BOOKING",
@@ -72,17 +72,17 @@ export const VILLADORATA_CONTENT = {
     prenotaSubtitle: "",
     prenotaLink: "https://module.lafourchette.com/en_GB/module/726003-ad88e",
     menu: {
-      pdf: "/villadorata/menu/04.28 Menu Carta Villadorata 2023.pdf",
+      pdf: "",
       label: "Our menu",
     },
     menus: [
       {
-        pdf: "/villadorata/menu/04.17 carta vini villadorata IMPAGINATA 2023.pdf",
-        label: "Our Wine",
+        pdf: "/villadorata/menu/Menu_Aperitivo.pdf",
+        label: "Menu aperitivo",
       },
       {
-        pdf: "/villadorata/menu/04.18 Menu DRINK cena.pdf",
-        label: "Our drinks",
+        pdf: "/villadorata/menu/Menu_cena.pdf",
+        label: "Menu dinner",
       },
     ],
   },

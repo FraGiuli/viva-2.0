@@ -82,7 +82,7 @@ export default function VivaVilladorata() {
           <TextViva className="text-lg leading-relaxed text-center">
             {Content.body2}
           </TextViva>
-          {/* <div
+          <div
             className="flex flex-wrap gap-8 md:gap-16 justify-center mb-8 lg:mb-16 mt-4 lg:mt-8"
             style={{ width: "100%" }}
           >
@@ -98,7 +98,7 @@ export default function VivaVilladorata() {
                   </a>
                 </div>
               ))}
-          </div> */}
+          </div>
         </div>
         <TextSlider
           body={Content.body3}
@@ -126,7 +126,7 @@ export default function VivaVilladorata() {
           prenotaLink={Content.prenotaLink}
         >
           <TextViva className="text-lg">{Content.contatti.tel}</TextViva>
-          {/* <TextViva className="pb-4 text-lg">{Content.contatti.mail}</TextViva> */}
+          <TextViva className="pb-4 text-lg">{Content.contatti.mail}</TextViva>
           <TextViva className="pb-4 text-lg">{Content.contatti.orari}</TextViva>
           {/* <TextViva className="pb-4 text-2xl font-bold">
             {Content.opening}

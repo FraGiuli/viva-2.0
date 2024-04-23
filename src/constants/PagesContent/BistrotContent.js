@@ -26,20 +26,16 @@ export const BISTROT_CONTENT = {
     prenotaSubtitle: "",
     prenotaLink: "https://module.lafourchette.com/it_IT/module/755266-49c33",
     menu: {
-      pdf: "/vivailbistrot/menu/menu.pdf",
+      pdf: "/vivailbistrot/menu/menu-itaeng-23-04.pdf",
       label: "Il menu",
     },
     menus: [
       {
-        pdf: "/vivailbistrot/menu/vini.pdf",
-        label: "I nostri vini",
-      },
-      {
-        pdf: "/vivailbistrot/menu/dolci.pdf",
+        pdf: "/vivailbistrot/menu/dolci-23-04.pdf",
         label: "I nostri dolci",
       },
       {
-        pdf: "/vivailbistrot/menu/drink.pdf",
+        pdf: "/vivailbistrot/menu/drink-antipasti-23-04.pdf",
         label: "I nostri drink",
       },
     ],
@@ -70,16 +66,18 @@ export const BISTROT_CONTENT = {
     prenotaSubtitle: "",
     prenotaLink: "https://module.lafourchette.com/it_IT/module/755266-49c33",
     menu: {
-      pdf: "/vivailbistrot/menu/menu-eng.pdf",
+      pdf: "/vivailbistrot/menu/menu-itaeng-23-04.pdf",
       label: "Our menu",
     },
     menus: [
-      { pdf: "/vivailbistrot/menu/vini.pdf", label: "Our Wine" },
       {
-        pdf: "/vivailbistrot/menu/dolci.pdf",
+        pdf: "/vivailbistrot/menu/dolci-23-04.pdf",
         label: "Our desserts",
       },
-      { pdf: "/vivailbistrot/menu/drink", label: "Our drinks" },
+      {
+        pdf: "/vivailbistrot/menu/drink-antipasti-23-04.pdf",
+        label: "Our drinks",
+      },
     ],
   },
 };
