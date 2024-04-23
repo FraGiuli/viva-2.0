@@ -16,7 +16,7 @@ export default function VivaGliEventi() {
     <div>
       <Hero
         borderBottomColor="#FF0286"
-        src="/vivaglieventi/eventi-sfondo-hero.jpg"
+        src="/vivaglieventi/eventi-sfondo.jpg"
         nooverlay
       />
       <div className="mx-auto mt-8 md:mt-32 " style={{ maxWidth: "1528px" }}>
@@ -30,11 +30,37 @@ export default function VivaGliEventi() {
           >
             {Content.title}
           </TextViva>
-          <TextViva className="text-2xl leading-relaxed text-center mb-8">
+          <TextViva className="text-2xl leading-relaxed text-center mb-16">
             {Content.subtitle}
           </TextViva>
+          <div
+            className="flex flex-col flex-start justify-center mx-auto px-[16px] lg:px-[8px]"
+            style={{ maxWidth: "1200px" }}
+          >
+            <TextViva className="text-lg leading-relaxed text-left font-bold mb-4">
+              {Content.bodyhead}
+            </TextViva>
 
-          <div className="mb-32">
+            <TextViva className="text-lg leading-relaxed text-left mb-8">
+              {Content.body}
+            </TextViva>
+            <TextViva className="text-lg leading-relaxed text-left font-bold mb-4">
+              {Content.bodyhead1}
+            </TextViva>
+
+            <TextViva className="text-lg leading-relaxed text-left mb-8">
+              {Content.body1}
+            </TextViva>
+            <TextViva className="text-lg leading-relaxed text-left font-bold mb-4">
+              {Content.bodyhead2}
+            </TextViva>
+
+            <TextViva className="text-lg leading-relaxed text-left mb-16">
+              {Content.body2}
+            </TextViva>
+          </div>
+
+          {/* <div className="mb-32">
             <a
               className="rainbow-link-inline "
               target="_blank"
@@ -42,9 +68,9 @@ export default function VivaGliEventi() {
             >
               <span>{Content.calltoaction}</span>
             </a>
-          </div>
+          </div>        */}
         </div>
-        <div
+        {/* <div
           className="flex flex-col lg:flex-row flex-wrap mb-8 lg:mb-32 gap-8 px-[16px] lg:px-[8px] mx-auto justify-center items-center"
           style={{ maxWidth: "1200px" }}
         >
@@ -70,7 +96,7 @@ export default function VivaGliEventi() {
             alt="showcooking.jpg"
             className="md:w-[47%] md:min-h-[700px]"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
