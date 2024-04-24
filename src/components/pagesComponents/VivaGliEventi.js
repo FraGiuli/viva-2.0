@@ -58,6 +58,9 @@ export default function VivaGliEventi() {
             <TextViva className="text-lg leading-relaxed text-left mb-16">
               {Content.body2}
             </TextViva>
+            <TextViva className="text-lg leading-relaxed text-left font-bold mb-16">
+              {Content.info}
+            </TextViva>
           </div>
 
           {/* <div className="mb-32">

@@ -12,7 +12,7 @@ export const HOME_CONTENT = {
         "La chef Viviana Varese e il suo staff vi aspettano nelle location di Milano e Noto.",
       array: [
         {
-          text: "Viviana Varese Cuoca di casa",
+          text: "Viviana Varese Chef",
           location: "MOLTRASIO, Lago di Como",
           srcLogo: "home/logo-passalacqua.png",
           alt: "passalacqua",
@@ -87,7 +87,7 @@ export const HOME_CONTENT = {
         "Chef Viviana Varese and her staff await you in the locations in Milan and Noto.",
       array: [
         {
-          text: "Viviana Varese Home cook",
+          text: "Viviana Varese Chef",
           location: "MOLTRASIO, Como Lake",
           srcLogo: "home/logo-passalacqua.png",
           alt: "passalacqua",

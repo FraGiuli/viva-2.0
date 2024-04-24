@@ -13,7 +13,7 @@ export const VIVA_GLI_EVENTI = {
       "La Chef Viviana Varese può essere la protagonista di showcooking a tema con ricette, trucchi e curiosità legati al mondo del cibo, del mare e del vino in abbinamento. Gli showcooking possono essere svolti in location esterne su richiesta del cliente.",
     calltoaction: "> Esplora <",
     pdf: "/vivaglieventi/VIVA_presentazione_eventi-compresso.pdf",
-    info: "Per richieste e informazioni <a href='mailto:eventi@vivavivianavarese.it'>eventi@vivavivianavarese.it</a>",
+    info: "Per informazioni <a href='mailto:eventi@vivianavaresechef.it'>eventi@vivianavaresechef.it</a>",
   },
   en: {
     title: "Events",
@@ -30,6 +30,6 @@ export const VIVA_GLI_EVENTI = {
 
     calltoaction: "> Learn more <",
     pdf: "/vivaglieventi/VIVA_events_eng-compresso.pdf",
-    info: "For more info <a href='mailto:eventi@vivavivianavarese.it'>eventi@vivavivianavarese.it</a>",
+    info: "For info <a href='mailto:eventi@vivianavaresechef.it'>eventi@vivianavaresechef.it</a>",
   },
 };
