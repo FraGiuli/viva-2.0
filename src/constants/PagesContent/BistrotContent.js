@@ -39,7 +39,7 @@ export const BISTROT_CONTENT = {
         label: "I nostri drink",
       },
       {
-        pdf: "/vivailbistrot/menu/domenica-menu.pdf",
+        pdf: "/vivailbistrot/menu/domenica-menu_10_05.pdf",
         label: "Menu della domenica",
       },
     ],
@@ -83,7 +83,7 @@ export const BISTROT_CONTENT = {
         label: "Our drinks",
       },
       {
-        pdf: "/vivailbistrot/menu/domenica-menu.pdf",
+        pdf: "/vivailbistrot/menu/domenica-menu_10_05.pdf",
         label: "Sunday Menu",
       },
     ],
