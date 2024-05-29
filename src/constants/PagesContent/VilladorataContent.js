@@ -37,7 +37,7 @@ export const VILLADORATA_CONTENT = {
         label: "Menu aperitivo",
       },
       {
-        pdf: "/villadorata/menu/Menu_cena.pdf",
+        pdf: "/villadorata/menu/cena-villadorata_29-05.pdf",
         label: "Menu cena",
       },
     ],
@@ -81,7 +81,7 @@ export const VILLADORATA_CONTENT = {
         label: "Menu aperitivo",
       },
       {
-        pdf: "/villadorata/menu/Menu_cena.pdf",
+        pdf: "/villadorata/menu/cena-villadorata_29-05.pdf",
         label: "Menu dinner",
       },
     ],

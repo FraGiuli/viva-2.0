@@ -26,12 +26,12 @@ export const BISTROT_CONTENT = {
     prenotaSubtitle: "",
     prenotaLink: "https://module.lafourchette.com/it_IT/module/755266-49c33",
     menu: {
-      pdf: "/vivailbistrot/menu/menu-itaeng-23-04.pdf",
+      pdf: "/vivailbistrot/menu/menu_29-05.pdf",
       label: "Il menu",
     },
     menus: [
       {
-        pdf: "/vivailbistrot/menu/dolci-23-04.pdf",
+        pdf: "/vivailbistrot/menu/dolci_29-05.pdf",
         label: "I nostri dolci",
       },
       {
@@ -39,7 +39,7 @@ export const BISTROT_CONTENT = {
         label: "I nostri drink",
       },
       {
-        pdf: "/vivailbistrot/menu/domenica-menu_10_05.pdf",
+        pdf: "/vivailbistrot/menu/pranzodomenica_29-05.pdf",
         label: "Menu della domenica",
       },
     ],
@@ -70,12 +70,12 @@ export const BISTROT_CONTENT = {
     prenotaSubtitle: "",
     prenotaLink: "https://module.lafourchette.com/it_IT/module/755266-49c33",
     menu: {
-      pdf: "/vivailbistrot/menu/menu-itaeng-23-04.pdf",
+      pdf: "/vivailbistrot/menu/menu_29-05.pdf",
       label: "Our menu",
     },
     menus: [
       {
-        pdf: "/vivailbistrot/menu/dolci-23-04.pdf",
+        pdf: "/vivailbistrot/menu/dolci_29-05.pdf",
         label: "Our desserts",
       },
       {
@@ -83,7 +83,7 @@ export const BISTROT_CONTENT = {
         label: "Our drinks",
       },
       {
-        pdf: "/vivailbistrot/menu/domenica-menu_10_05.pdf",
+        pdf: "/vivailbistrot/menu/pranzodomenica_29-05.pdf",
         label: "Sunday Menu",
       },
     ],
