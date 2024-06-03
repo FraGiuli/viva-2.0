@@ -40,6 +40,10 @@ export const VILLADORATA_CONTENT = {
         pdf: "/villadorata/menu/cena-villadorata_29-05.pdf",
         label: "Menu cena",
       },
+      {
+        pdf: "/villadorata/menu/fuoco_03_06.pdf",
+        label: "Menu del fuoco",
+      },
     ],
     opening: "W Villadorata Country Restaurant riaprirà <br>il 19 aprile 2024.",
   },
@@ -83,6 +87,10 @@ export const VILLADORATA_CONTENT = {
       {
         pdf: "/villadorata/menu/cena-villadorata_29-05.pdf",
         label: "Menu dinner",
+      },
+      {
+        pdf: "/villadorata/menu/fuoco_03_06.pdf",
+        label: "Fire Menu",
       },
     ],
   },
