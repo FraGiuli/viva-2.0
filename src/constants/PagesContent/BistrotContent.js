@@ -38,10 +38,10 @@ export const BISTROT_CONTENT = {
         pdf: "/vivailbistrot/menu/drink-antipasti-23-04.pdf",
         label: "I nostri drink",
       },
-      {
-        pdf: "/vivailbistrot/menu/pranzodomenica_29-05.pdf",
-        label: "Menu della domenica",
-      },
+      // {
+      //   pdf: "/vivailbistrot/menu/pranzodomenica_29-05.pdf",
+      //   label: "Menu della domenica",
+      // },
     ],
   },
   en: {
@@ -82,10 +82,10 @@ export const BISTROT_CONTENT = {
         pdf: "/vivailbistrot/menu/drink-antipasti-23-04.pdf",
         label: "Our drinks",
       },
-      {
-        pdf: "/vivailbistrot/menu/pranzodomenica_29-05.pdf",
-        label: "Sunday Menu",
-      },
+      // {
+      //   pdf: "/vivailbistrot/menu/pranzodomenica_29-05.pdf",
+      //   label: "Sunday Menu",
+      // },
     ],
   },
 };
