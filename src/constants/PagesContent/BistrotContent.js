@@ -18,15 +18,14 @@ export const BISTROT_CONTENT = {
       seeMap: "Vedi mappa",
       tel: 'tel:<a href="tel:+393347933384">+39 334 7933384</a> - <a href="tel:0931316631">0931 316631</a>',
       mail: 'Info e prenotazioni: <a href="mailto:vivabistrot@vivianavaresechef.it">vivabistrot@vivianavaresechef.it</a>',
-      orari:
-        "Mercoledì – Lunedì 19.00 > 23.00 - Martedì chiuso. <br>Aperto a pranzo la domenica 12.00 > 15.00",
+      orari: "Mercoledì – Lunedì 19.00 > 00.00 - Martedì chiuso.",
     },
     prenota: "PRENOTA",
     prenotaTitle: "Prenota VIVA IL BISTROT ",
     prenotaSubtitle: "",
     prenotaLink: "https://module.lafourchette.com/it_IT/module/755266-49c33",
     menu: {
-      pdf: "/vivailbistrot/menu/menu_29-05.pdf",
+      pdf: "/vivailbistrot/menu/menu_18_07.pdf",
       label: "Il menu",
     },
     menus: [
@@ -62,15 +61,14 @@ export const BISTROT_CONTENT = {
       seeMap: "Look at the map",
       tel: 'phone:<a href="tel:+393347933384">+39 334 7933384</a> - <a href="tel:0931316631">0931 316631</a>',
       mail: 'Info and booking: <a href="mailto:vivabistrot@vivianavaresechef.it">vivabistrot@vivianavaresechef.it</a>',
-      orari:
-        "Wednesday – Monday 7.00pm > 11.00pm - Tuesday closed. <br>Open for lunch on Sundays 12.00 > 15.00",
+      orari: "Wednesday – Monday 7.00pm > 12.00pm - Tuesday closed.",
     },
     prenota: "BOOKING",
     prenotaTitle: "Booking VIVA IL BISTROT ",
     prenotaSubtitle: "",
     prenotaLink: "https://module.lafourchette.com/it_IT/module/755266-49c33",
     menu: {
-      pdf: "/vivailbistrot/menu/menu_29-05.pdf",
+      pdf: "/vivailbistrot/menu/menu_18_07.pdf",
       label: "Our menu",
     },
     menus: [
