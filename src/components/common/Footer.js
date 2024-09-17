@@ -15,6 +15,7 @@ export default function Footer() {
         <a
           href="https://www.iubenda.com/privacy-policy/38943154"
           className="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe"
+          target="_blank"
           title="Privacy Policy"
         >
           Privacy Policy
@@ -24,6 +25,7 @@ export default function Footer() {
         <a
           href="https://www.iubenda.com/privacy-policy/38943154/cookie-policy"
           className="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe"
+          target="_blank"
           title="Cookie Policy"
         >
           Cookie Policy
