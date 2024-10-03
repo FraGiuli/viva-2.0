@@ -25,7 +25,7 @@ export const BISTROT_CONTENT = {
     prenotaSubtitle: "",
     prenotaLink: "https://module.lafourchette.com/it_IT/module/755266-49c33",
     menu: {
-      pdf: "/vivailbistrot/menu/menu_18_07.pdf",
+      pdf: "/vivailbistrot/menu/menu_03-10.pdf",
       label: "Il menu",
     },
     menus: [
@@ -68,7 +68,7 @@ export const BISTROT_CONTENT = {
     prenotaSubtitle: "",
     prenotaLink: "https://module.lafourchette.com/it_IT/module/755266-49c33",
     menu: {
-      pdf: "/vivailbistrot/menu/menu_18_07.pdf",
+      pdf: "/vivailbistrot/menu/menu_03-10.pdf",
       label: "Our menu",
     },
     menus: [
