@@ -98,9 +98,9 @@ export default function Header({ page }) {
               ))}
             </Dropdown.Menu>
           </Dropdown>
-          {/* <Navbar.Link href={PAGES.SHOP_VIVA.slug}>
+          <Navbar.Link href={PAGES.SHOP_VIVA.slug}>
             {PAGES.SHOP_VIVA.label}
-          </Navbar.Link> */}
+          </Navbar.Link>
           <Navbar.Link
             isActive={page === PAGES.EVENTI.name}
             href={PAGES.EVENTI.slug}
@@ -194,7 +194,7 @@ export default function Header({ page }) {
               ))}
             </Dropdown.Menu>
           </Dropdown>
-          {/* <Navbar.CollapseItem>
+          <Navbar.CollapseItem>
             <Link
               color="inherit"
               className={"navbar-collapse-link"}
@@ -202,7 +202,7 @@ export default function Header({ page }) {
             >
               {PAGES.SHOP_VIVA.label}
             </Link>
-          </Navbar.CollapseItem> */}
+          </Navbar.CollapseItem>
           <Navbar.CollapseItem>
             <Link
               color="inherit"
