@@ -120,7 +120,7 @@ export default function VivaVilladorata() {
           insta="https://www.instagram.com/wvilladorata/?igshid=19oq9l39w4yqb"
           color="#e8cc72"
           seeMap={Content.contatti.seeMap}
-          prenotaButton={Content.prenota}
+          // prenotaButton={Content.prenota}
           prenotaTitle={Content.prenotaTitle}
           prenotaSubtitle={Content.prenotaSubtitle}
           prenotaLink={Content.prenotaLink}

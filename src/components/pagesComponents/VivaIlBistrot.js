@@ -95,7 +95,7 @@ export default function VivaIlBistrot() {
             insta="https://www.instagram.com/viva_ilbistrotnoto/"
             color="#ba8a76"
             seeMap={Content.contatti.seeMap}
-            prenotaButton={Content.prenota}
+            // prenotaButton={Content.prenota}
             prenotaTitle={Content.prenotaTitle}
             prenotaSubtitle={Content.prenotaSubtitle}
             prenotaLink={Content.prenotaLink}
