@@ -98,7 +98,7 @@ export default function Header({ page }) {
               ))}
             </Dropdown.Menu>
           </Dropdown>
-          <Navbar.Link href={PAGES.SHOP_VIVA.slug}>
+          <Navbar.Link href={PAGES.SHOP_VIVA.slug} target="_blank">
             {PAGES.SHOP_VIVA.label}
           </Navbar.Link>
           <Navbar.Link

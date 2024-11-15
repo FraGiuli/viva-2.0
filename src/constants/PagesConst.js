@@ -56,13 +56,15 @@ export const PAGES_IT = {
   },
   SHOP_VIVA: {
     name: "shop-viva",
-    slug: "/shop",
+    slug: "https://ac80e3.myshopify.com/",
     label: "SHOP",
+    target: "_blank",
   },
   SHOP_VILLADORATA: {
     name: "shop-villadorata",
-    slug: "/shop",
+    slug: "https://ac80e3.myshopify.com/",
     label: "SHOP VILLADORATA",
+    target: "_blank",
   },
   PROGETTI: {
     name: "progetti",
@@ -127,13 +129,15 @@ export const PAGES_EN = {
   },
   SHOP_VIVA: {
     name: "shop-viva",
-    slug: "/shop",
+    slug: "https://ac80e3.myshopify.com/",
     label: "SHOP",
+    target: "_blank",
   },
   SHOP_VILLADORATA: {
     name: "shop-villadorata",
-    slug: "/shop",
+    slug: "https://ac80e3.myshopify.com/",
     label: "SHOP VILLADORATA",
+    target: "_blank",
   },
   PROGETTI: {
     name: "projects",
