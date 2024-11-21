@@ -1,8 +1,9 @@
 import Layout from "@/components/common/Layout.js";
 import { PAGES_IT } from "../constants/PagesConst";
 import { useEffect } from "react";
+import Shop from "@/components/pagesComponents/Shop";
 
-export default function Shop() {
+export default function ShopPage() {
   useEffect(() => {
     if (typeof window !== undefined) {
       window.location = "https://ac80e3.myshopify.com/";
@@ -15,7 +16,7 @@ export default function Shop() {
       metaDescription="Lo shop di Viviana Varese"
       page={PAGES_IT.SHOP_VIVA.name}
     >
-      Lo shop
+      <Shop />
     </Layout>
   );
 }
