@@ -34,7 +34,7 @@ export const PAGES_IT = {
   },
   PASSALACQUA: {
     name: "passalacqua",
-    slug: "https://www.passalacqua.it/en/taste/",
+    slug: "https://www.passalacqua.it/it/cucina/",
     label: "PASSALACQUA",
     description: "Moltrasio, Lago di Como",
     target: "_blank",
@@ -70,6 +70,11 @@ export const PAGES_IT = {
     name: "progetti",
     slug: "#",
     label: "I PROGETTI",
+  },
+  CORSI: {
+    name: "corsi",
+    slug: "/corsi",
+    label: "CORSI DI CUCINA",
   },
 };
 export const PAGES_EN = {
@@ -107,7 +112,7 @@ export const PAGES_EN = {
   },
   PASSALACQUA: {
     name: "passalacqua",
-    slug: "https://www.passalacqua.it/en/taste/",
+    slug: "https://www.passalacqua.it/it/cucina/",
     label: "PASSALACQUA",
     description: "Moltrasio, Como Lake",
     target: "_blank",
@@ -143,5 +148,10 @@ export const PAGES_EN = {
     name: "projects",
     slug: "#",
     label: "PROJECTS",
+  },
+  CORSI: {
+    name: "corsi",
+    slug: "/corsi",
+    label: "COOKING COURSES",
   },
 };

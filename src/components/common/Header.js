@@ -108,6 +108,12 @@ export default function Header({ page }) {
             {PAGES.EVENTI.label}
           </Navbar.Link>
           <Navbar.Link
+            isActive={page === PAGES.CORSI.name}
+            href={PAGES.CORSI.slug}
+          >
+            {PAGES.CORSI.label}
+          </Navbar.Link>
+          <Navbar.Link
             isActive={page === PAGES.WORK_WITH.name}
             href={PAGES.WORK_WITH.slug}
           >
@@ -212,6 +218,17 @@ export default function Header({ page }) {
               href={PAGES.EVENTI.slug}
             >
               {PAGES.EVENTI.label}
+            </Link>
+          </Navbar.CollapseItem>
+          <Navbar.CollapseItem>
+            <Link
+              color="inherit"
+              className={`${
+                PAGES.CORSI.name === page ? "active" : ""
+              } navbar-collapse-link`}
+              href={PAGES.CORSI.slug}
+            >
+              {PAGES.CORSI.label}
             </Link>
           </Navbar.CollapseItem>
           <Navbar.CollapseItem>
