@@ -14,7 +14,7 @@ export default function WorkWith() {
     <div>
       <Hero
         borderBottomColor="#FF0286"
-        src="/contatti/contatti-sfondo-1.jpg"
+        src="/contatti/contatti-sfondo-2.jpg"
         nooverlay
       />
       <div className="mx-auto mt-8 md:mt-32 " style={{ maxWidth: "1528px" }}>

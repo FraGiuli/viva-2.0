@@ -25,7 +25,6 @@ export default function Header({ page }) {
 
   const PAGES = selectedLanguage === "en" ? PAGES_EN : PAGES_IT;
   const subMenuItem = [
-    PAGES.VILLADORATA,
     PAGES.BISTROT,
     PAGES.POLPO,
     PAGES.FAAK,

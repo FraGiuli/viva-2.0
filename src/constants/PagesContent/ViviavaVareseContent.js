@@ -47,7 +47,6 @@ export const VIVIANA_VARESE = {
 
 export const SLIDER = [
   "/vivianavarese/1-1.jpg",
-  "/vivianavarese/2-2.jpg",
   "/vivianavarese/3-3.jpg",
   "/vivianavarese/4-4.jpg",
 ];

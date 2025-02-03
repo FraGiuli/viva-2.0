@@ -21,14 +21,6 @@ export const HOME_CONTENT = {
           srcbg: "/home/box-passalacqua-home.jpg",
         },
         {
-          text: "Country Restaurant",
-          location: "NOTO, Sicilia",
-          srcLogo: "home/Logo_villadorata_white.png",
-          alt: "Villadorata",
-          href: PAGES_IT.VILLADORATA.slug,
-          srcbg: "/home/Villadorata-box.jpg",
-        },
-        {
           text: "Bistrot",
           location: "NOTO, Sicilia",
           srcLogo: "home/bistrot-logo-bianco.png",
@@ -94,14 +86,6 @@ export const HOME_CONTENT = {
           href: "https://www.passalacqua.it/en/taste/",
           target: "_blank",
           srcbg: "/home/box-passalacqua-home.jpg",
-        },
-        {
-          text: "Country Restaurant",
-          location: "NOTO, Sicilia",
-          srcLogo: "home/Logo_villadorata_white.png",
-          alt: "Villadorata",
-          href: PAGES_IT.VILLADORATA.slug,
-          srcbg: "/home/Villadorata-box.jpg",
         },
         {
           text: "Bistrot",

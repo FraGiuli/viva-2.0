@@ -10,21 +10,6 @@ export const CONTATTI = {
     visitUs: "Vieni a trovarci",
     array: [
       {
-        title: "W VILLADORATA Country Restaurant",
-        location: "NOTO, Sicilia",
-        srcLogo: "contatti/logo_villadorata.jpg",
-        alt: "Villadorata",
-        bcolor: "rgb(232,204,114, 0.7)",
-        href: PAGES_IT.VILLADORATA.slug,
-        address: "Contrada Portelle, Noto (SR)",
-        tel: "<a href='tel:+393428163083'>+39 342 8163083</a>",
-        mail: "<a href='mailto:villadorata@vivianavaresechef.it'>villadorata@vivianavaresechef.it</a>",
-        seeMap: "Vedi mappa",
-        linkMap: "https://goo.gl/maps/y5U26yAijbcTiHk96",
-        instagram:
-          "https://www.instagram.com/wvilladorata/?igshid=19oq9l39w4yqb,",
-      },
-      {
         title: "VIVA IL BISTROT",
         location: "NOTO, Sicilia",
         srcLogo: "contatti/logo-bistrot.jpg",
@@ -91,21 +76,6 @@ export const CONTATTI = {
     newsletter: "> Sign up to our newsletter <",
     visitUs: "Come visit us",
     array: [
-      {
-        title: "W VILLADORATA Country Restaurant",
-        location: "NOTO, Sicilia",
-        srcLogo: "contatti/logo_villadorata.jpg",
-        alt: "Villadorata",
-        bcolor: "rgb(232,204,114, 0.7)",
-        href: PAGES_IT.VILLADORATA.slug,
-        address: "Contrada Portelle, Noto (SR)",
-        tel: "<a href='tel:+393428163083'>+39 342 8163083</a>",
-        mail: "<a href='mailto:villadorata@vivianavaresechef.it'>villadorata@vivianavaresechef.it</a>",
-        seeMap: "See map",
-        linkMap: "https://goo.gl/maps/y5U26yAijbcTiHk96",
-        instagram:
-          "https://www.instagram.com/wvilladorata/?igshid=19oq9l39w4yqb,",
-      },
       {
         title: "VIVA IL BISTROT",
         location: "NOTO, Sicilia",
