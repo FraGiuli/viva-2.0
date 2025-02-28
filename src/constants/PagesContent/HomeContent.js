@@ -21,14 +21,6 @@ export const HOME_CONTENT = {
           srcbg: "/home/box-passalacqua-home.jpg",
         },
         {
-          text: "Bistrot",
-          location: "NOTO, Sicilia",
-          srcLogo: "home/bistrot-logo-bianco.png",
-          alt: "Bistrot",
-          href: PAGES_IT.BISTROT.slug,
-          srcbg: "/home/bistrot-box_home.jpg",
-        },
-        {
           text: "Bar Trattoria Vivace",
           location: "MILANO",
           srcLogo: "home/logo-polpo.png",
@@ -86,14 +78,6 @@ export const HOME_CONTENT = {
           href: "https://www.passalacqua.it/en/taste/",
           target: "_blank",
           srcbg: "/home/box-passalacqua-home.jpg",
-        },
-        {
-          text: "Bistrot",
-          location: "NOTO, Sicilia",
-          srcLogo: "home/bistrot-logo-bianco.png",
-          alt: "Bistrot",
-          href: PAGES_IT.BISTROT.slug,
-          srcbg: "/home/bistrot-box_home.jpg",
         },
         {
           text: "Bar Trattoria Vivace",

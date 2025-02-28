@@ -24,12 +24,7 @@ export default function Header({ page }) {
   };
 
   const PAGES = selectedLanguage === "en" ? PAGES_EN : PAGES_IT;
-  const subMenuItem = [
-    PAGES.BISTROT,
-    PAGES.POLPO,
-    PAGES.FAAK,
-    PAGES.PASSALACQUA,
-  ];
+  const subMenuItem = [PAGES.POLPO, PAGES.FAAK, PAGES.PASSALACQUA];
 
   const dropDownMenuItem = subMenuItem.findIndex((el) => el.name === page) > -1;
   // const showLang = page === PAGES.BISTROT.name || page === PAGES.GELATI.name;

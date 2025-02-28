@@ -10,20 +10,6 @@ export const CONTATTI = {
     visitUs: "Vieni a trovarci",
     array: [
       {
-        title: "VIVA IL BISTROT",
-        location: "NOTO, Sicilia",
-        srcLogo: "contatti/logo-bistrot.jpg",
-        alt: "Bistrot",
-        bcolor: "rgba(194,133,106, 0.7)",
-        href: PAGES_IT.BISTROT.slug,
-        address: "Via Rocco Pirri 19, Noto (SR)",
-        tel: "<a href='tel:+393347933384'>+39 334 7933384</a>",
-        mail: "<a href='mailto:vivabistrot@vivianavaresechef.it'>vivabistrot@vivianavaresechef.it</a>",
-        seeMap: "Vedi mappa",
-        linkMap: "https://goo.gl/maps/PJJFTFfkhusi7NUx6",
-        instagram: "https://www.instagram.com/viva_ilbistrotnoto/",
-      },
-      {
         title: "POLPO - Semplicemente Pesce",
         location: "MILANO",
         srcLogo: "contatti/logo-polpo-blu.jpg",
@@ -76,20 +62,6 @@ export const CONTATTI = {
     newsletter: "> Sign up to our newsletter <",
     visitUs: "Come visit us",
     array: [
-      {
-        title: "VIVA IL BISTROT",
-        location: "NOTO, Sicilia",
-        srcLogo: "contatti/logo-bistrot.jpg",
-        alt: "Bistrot",
-        bcolor: "rgba(194,133,106, 0.7)",
-        href: PAGES_IT.BISTROT.slug,
-        address: "Street Rocco Pirri 19, Noto (SR)",
-        tel: "<a href='tel:+393347933384'>+39 334 7933384</a>",
-        mail: "<a href='mailto:vivabistrot@vivianavaresechef.it'>vivabistrot@vivianavaresechef.it</a>",
-        seeMap: "See map",
-        linkMap: "https://goo.gl/maps/PJJFTFfkhusi7NUx6",
-        instagram: "https://www.instagram.com/viva_ilbistrotnoto/",
-      },
       {
         title: "POLPO - Semplicemente Pesce",
         location: "MILANO",
