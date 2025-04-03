@@ -31,9 +31,6 @@ export default function Home() {
         <TextViva className="text-5xl playfair leading-relaxed text-center mb-4">
           {Content.locali.title}
         </TextViva>
-        <TextViva className="text-2xl leading-relaxed text-center mb-8">
-          {Content.locali.subtitle}
-        </TextViva>
         <div className="text-center">
           <a className="rainbow-link-inline" href={PAGES_IT.CONTATTI.slug}>
             <span>{Content.locali.calltoaction}</span>
